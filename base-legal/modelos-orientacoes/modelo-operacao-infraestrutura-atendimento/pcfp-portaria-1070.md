@@ -1,0 +1,203 @@
+---
+titulo: "Planilha de Custos e Formação de Preços (PCFP) - Portaria SGD/MGI 1.070"
+tipo: modelo
+url_origem: https://www.gov.br/governodigital/pt-br/contratacoes-de-tic/legislacao/modelo-de-contracao-de-servicos-de-operacao-de-infraestrutura-e-de-atendimento-a-usuarios-de-tic (arquivo enviado pelo usuário)
+baixado_em: 2026-10-23
+situacao: vigente
+---
+
+# /mnt/user-data/attachments/2a8a48aa-b29e-58de-840e-06cb105913ae/cf5c9938-pcfp-portaria-sgd-mgi-1070-2024.xlsx
+
+Células com `<fórmula: ...>` são calculadas: não sobrescrever. Demais células numéricas ou vazias ao lado de rótulos são de entrada.
+
+## Aba: PCFP
+
+- B1="PORTARIA SGD/MGI Nº 1.070, de 1° de junho de 2023 - atualizada pela Portaria SGD/MGI Nº 6.680, de 4 de outubro de 2024." | XEN1="Conforme as leis nº 10.637 - 30/12/2002 e nº 10.833 - 29/12/2003, empresas submetidas ao Lucro Real podem realizar o abatimento de créditos. Para a comprovação das alíquotas médias efetivas, poderão ser exigidos os documentos de Escrituração Fiscal Digital da Contribuição (EFD-Contribuições) para o PIS/PASEP e COFINS dos últimos 12 meses anteriores à apresentação da proposta"
+- B2="PLANILHA DE CUSTOS E FORMAÇÃO DE PREÇOS"
+- B3="Nº PROCESSO"
+- B4="LICITAÇÃO Nº"
+- B5="CNPJ"
+- B6="NOME DA EMPRESA"
+- B8="Discriminação dos Serviços (dados referentes à contratação)"
+- B9="A" | C9="Data da Apresentação da Proposta (dia/mês/ano)"
+- B10="B" | C10="Município/UF"
+- B11="C" | C11="Ano acordo, convenção ou Sentença Normativa em Dissídio Coletivo"
+- B12="D" | C12="Número de Meses de Execução do Contrato"
+- B13="E" | C13="Numero de registro da convenção coletiva de trabalho"
+- B14="F" | C14="Regime Tributário da Empresa:" | J14="LUCRO PRESUMIDO"
+- B16="Mão-de-Obra vinculada à execução contratual"
+- B17="Dados complementares para composição dos custos referentes à mão-de-obra."
+- B18=1 | C18="Tipo de Serviço (mesmo serviço com características distintas)" | I18="44 Horas Semanais"
+- B19=2 | C19="Remuneraçao Mínima Exigida (Item 23.8.2 do Termo de Referência)"
+- B20=3 | C20="Categoria Profissional (vinculada à execução contratual)" | G20="CBO:" | I20="Técnico de suporte ao usuário de tecnologia da informação Júnior"
+- B21=4 | C21="Data Base da Categoria (dia/mês/ano)"
+- B23="MÓDULO 1: COMPOSIÇÃO DA REMUNERAÇÃO"
+- B24=1 | C24="Composição da Remuneração" | J24="Valor (R$)"
+- B25="A" | C25="Salário Base" | J25=<fórmula: =IFERROR((VLOOKUP($I20,Mapa!$C$4:$D$24,2,FALSE)),"")>
+- B26="B" | C26="Adicional de Periculosidade" | I26=0 | J26=<fórmula: =ROUND($J$25*$I$26,2)>
+- B27="C" | C27="Adicional de Insalubridade" | I27=0 | J27=<fórmula: =ROUND($J$25*$I$27,2)>
+- B28="D" | C28="Adicional Noturno" | J28=0
+- B29="E" | C29="Hora Noturna Adicional" | J29=0
+- B30="F" | C30="Adicional de Hora Extra no feriado trabalhado" | J30=0
+- B31="G" | C31="Outros (especificar)" | J31=0
+- B32="TOTAL DO MÓDULO 1" | J32=<fórmula: =ROUND(SUM(J25:J31),2)>
+- B34="MÓDULO 2: ENCARGOS E BENEFÍCIOS ANUAIS, MENSAIS E DIÁRIOS"
+- B35="2.1" | C35="Submódulo 2.1 - 13º (décimo terceiro) Salário, Férias e Adicional de Férias" | I35="%" | J35="Valor (R$)"
+- B36="A" | C36="13º Salário" | I36=<fórmula: =1/12> | J36=<fórmula: =ROUND($J$32*$I$36,2)>
+- C37="=(Remuneração / 12 meses)"
+- B38="B" | C38="Férias e Adicional de Férias" | I38=0.121 | J38=<fórmula: =ROUND($J$32*$I$38,2)>
+- C39="=(Subtotal * 8,00%)"
+- B40="Subtotal" | J40=<fórmula: =ROUND(SUM(J36:J39),2)>
+- B41="Incidência do Submódulo 2.2" | I41=<fórmula: =I55> | J41=<fórmula: =ROUND($J$40*$I$41,2)>
+- B42="Total" | J42=<fórmula: =ROUND($J$40+$J$41,2)>
+- B44="2.2" | C44="Submódulo 2.2 - Encargos Previdenciários (GPS), FGTS e Outras Contribuições" | I44="%" | J44="Valor (R$)"
+- B45="A" | C45="INSS" | I45=<fórmula: =IF($J$14="simples",0%,20%)> | J45=<fórmula: =ROUND($J$32*$I$45,2)>
+- B46="B" | C46="Salário Educação" | I46=0.025 | J46=<fórmula: =ROUND($J$32*$I$46,2)>
+- B47="C" | C47="Seguro Acidente de Trabalho" | G47="RAT" | H47="FAP" | I47=<fórmula: =$G$48*$H$48> | J47=<fórmula: =ROUND($J$32*$I$47,2)>
+- B49="D" | C49="SESI ou SESC" | I49=0.015 | J49=<fórmula: =ROUND($J$32*$I$49,2)>
+- B50="E" | C50="SENAI ou SENAC" | I50=0.01 | J50=<fórmula: =ROUND($J$32*$I$50,2)>
+- B51="F" | C51="SEBRAE" | I51=0.006 | J51=<fórmula: =ROUND($J$32*$I$51,2)>
+- B52="G" | C52="INCRA" | I52=0.002 | J52=<fórmula: =ROUND($J$32*$I$52,2)>
+- B53="H" | C53="FGTS" | I53=0.08 | J53=<fórmula: =ROUND($J$32*$I$53,2)>
+- B54="I" | C54="Outras Contribuições (especificar)" | I54=0 | J54=<fórmula: =ROUND($J$32*$I$54,2)>
+- C55="Total" | I55=<fórmula: =SUM(I45:I54)> | J55=<fórmula: =ROUND(SUM($J$45:$J$54),2)>
+- B57="2.3" | C57="Submódulo 2.3 - Benefícios Mensais e Diários" | J57="Valor (R$)"
+- B58="A" | C58="Transporte:" | F58="Nº Vales" | G58="Valor do Vale" | H58="Nº dias úteis" | I58="Desc. Empregado" | J58=0
+- C59="= (Vlr Vale Transporte * Nº passagem dia * Nº dias úteis) - (Rem. * 6%)"
+- B60="B" | C60="Auxílio Alimentação (Vales, cestas básicas, etc) :" | G60="Valor do Vale" | H60="Nº dias úteis" | I60="Desc. Empregado" | J60=<fórmula: =ROUND(((($G$61*(1-$I$61))*$H$61)),2)>
+- C61="= (Valor Vale Alimentação * Nº dias úteis)"
+- B62="C" | C62="Assistência Médica e Familiar/Odontológica" | J62=0
+- B63="D" | C63="Auxílio Creche" | J63=0
+- B64="E" | C64="Seguro de vida, invalidez e funeral" | J64=0
+- B65="F" | C65="Auxílio cesta básica" | J65=0
+- B66="I" | C66="Outros (especificar)" | J66=0
+- C67="Total" | J67=<fórmula: =ROUND(SUM($J$58:$J$66),2)>
+- B69="MÓDULO 2: RESUMO"
+- B70="2.1" | C70="13º (décimo terceiro) Salário , Férias e Adicional de Férias" | J70=<fórmula: =$J$42>
+- B71="2.2" | C71="GPS, FGTS e outras contribuições" | J71=<fórmula: =$J$55>
+- B72="2.3" | C72="Benefícios Mensais e Diários" | J72=<fórmula: =$J$67>
+- B73="TOTAL DO MÓDULO 2" | J73=<fórmula: =ROUND(SUM(J70:J72),2)>
+- B75="MÓDULO 3: PROVISÃO PARA RESCISÃO"
+- B76="3.1" | C76="Provisão para Rescisão" | J76="Valor (R$)"
+- B77="A" | C77="Aviso Prévio Indenizado" | J77=<fórmula: =ROUND((($J$32/12)*$I$77),2)>
+- C78="=(((Rem/12) * percentual de dispensa sem justa causa com avso-prévio indenizado"
+- B79="B" | C79="Incidência do FGTS sobre o Aviso Prévio Indenizado" | I79=<fórmula: =+$J$79/$J$32> | J79=<fórmula: =ROUND($J$77*8%,2)>
+- C80="= (API * 8% FGTS)"
+- B81="C" | C81="Aviso Prévio Trabalhado" | I81=<fórmula: = ((7 / 30) / 12)> | J81=<fórmula: =ROUND((($J$32/30)*7)/12,2)>
+- C82="= (((Rem / 30 dias) * 7 dias) / 12 meses)"
+- B83="D" | C83="Incidência do Submódulo 2.2 sobre o Aviso Prévio Trabalhado" | I83=<fórmula: =$J$83/$J$32> | J83=<fórmula: =ROUND($J$81*$I$55,2)>
+- C84="= (APT * percentual do submódulo 2.2)"
+- B85="E" | C85="Multa sobre o FGTS sobre o Aviso Prévio Indenizado e Trabalhado" | I85=0.04 | J85=<fórmula: =ROUND((($J$32)*$I$85),2)>
+- C86="= (Remuneração *4%)"
+- B87="TOTAL DO MÓDULO 3" | I87=<fórmula: =$J$87/$J$32> | J87=<fórmula: =SUM($J$77:$J$86)>
+- B89="MÓDULO 4: CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- B90="4.1" | C90="Submódulo 4.1 - Ausências Legais" | J90="Valor (R$)"
+- B91="A" | C91="Férias e Terço Constitucional de Férias" | J91=<fórmula: =ROUND($J$38/12,2)>
+- C92=<fórmula: = (Férias e Adicional de Férias / 12)>
+- B93="B" | C93="Ausências Legais" | I93=<fórmula: =+$J$93/$J$32> | J93=<fórmula: =ROUND(((($J$32/30)/12)*$H$93),2)>
+- C94=<fórmula: = ((Rem / 30 dias) / 12 meses>
+- B95="C" | C95="Licença Paternidade" | G95="Licenças/ano:" | I95=<fórmula: =+$J$95/$J$32> | J95=<fórmula: =ROUND(((($J$32/30)/12)*$H$95*$H$96),2)>
+- C96=<fórmula: = (((Rem / 30 dias) / 12 meses) * média de licenças ano * percentual de incidência> | G96="Incidência:"
+- B97="D" | C97="Ausência por Acidente de Trabalho" | G97="Licenças/ano:" | I97=<fórmula: =+$J$97/$J$32> | J97=<fórmula: =ROUND(((($J$32/30)*$H$97)/12)*$H$98,2)>
+- C98=<fórmula: = (((Rem / 30 dias) * média de ausências por ano) / 12 meses) * % de incidência> | G98="Incidência:"
+- B99="E" | C99="Afastamento Maternidade" | G99="Licenças/ano:" | I99=<fórmula: =+$J$99/$J$32> | J99=<fórmula: =ROUND(((($J$32 / 30) * $H$99) /12) * $H$100,2)>
+- C100=<fórmula: = (((Rem / 30 dias) * média de ausências por ano) / 12 meses) * % de incidência> | G100="Incidência:"
+- B101="F" | C101="Outros (especificar)" | I101=<fórmula: =$J$101/$J$32> | J101=0
+- C102="especificar"
+- B103="Total" | J103=<fórmula: =ROUND(SUM($J$91:$J$102),2)>
+- B105="4.2" | C105="Submódulo 4.2 - Intrajornada" | J105="Valor (R$)"
+- B106="A" | C106="Substituto no Intervalo para repouso ou alimentação" | I106=<fórmula: =$J$106/$J$32>
+- B107="Total" | J107=<fórmula: =SUM($J$106:$J$106)>
+- B109="MÓDULO 4: RESUMO"
+- B110="4.1" | C110="Substituto nas Ausências Legais" | J110=<fórmula: =$J$103>
+- B111="4.2" | C111="Substituto na Intrajornada" | J111=<fórmula: =$J$107>
+- B112="Subtotal do Módulo 4" | J112=<fórmula: =SUM($J$110:$J$111)>
+- B113="Incidência do submódulo 2.2" | I113=<fórmula: =$I$55> | J113=<fórmula: =ROUND($J$112*$I$113,2)>
+- B114="TOTAL DO MÓDULO 4" | J114=<fórmula: =J112+J113>
+- B116="MÓDULO 5: INSUMOS DIVERSOS"
+- B117=5 | C117="Insumos Diversos (valores mensais por empregado)" | J117="Valor (R$)"
+- B118="A" | C118="Uniformes" | J118=0
+- B119="B" | C119="Materiais" | J119=0
+- B120="C" | C120="Outros (especificar)" | J120=0
+- B121="D" | C121="Outros (especificar)" | J121=0
+- J122=0
+- B123="TOTAL DO MÓDULO 5" | J123=<fórmula: =SUM($J$118:$J$122)>
+- B125="MÓDULO 6: CUSTOS INDIRETOS, TRIBUTOS E LUCRO"
+- B126=6 | C126="Custos Indiretos, Tributos e Lucro" | H126="Base" | I126="%" | J126="Valor (R$)"
+- B127="A" | C127="Custos Indiretos" | H127=<fórmula: =SUM($J$123,$J$114,$J$87,$J$73,$J$32)> | I127=0 | J127=<fórmula: =ROUND($H$127*$I$127,2)>
+- C128="Base de cálculo = (Total dos Módulos 1 + 2 + 3 + 4 + 5 )"
+- B129="B" | C129="Lucro" | H129=<fórmula: =SUM($J$123,$J$114,$J$87,$J$73,$J$32)+$J$127> | I129=0 | J129=<fórmula: =ROUND($H$129*$I$129,2)>
+- C130="Base de cálculo = (Total dos Módulos 1 + 2 + 3 + 4 + 5 + Custos Indiretos)"
+- B131="Subtotal - Base de Cálculo de Tributos" | J131=<fórmula: =$H$129+$J$129>
+- B132="Subtotal B - Base de Cálculo de Tributos por dentro ou racional" | J132=<fórmula: =$J$131/(1-$I$139)>
+- B133="C.1" | C133="C.1 Tributos federais (COFINS)" | I133=<fórmula: =IF($J$14="lucro real",7.6%,IF($J$14="lucro presumido",3%,0%))> | J133=<fórmula: =$J$132*$I$133> | L133=<fórmula: =IF($J$14="lucro real",$XEN$1,IF($J$14="lucro presumido"," "," "))>
+- B134="C.2" | C134="C.2 Tributos Federais (PIS)" | I134=<fórmula: =IF($J$14="lucro real",1.65%,IF($J$14="lucro presumido",0.65%,0%))> | J134=<fórmula: =ROUND($J$132*$I$134,2)>
+- B135="C.3" | C135="C.3 INSS (Desoneração)" | J135=<fórmula: =ROUND($J$132*$I$135,2)>
+- B136="D" | C136="D.1 Tributos Estaduais (especificar)" | J136=<fórmula: =ROUND($J$132*$I$136,2)>
+- B137="E.1" | C137="E.1 Tributos Municipais (ISS)" | I137=0.05 | J137=<fórmula: =ROUND($J$132*$I$137,2)>
+- B138="E.2" | C138="E.2 Outros Tributos Municipais (especificar)" | J138=<fórmula: =ROUND($J$132*$I$138,2)>
+- B139="F" | C139="Total dos Tributos" | I139=<fórmula: =SUM($I$133:$I$138)> | J139=<fórmula: =ROUND(SUM($J$133:$J$138),2)>
+- B141="MÓDULO 6: RESUMO"
+- B142="6.A" | C142="Custos Indiretos" | J142=<fórmula: =$J$127>
+- B143="6.B" | C143="Lucro" | J143=<fórmula: =$J$129>
+- B144="6.F" | C144="Tributos" | J144=<fórmula: =$J$139>
+- B145="TOTAL DO MÓDULO 6" | J145=<fórmula: =ROUND(SUM($J$142:$J$144),2)>
+- B147="QUADRO RESUMO DO CUSTO POR EMPREGADO"
+- C148="Mão-de-Obra vinculada à execução contratual 
+(valor por empregado)" | J148="Valor (R$)"
+- B149="A" | C149="MÓDULO 1: COMPOSIÇÃO DA REMUNERAÇÃO" | J149=<fórmula: =$J$32>
+- B150="B" | C150="MÓDULO 2: ENCARGOS E BENEFÍCIOS ANUAIS, MENSAIS E DIÁRIOS" | J150=<fórmula: =$J$73>
+- B151="C" | C151="MÓDULO 3: PROVISÃO PARA RESCISÃO" | J151=<fórmula: =$J$87>
+- B152="D" | C152="MÓDULO 4: CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE" | J152=<fórmula: =$J$114>
+- B153="E" | C153="MÓDULO 5: INSUMOS DIVERSOS" | J153=<fórmula: =J$123>
+- C154="Subtotal (A + B + C + D + E)" | J154=<fórmula: =SUM($J$149:$J$153)>
+- B155="F" | C155="MÓDULO 6: CUSTOS INDIRETOS, TRIBUTOS E LUCRO" | J155=<fórmula: =$J$145>
+- C157="Valor Total por Empregado" | J157=<fórmula: =SUM($J$154:$J$155)>
+- C158="Quantidade de Empregados por Perfil Profissional" | J158=1
+- C159="Valor Total por Perfil Profissional" | J159=<fórmula: =$J$158*$J$157>
+- C160="Quantidade de Perfil Profissional" | J160=1
+- C161=<fórmula: =_xlfn.CONCAT("Custo Total Mensal com Mão-de-Obra para ",$I$20)> | J161=<fórmula: =$J$159*$J$160>
+- I162="Fator-K" | J162=<fórmula: =J161/J25>
+- B164="TOTAL ANUAL" | H164=<fórmula: =$J$161*12>
+- B165="TOTAL GLOBAL" | H165=<fórmula: =$J$161*$J$12>
+
+## Aba: Mapa
+
+- B2="PORTARIA SGD/MGI Nº 6.680, DE 4 DE OUTUBRO DE 2024"
+- B3="Cód. Identificação do Perfil" | C3="Descrição do Perfil" | D3="Valor Salarial (R$)" | E3="FATOR-K"
+- B4="TECSUP-01" | C4="Técnico de suporte ao usuário de tecnologia da informação Júnior" | D4=1714.27 | E4=2.49
+- B5="TECSUP-02" | C5="Técnico de suporte ao usuário de tecnologia da informação Pleno" | D5=2312.19 | E5=2
+- B6="TECSUP-03" | C6="Técnico de suporte ao usuário de tecnologia da informação Sênior" | D6=3216.87 | E6=2
+- B7="TECMAN-01" | C7="Técnico em manutenção de equipamentos de informática Júnior" | D7=1600.32 | E7=2.49
+- B8="TECMAN-02" | C8="Técnico em manutenção de equipamentos de informática Pleno" | D8=2505.12 | E8=2
+- B9="TECMAN-03" | C9="Técnico em manutenção de equipamentos de informática Sênior" | D9=3273.71 | E9=2
+- B10="GERSUP" | C10="Gerente de suporte técnico de tecnologia da informação" | D10=8877.2 | E10=2
+- B11="ASUPCOMP-01" | C11="Analista de suporte computacional Júnior" | D11=3067.14 | E11=2.49
+- B12="ASUPCOMP-02" | C12="Analista de suporte computacional Pleno" | D12=5038.23 | E12=2
+- B13="ASUPCOMP-03" | C13="Analista de suporte computacional Sênior" | D13=6491.7 | E13=2
+- B14="GERINF" | C14="Gerente de infraestrutura de tecnologia da informação" | D14=16535.61 | E14=2
+- B15="ABD-01" | C15="Administrador de banco de dados - Júnior" | D15=4553.91 | E15=2.49
+- B16="ABD-02" | C16="Administrador de banco de dados - Pleno" | D16=6371.27 | E16=2
+- B17="ABD-03" | C17="Administrador de banco de dados - Sênior" | D17=10248.05 | E17=2
+- B18="ASO-01" | C18="Administrador de sistemas operacionais Júnior" | D18=4409.69 | E18=2.49
+- B19="ASO-02" | C19="Administrador de sistemas operacionais Pleno" | D19=6326.64 | E19=2
+- B20="ASO-03" | C20="Administrador de sistemas operacionais Sênior" | D20=8955.41 | E20=2
+- B21="ARED-01" | C21="Analista de redes e de comunicação de dados Júnior" | D21=4315.96 | E21=2.49
+- B22="ARED-02" | C22="Analista de redes e de comunicação de dados Pleno" | D22=6680.21 | E22=2
+- B23="ARED-03" | C23="Analista de redes e de comunicação de dados Sênior" | D23=9470.32 | E23=2
+- B24="TECRED-01" | C24="Técnico de Rede (Telecomunicações) Júnior" | D24=1557.8 | E24=2.49
+- B25="TECRED-02" | C25="Técnico de Rede (Telecomunicações) Pleno" | D25=2517.46 | E25=2
+- B26="TECRED-03" | C26="Técnico de Rede (Telecomunicações) Sênior" | D26=3366.25 | E26=2
+- B27="DESTEC-01" | C27="Desenvolvedor de sistemas de tecnologia da informação Júnior" | D27=5343.12 | E27=2.49
+- B28="DESTEC-02" | C28="Desenvolvedor de sistemas de tecnologia da informação Pleno" | D28=8829.93 | E28=2
+- B29="DESTEC-03" | C29="Desenvolvedor de sistemas de tecnologia da informação Sênior" | D29=11904.25 | E29=2
+- B30="ASISA-01" | C30="Analista de sistemas de automação - Júnior" | D30=5036.23 | E30=2.49
+- B31="ASISA-02" | C31="Analista de sistemas de automação - Pleno" | D31=7281.71 | E31=2
+- B32="ASISA-03" | C32="Analista de sistemas de automação - Sênior" | D32=9558.34 | E32=2
+- B33="ASEG-01" | C33="Administrador em segurança da informação - Júnior" | D33=5652.78 | E33=2.49
+- B34="ASEG-02" | C34="Administrador em segurança da informação - Pleno" | D34=7933.56 | E34=2
+- B35="ASEG-03" | C35="Administrador em segurança da informação - Sênior" | D35=11621.38 | E35=2
+- B36="GERSEG" | C36="Gerente de segurança da informação" | D36=20264.93 | E36=2
+- B37="CLOUD-01" | C37="Especialista emCloudPleno" | D37=10554.83 | E37=2
+- B38="CLOUD-02" | C38="Especialista emCloudSênior" | D38=15608.88 | E38=2
+

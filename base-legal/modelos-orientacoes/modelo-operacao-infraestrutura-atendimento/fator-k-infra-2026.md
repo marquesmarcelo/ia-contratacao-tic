@@ -1,0 +1,2807 @@
+---
+titulo: "Fator k 2026 - Operação de Infraestrutura"
+tipo: modelo
+url_origem: https://www.gov.br/governodigital/pt-br/contratacoes-de-tic/legislacao/modelo-de-contracao-de-servicos-de-operacao-de-infraestrutura-e-de-atendimento-a-usuarios-de-tic (arquivo enviado pelo usuário)
+baixado_em: 2026-10-23
+situacao: vigente
+---
+
+# /mnt/user-data/attachments/2a8a48aa-b29e-58de-840e-06cb105913ae/7dfb17ba-fatorkinfra-2026.xlsx
+
+Células com `<fórmula: ...>` são calculadas: não sobrescrever. Demais células numéricas ou vazias ao lado de rótulos são de entrada.
+
+## Aba: PERFIS
+
+- E1=2026
+- B2="COD PERFIL" | C2="PERFIL" | D2="Salário" | E2="FATOR-K"
+- B3="TECSUP-01" | C3="Técnico de suporte ao usuário de tecnologia da informação Júnior" | D3=1852.02 | E3=<fórmula: ='TECSUP-01'!$D$84>
+- B4="TECSUP-02" | C4="Técnico de suporte ao usuário de tecnologia da informação Pleno" | D4=2407 | E4=<fórmula: ='TECSUP-02'!$D$84>
+- B5="TECSUP-03" | C5="Técnico de suporte ao usuário de tecnologia da informação Sênior" | D5=3309.837543 | E5=<fórmula: ='TECSUP-03'!$D$84>
+- B6="TECMAN-01" | C6="Técnico em manutenção de equipamentos de informática Júnior" | D6=2391.375 | E6=<fórmula: ='TECMAN-01'!$D$84>
+- B7="TECMAN-02" | C7="Técnico em manutenção de equipamentos de informática Pleno" | D7=2577.517968 | E7=<fórmula: ='TECMAN-02'!$D$84>
+- B8="TECMAN-03" | C8="Técnico em manutenção de equipamentos de informática Sênior" | D8=3368.320219 | E8=<fórmula: ='TECMAN-03'!$D$84>
+- B9="GERSUP" | C9="Gerente de suporte técnico de tecnologia da informação" | D9=12116.666666666668 | E9=<fórmula: =GERSUP!$D$84>
+- B10="ASUPCOMP-01" | C10="Analista de suporte computacional Júnior" | D10=3890.766486833333 | E10=<fórmula: ='ASUPCOMP-01'!$D$84>
+- B11="ASUPCOMP-02" | C11="Analista de suporte computacional Pleno" | D11=5433.333333333333 | E11=<fórmula: ='ASUPCOMP-02'!$D$84>
+- B12="ASUPCOMP-03" | C12="Analista de suporte computacional Sênior" | D12=8675.61 | E12=<fórmula: ='ASUPCOMP-03'!$D$84>
+- B13="GERINF" | C13="Gerente de infraestrutura de tecnologia da informação" | D13=18367.552396 | E13=<fórmula: =GERINF!$D$84>
+- B14="ABD-01" | C14="Administrador de banco de dados - Júnior" | D14=5000 | E14=<fórmula: ='ABD-01'!$D$84>
+- B15="ABD-02" | C15="Administrador de banco de dados - Pleno" | D15=6894.278207 | E15=<fórmula: ='ABD-02'!$D$84>
+- B16="ABD-03" | C16="Administrador de banco de dados - Sênior" | D16=11112.490404 | E16=<fórmula: ='ABD-03'!D84>
+- B17="ASO-01" | C17="Administrador de sistemas operacionais Júnior" | D17=4887.275 | E17=<fórmula: ='ASO-01'!$D$84>
+- B18="ASO-02" | C18="Administrador de sistemas operacionais Pleno" | D18=6589.785541 | E18=<fórmula: ='ASO-02'!$D$84>
+- B19="ASO-03" | C19="Administrador de sistemas operacionais Sênior" | D19=10109.23 | E19=<fórmula: ='ASO-03'!$D$84>
+- B20="ARED-01" | C20="Analista de redes e de comunicação de dados Júnior" | D20=4561.456666666666 | E20=<fórmula: ='ARED-01'!$D$84>
+- B21="ARED-02" | C21="Analista de redes e de comunicação de dados Pleno" | D21=7597.664542388889 | E21=<fórmula: ='ARED-02'!$D$84>
+- B22="ARED-03" | C22="Analista de redes e de comunicação de dados Sênior" | D22=10750 | E22=<fórmula: ='ARED-03'!D84>
+- B23="TECRED-01" | C23="Tecnico de Rede (Telecomunicacoes) Júnior" | D23=2391.375 | E23=<fórmula: ='TECRED-01'!D84>
+- B24="TECRED-02" | C24="Tecnico de Rede (Telecomunicacoes) Pleno" | D24=2758.73 | E24=<fórmula: ='TECRED-02'!$D$84>
+- B25="TECRED-03" | C25="Tecnico de Rede (Telecomunicacoes) Sênior" | D25=4043.3557865 | E25=<fórmula: ='TECRED-03'!$D$84>
+- B26="DESTEC-01" | C26="Desenvolvedor de sistemas de tecnologia da informação Júnior" | D26=5497.536168 | E26=<fórmula: ='DESTEC-01'!$D$84>
+- B27="DESTEC-02" | C27="Desenvolvedor de sistemas de tecnologia da informação Pleno" | D27=11349.538888888888 | E27=<fórmula: ='DESTEC-02'!$D$84>
+- B28="DESTEC-03" | C28="Desenvolvedor de sistemas de tecnologia da informação Sênior" | D28=16288.888888888889 | E28=<fórmula: ='DESTEC-03'!$D$84>
+- B29="ASISA-01" | C29="Analista de sistemas de automação - Júnior" | D29=6066.666666666667 | E29=<fórmula: ='ASISA-01'!$D$84>
+- B30="ASISA-02" | C30="Analista de sistemas de automação - Pleno" | D30=9008.22528 | E30=<fórmula: ='ASISA-02'!$D$84>
+- B31="ASISA-03" | C31="Analista de sistemas de automação - Sênior" | D31=12777.777777777777 | E31=<fórmula: ='ASISA-03'!$D$84>
+- B32="ASEG-01" | C32="Administrador em segurança da informação - Júnior" | D32=7168.003333333334 | E32=<fórmula: ='ASEG-01'!$D$84>
+- B33="ASEG-02" | C33="Administrador em segurança da informação - Pleno" | D33=9997.478333333333 | E33=<fórmula: ='ASEG-02'!$D$84>
+- B34="ASEG-03" | C34="Administrador em segurança da informação - Sênior" | D34=15586.666666666668 | E34=<fórmula: ='ASEG-03'!$D$84>
+- B35="GERSEG" | C35="Gerente de segurança da informação" | D35=22945.833333333336 | E35=<fórmula: =GERSEG!$D$84>
+- B36="CLOUD-01" | C36="Especialista em Cloud Pleno" | D36=13458.333333333334 | E36=<fórmula: ='CLOUD-01'!D84>
+- B37="CLOUD-02" | C37="Especialista em Cloud Sênior" | D37=17476.533570166663 | E37=<fórmula: ='CLOUD-02'!D84>
+- B38="FINCLOUD-01" | C38="Especialista de Finanças e Custos em Cloud Pleno" | D38=13458.333333333334 | E38=<fórmula: =E36>
+- B39="FINCLOUD-02" | C39="Especialista de Finanças e Custos em Cloud Sênior" | D39=17476.533570166663 | E39=<fórmula: =E37>
+- B40="APENTEST-01" | C40="Analista de Teste de Intrusão Júnior" | D40=7168.003333333334 | E40=<fórmula: =E32>
+- B41="APENTEST-02" | C41="Analista de Teste de Intrusão Pleno" | D41=9997.478333333333 | E41=<fórmula: =E33>
+- B42="APENTEST-03" | C42="Analista de Teste de Intrusão Sênior" | D42=15586.666666666668 | E42=<fórmula: =E34>
+- B43="DEVOPS-01" | C43="Analista DevOps Júnior" | D43=6066.666666666667 | E43=<fórmula: =E29>
+- B44="DEVOPS-02" | C44="Analista DevOps Pleno" | D44=9008.22528 | E44=<fórmula: =E30>
+- B45="DEVOPS-03" | C45="Analista DevOps Sênior" | D45=12777.777777777777 | E45=<fórmula: =E31>
+- B46="DEVSECOPS-01" | C46="Analista DevSecOps Júnior" | D46=7168.003333333334 | E46=<fórmula: =E32>
+- B47="DEVSECOPS-02" | C47="Analista DevSecOps Pleno" | D47=9997.478333333333 | E47=<fórmula: =E33>
+- B48="DEVSECOPS-03" | C48="Analista DevSecOps Sênior" | D48=15586.666666666668 | E48=<fórmula: =E34>
+
+## Aba: COMPOSICAO
+
+- B2="Submódulo 2.1 - 13º Salário. Férias e Adicional de Férias" | D2="%" | E2="Memória de cálculo" | F2="Fundamento"
+- B3="A" | C3="13º Salário" | D3=<fórmula: =1/12> | E3="((1/12) x 100) ≅ 8,33%" | F3="Art. 7º, VIII, CF/88. Decreto n. 57.155, de 3/11/1965"
+- B4="B" | C4="Férias e Adicional de Férias" | D4=<fórmula: =(D3*1/3)+(1/20)> | E4="[(1/3) x (1/12)] + [1/20] x 100) ≅ 7,78%" | F4="Art. 7º, XVII, CF/88;"
+- B5="Total do 13º salário e adicional de férias" | D5=<fórmula: =SUM(D3:D4)>
+- B7="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições" | E7="Memória de cálculo" | F7="Fundamento"
+- B8="2.2" | C8="Itens de Custos (Descrição)" | D8="%"
+- B9="A" | C9="INSS" | D9=0.1 | F9="Art. 9º-A. da Lei nº 12.546/2011 (incluído pela Lei nº 14.973/2024)"
+- B10="B" | C10="Salário Educação" | D10=0.025 | F10="Anexo II da IN RFB n. 971/09; art. 3°, inciso I do Decreto n° 87.043/1982; art. 15 – Lei nº 9.424/96; art. 1º § 1º - Decreto Nº 6.003/2006; art. 212 § 5º da Constituição Federal; Súmula Nº 732 do STF."
+- B11="C" | C11="SAT (Seguro Acidente de Trabalho)" | D11=0.03 | F11="Anexo V do Regulamento da Previdência Social – RPS (Decreto n. 3.048/1999) e regras de enquadramento dispostas na Instrução Normativa RFB n. 971/2009 e/ou legislação superveniente. Súmula 351 do STJ."
+- B12="D" | C12="SESC ou SESI" | D12=0.015 | F12="Anexo II da IN RFB n. 971/09; art. 30 da Lei n° 8.036/90; art. 1°da Lei n° 8.154/90; art. 240 da Constituição Federal."
+- B13="E" | C13="SENAI - SENAC" | D13=0.01 | F13="Anexo II da IN RFB n. 971/09; Decreto n.º 2.318/86"
+- B14="F" | C14="SEBRAE" | D14=0.006 | F14="Anexo II da IN RFB n. 971/09. Art. 8º, Lei n.º 8.029/90 e Lei n.º 8154/90"
+- B15="H" | C15="INCRA" | D15=0.002 | F15="Anexo II da IN RFB n. 971/09; Lei n.º 7.787/89; DL n.º 1.146/70; Lei Complementar nº 11/71."
+- B16="G" | C16="FGTS" | D16=0.08 | F16="Art. 15, Lei nº 8.036/90 e Art. 7º, III,"
+- B17="Total dos encargos previdenciários, FGTS e outras contribuições" | D17=<fórmula: =SUM(D9:D16)>
+- B19="Submódulo 2.3 - Benefícios Mensais e Diários (1)" | D19="R$" | E19="Memória de cálculo" | F19="Fundamento"
+- B20="A" | C20="Vale-Transporte" | D20=5.5 | E20="VT = Valor Unitário x 2 passes x 22 dias" | F20="Artigo 4º, § único, da Lei nº 7.418/85 e art. 9º do Decreto nº 95.247/87."
+- C21="Desconto legal sobre transporte" | D21=0.06 | E21="Desconto = % sobre o Salário Base" | F21="CONVENÇÃO COLETIVA DE TRABALHO 2025/2026 - NÚMERO DE REGISTRO NO MTE: DF000717/2025 (https://sindpd-df.org.br/wp-content/uploads/2025/10/CONVENCAO-COLETIVA-DE-TRABALHO-2025-2026.pdf)"
+- C22="Valor do Vale Transporte" | E22="Se (VT - Desconto)>0, então: Valor do Vale Transporte = VT - Desconto"
+- B23="B" | C23="Auxílio-Alimentação" | D23=39 | E23="Aux-Ali x 22 dias" | F23="Artigo 458, §§ 2º e 3º, da CLT, Lei nº 6.321/76, Decreto nº 5/91 e CCT."
+- C24="Percentual de Desconto" | F24="CONVENÇÃO COLETIVA DE TRABALHO 2025/2026 - NÚMERO DE REGISTRO NO MTE: DF000717/2025 (https://sindpd-df.org.br/wp-content/uploads/2025/10/CONVENCAO-COLETIVA-DE-TRABALHO-2025-2026.pdf)"
+- C25="Até R$ 2.540,10" | D25=0 | E25="Desconto = % sobre o Salário Base"
+- C26="De R$ 2.540,11 a R$ 4.298,65" | D26=0.0375 | E26="Desconto = % sobre o Salário Base"
+- C27="De R$ 4.298,66 a R$ 6.252,56" | D27=0.0562 | E27="Desconto = % sobre o Salário Base"
+- C28="De R$ 6.252,57 a R$ 7.815,73" | D28=0.075 | E28="Desconto = % sobre o Salário Base"
+- C29="De R$ 7.815,74 a R$ 9.574,29" | D29=0.1125 | E29="Desconto = % sobre o Salário Base"
+- C30="Acima de R$ 9.574,30" | D30=0.15 | E30="Desconto = % sobre o Salário Base"
+- B31="C" | C31="Assistência Médica" | D31=184.85
+- B33="Módulo 3 - Provisão para Rescisão" | D33="%" | E33="Memória de cálculo" | F33="Fundamento"
+- B34="A" | C34="Aviso Prévio Indenizado" | D34=<fórmula: =((0.05*(1/12)))> | E34="((0,05 x (1/12) x 100) ≅ 0,42%" | F34="Art. 7º, XXI, CF/88. Art. 477, 487 e 491 da CLT. Lei n. 12.506/2011."
+- B35="B" | C35="Incidência do FGTS sobre o Aviso Prévio Indenizado" | D35=<fórmula: =0.08*D34> | E35="((0,08 x 0,0042) x 100) ≅ 0,03%" | F35="Súmula 305 TST."
+- B36="C" | C36="Multa do FGTS sobre o Aviso Prévio Indenizado" | D36=<fórmula: =0.08 * 0.4 * 0.9 *(1 + 1/12 + 1/12 + (1/3 * 1/12))> | E36="0,08 x 0,4 x 0,9 x [1 + 1/12 + 1/12 + (1/3 x 1/12)] ≅ 3,44%" | F36="Art. 18 da Lei 8.036/90. Art. 12 da Lei 13.932/2019. Art. 5º, inciso III, da IN STJG/GDG n. 14/2020."
+- B37="D" | C37="Aviso Prévio Trabalhado" | D37=<fórmula: =(((7/30) + (7/30 * 0.1 * 8/12)) / 20)> | E37="{[(7/30) + (7/30 x 0,1 x 8/12)] / 20}  x 100) ≅  1,24%" | F37="Art. 7º, XXI, CF/88, 477,487 e 491 CLT. Acórdãos n. 1904/2007-TCU-Plenário e n. 3006/2010-TCU-Plenário"
+- B38="E" | C38="Incidência do submódulo 2.2 sobre o Aviso Prévio trabalhado" | D38=<fórmula: =(0.368*0.0124)> | E38="((0,3680 x 0,0124) x 100) ≅  0,46%" | F38="Acórdãos n. 1904/2007-TCU-Plenário e n. 3006/2010-TCU-Plenário"
+- B39="F" | C39="Multa do FGTS sobre Aviso Prévio Trabalhado" | D39=<fórmula: =(0.0124*0.08)*0.4> | E39="((0,0124 x 0,08) x 0,4 x 100) ≅  0,04%" | F39="Art. 12 da Lei 13.932/2019. Acórdãos n. 1904/2007-TCU-Plenário e n. 3006/2010-TCU-Plenário"
+- B40="Total da provisão para rescisão" | D40=<fórmula: =SUM(D34:D39)> | E40="A+B+C+D+E+F"
+- B42="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS" | E42="Memória de cálculo" | F42="Fundamento"
+- B43=6 | C43="Itens de Custos (Descrição)" | D43="%"
+- B44="A" | C44="Custos Indiretos (Despesas Operacionais e Administrativas)" | D44=0.05 | E44="(Módudo1 + Módulo2 + Módulo3 + Módulo4) x 5%" | F44="Valores extraido do MANUAL DE PREENCHIMENTO DO MODELO DE PLANILHAS DE CUSTOS E DE FORMAÇÃO DE PREÇOS do SUPERIOR TRIBUNAL DE JUSTIÇA - STJ"
+- B45="B" | C45="Lucro" | D45=0.1 | E45="(Módudo1 + Módulo2 + Módulo3 + Módulo4 + Custos indiretos) x 10%"
+- B46="C" | C46="Tributos" | D46=<fórmula: =SUM(D47:D50)> | E46="C% (em percentual) = C1 + C2 + C3 + C4"
+- B47="C.1" | C47="PIS" | D47=0.0065 | F47="Os tributos (ISS, COFINS e PIS) foram definidos utilizando o regime de tributação de Lucro Real (Incidência cumulativa de PIS/COFINS)"
+- B48="C.2" | C48="COFINS" | D48=0.03
+- B49="C.3" | C49="ISS" | D49=0.02
+- B50="C.4" | C50="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | D50=0.027 | F50="Art. 9º-A. da Lei nº 12.546/2011 (incluído pela Lei nº 14.973/2024)"
+- B51="Total dos custos indiretos e tributos" | D51=<fórmula: =SUM(D44:D46)> | E51="A+B+C"
+
+## Aba: TECSUP-01
+
+- A1=<fórmula: =PERFIS!C3>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2c0a660> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: TECSUP-02
+
+- A1=<fórmula: =PERFIS!C4>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2523ed0> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: TECSUP-03
+
+- A1=<fórmula: =PERFIS!C5>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2523890> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: TECMAN-01
+
+- A1=<fórmula: =PERFIS!C6>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2b9ba80> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: TECMAN-02
+
+- A1=<fórmula: =PERFIS!C7>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2b9b950> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: TECMAN-03
+
+- A1=<fórmula: =PERFIS!C8>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C35,PERFIS!D3:D35)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b25f4050> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: GERSUP
+
+- A1=<fórmula: =PERFIS!C9>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b241c160> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ASUPCOMP-01
+
+- A1=<fórmula: =PERFIS!C10>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b241c270> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ASUPCOMP-02
+
+- A1=<fórmula: =PERFIS!C11>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2ba1650> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ASUPCOMP-03
+
+- A1=<fórmula: =PERFIS!C12>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2454a50> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: GERINF
+
+- A1=<fórmula: =PERFIS!C13>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2bcf3e0> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ABD-01
+
+- A1=<fórmula: =PERFIS!C14>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2bcf5c0> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ABD-02
+
+- A1=<fórmula: =PERFIS!C15>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b259eeb0> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ABD-03
+
+- A1=<fórmula: =PERFIS!C16>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b259f850> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ASO-01
+
+- A1=<fórmula: =PERFIS!C17>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b25b86d0> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ASO-02
+
+- A1=<fórmula: =PERFIS!C18>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2559b50> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ASO-03
+
+- A1=<fórmula: =PERFIS!C19>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2558e90> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ARED-01
+
+- A1=<fórmula: =PERFIS!C20>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2569b20> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ARED-02
+
+- A1=<fórmula: =PERFIS!C21>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2569a70> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ARED-03
+
+- A1=<fórmula: =PERFIS!C22>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2befbb0> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: TECRED-01
+
+- A1=<fórmula: =PERFIS!C23>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2bee710> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: TECRED-02
+
+- A1=<fórmula: =PERFIS!C24>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2b927b0> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: TECRED-03
+
+- A1=<fórmula: =PERFIS!C25>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b247b250> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: DESTEC-01
+
+- A1=<fórmula: =PERFIS!C26>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b2310150> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: DESTEC-02
+
+- A1=<fórmula: =PERFIS!C27>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b22a98d0> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: DESTEC-03
+
+- A1=<fórmula: =PERFIS!C28>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b22c2120> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ASISA-01
+
+- A1=<fórmula: =PERFIS!C29>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b23b6510> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ASISA-02
+
+- A1=<fórmula: =PERFIS!C30>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b23b6a50> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ASISA-03
+
+- A1=<fórmula: =PERFIS!C31>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b23b6ff0> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ASEG-01
+
+- A1=<fórmula: =PERFIS!C32>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b23b7590> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ASEG-02
+
+- A1=<fórmula: =PERFIS!C33>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b23b7b30> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: ASEG-03
+
+- A1=<fórmula: =PERFIS!C34>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b217c110> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: GERSEG
+
+- A1=<fórmula: =PERFIS!C35>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b217c6b0> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: CLOUD-01
+
+- A1=<fórmula: =PERFIS!C36>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b217cc50> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+
+## Aba: CLOUD-02
+
+- A1=<fórmula: =PERFIS!C37>
+- A3="Composição de custos"
+- A4="MÓDULO 1 - COMPOSIÇÃO DA REMUNERAÇÃO"
+- A5=1 | B5="Itens de Custos (Descrição)" | D5="Valor (R$)"
+- A6="A" | B6="Salário Base" | C6=1 | D6=<fórmula: =_xlfn.XLOOKUP(A1,PERFIS!C3:C37,PERFIS!D3:D37)>
+- A7="Total da remuneração" | D7=<fórmula: =SUM(D6)>
+- A9="MÓDULO 2 - ENCARGOS E BENEFÍCIOS"
+- A10="Submódulo 1 - 13º Salário, Férias e Adicional de Férias"
+- A11="2.1" | B11="Itens de Custos (Descrição)" | C11="%" | D11="Valor (R$)"
+- A12="A" | B12="13º Salário" | C12=<fórmula: =COMPOSICAO!D3> | D12=<fórmula: =C12*$D$7>
+- A13="B" | B13="Férias e Adicional de Férias" | C13=<fórmula: =COMPOSICAO!D4> | D13=<fórmula: =C13*$D$7>
+- A14="Total do 13º salário, Férias e adicional de férias" | C14=<fórmula: =SUM(C12:C13)> | D14=<fórmula: =SUM(D12:D13)>
+- A16="Submódulo 2 - Encargos Previdenciários, FGTS e outras contribuições"
+- A17="2.2" | B17="Itens de Custos (Descrição)" | C17="%" | D17="Valor (R$)"
+- A18="A" | B18="INSS" | C18=<fórmula: =COMPOSICAO!D9> | D18=<fórmula: =C18*($D$7+$D$13)>
+- A19="B" | B19="Salário Educação" | C19=<fórmula: =COMPOSICAO!D10> | D19=<fórmula: =C19*($D$7+$D$14)>
+- A20="C" | B20="SAT (Seguro Acidente de Trabalho)" | C20=<fórmula: =COMPOSICAO!D11> | D20=<fórmula: =C20*($D$7+$D$14)>
+- A21="D" | B21="SESC ou SESI" | C21=<fórmula: =COMPOSICAO!D12> | D21=<fórmula: =C21*($D$7+$D$14)>
+- A22="E" | B22="SENAI - SENAC" | C22=<fórmula: =COMPOSICAO!D13> | D22=<fórmula: =C22*($D$7+$D$14)>
+- A23="F" | B23="SEBRAE" | C23=<fórmula: =COMPOSICAO!D14> | D23=<fórmula: =C23*($D$7+$D$14)>
+- A24="G" | B24="INCRA" | C24=<fórmula: =COMPOSICAO!D15> | D24=<fórmula: =C24*($D$7+$D$14)>
+- A25="H" | B25="FGTS" | C25=<fórmula: =COMPOSICAO!D16> | D25=<fórmula: =C25*($D$7+$D$14)>
+- A26="Total dos encargos previdenciários, FGTS e outras contribuições" | C26=<fórmula: =SUM(C18:C25)> | D26=<fórmula: =SUM(D18:D25)>
+- A28="Submódulo 3 -  Benefícios Mensais e Diários"
+- A29="2.3" | B29="Itens de Custos (Descrição)" | D29="Valor (R$)"
+- A30="A" | B30="Vale-transporte" | D30=<fórmula: =COMPOSICAO!D20*2*22>
+- B31="Desconto legal sobre transporte" | D31=<fórmula: =D6*COMPOSICAO!D21>
+- B32="Valor do Vale Transporte" | D32=<fórmula: =IF(D30-D31>0,D30-D31,0)>
+- A33="B" | B33="Auxílio-alimentação" | D33=<fórmula: =COMPOSICAO!D23*22>
+- B34="Desconto do Auxílio-alimentação" | C34=<openpyxl.worksheet.formula.ArrayFormula object at 0x7ff1b217d1f0> | D34=<fórmula: =D33*C34>
+- B35="Valor do Auxílio-alimentação" | D35=<fórmula: =D33-D34>
+- A36="C" | B36="Assistência Médica" | D36=<fórmula: =COMPOSICAO!D31>
+- A37="Total de benefícios mensais e diários" | D37=<fórmula: =SUM(D32,D35,D36)>
+- A39=2 | B39="QUADRO RESUMO - ENCARGOS E BENEFÍCIOS" | D39="Valor (R$)"
+- A40="2.1" | B40="Submódulo 2.1 - 13º Salário, Férias (custo não renovável) e Adicional de Férias" | D40=<fórmula: =D14>
+- A41="2.2" | B41="Submódulo 2.2 - Encargos Previdenciários, FGTS e outras contribuições" | D41=<fórmula: =D26>
+- A42="2.3" | B42="Submódulo 2.3 -  Benefícios Mensais e Diários" | D42=<fórmula: =D37>
+- A43="Total dos Encargos e Benefícios" | D43=<fórmula: =SUM(D40:D42)>
+- A45="MÓDULO 3 - PROVISÃO PARA RESCISÃO"
+- A46=3 | B46="Itens de Custos (Descrição)" | C46="%" | D46="Valor (R$)"
+- A47="A" | B47="Aviso Prévio Indenizado" | C47=<fórmula: =COMPOSICAO!D34> | D47=<fórmula: =C47*$D$7>
+- A48="B" | B48="Incidência do FGTS sobre o Aviso Prévio Indenizado" | C48=<fórmula: =COMPOSICAO!D35> | D48=<fórmula: =C48*$D$7>
+- A49="C" | B49="Multa do FGTS sobre o Aviso Prévio Indenizado" | C49=<fórmula: =COMPOSICAO!D36> | D49=<fórmula: =C49*$D$7>
+- A50="D" | B50="Aviso Prévio Trabalhado" | C50=<fórmula: =COMPOSICAO!D37> | D50=<fórmula: =C50*$D$7>
+- A51="E" | B51="Incidência do submódulo 2.2 sobre o Aviso Prévio Trabalhado" | C51=<fórmula: =COMPOSICAO!D38> | D51=<fórmula: =C51*$D$7>
+- A52="F" | B52="Multa do FGTS sobre o Aviso Prévio Trabalhado" | C52=<fórmula: =COMPOSICAO!D39> | D52=<fórmula: =C52*$D$7>
+- A53="Total da provisão para rescisão" | C53=<fórmula: =SUM(C47:C52)> | D53=<fórmula: =SUM(D47:D52)>
+- A55="MÓDULO 4 - CUSTO DE REPOSIÇÃO DO PROFISSIONAL AUSENTE"
+- A56=4 | B56="Itens de Custos (Descrição)" | C56="%" | D56="Valor (R$)"
+- A57="Total do custo de reposição do profissional ausente" | C57=0 | D57=0
+- A59="MÓDULO 5 - INSUMOS DIVERSOS"
+- A60=5 | B60="Itens de Custos (Descrição)" | D60="Valor (R$)"
+- A61="Total Insumos Diversos" | D61=0
+- A63="MÓDULO 6 - CUSTOS INDIRETOS, LUCRO E TRIBUTOS"
+- A64=6 | B64="Itens de Custos (Descrição)" | C64="%" | D64="Valor (R$)"
+- A65="A" | B65="Custos Indiretos (Despesas Operacionais e Administrativas)" | C65=<fórmula: =COMPOSICAO!D44> | D65=<fórmula: =C65*$D$81>
+- A66="B" | B66="Lucro" | C66=<fórmula: =COMPOSICAO!D45> | D66=<fórmula: =C66*($D$81+$D$65)>
+- A67="C" | B67="Tributos" | C67=<fórmula: =COMPOSICAO!D46> | D67=<fórmula: =((D65+D66+D81)/(1-C67))-(D65+D66+D81)>
+- A68="C.1" | B68="PIS" | C68=<fórmula: =COMPOSICAO!D47> | D68=<fórmula: =C68*$D$83>
+- A69="C.2" | B69="COFINS" | C69=<fórmula: =COMPOSICAO!D48> | D69=<fórmula: =C69*$D$83>
+- A70="C.3" | B70="ISS" | C70=<fórmula: =COMPOSICAO!D49> | D70=<fórmula: =C70*$D$83>
+- A71="C.4" | B71="Outros tributos - CPRB (Lei 12.546/11 alterada pela 13.670/18)" | C71=<fórmula: =COMPOSICAO!D50> | D71=<fórmula: =C71*$D$83>
+- A72="Total dos custos indiretos e tributos" | C72=<fórmula: =SUM(C65:C67)> | D72=<fórmula: =SUM(D65:D67)>
+- A74="QUADR-RESUMO DA COMPOSIÇÃO DE CUSTOS"
+- A75="Mão-de-obra vinculada à execução contratual (valor por profissional)" | D75="Valor (R$)"
+- A76=1 | B76="Módulo 1 - Composição Remuneração" | D76=<fórmula: =D7>
+- A77=2 | B77="Módulo 2 - Encargos e Benefícios" | D77=<fórmula: =D43>
+- A78=3 | B78="Módulo 3 - Provisão para Rescisão" | D78=<fórmula: =D53>
+- A79=4 | B79="Módulo 4 - Custo de Reposição do Profissional Ausente" | D79=0
+- A80=5 | B80="Módulo 5 - Insumos Diversos" | D80=0
+- A81="Subtotal (A+B+C+D)" | D81=<fórmula: =SUM(D76:D80)>
+- A82=6 | B82="Módulo 6 - Custos Indiretos, Tributos e Lucro" | D82=<fórmula: =D72>
+- A83="Valor mensal por profissional" | D83=<fórmula: =SUM(D81:D82)>
+- C84="Fator-K" | D84=<fórmula: =ROUNDUP(D83/D76,2)>
+

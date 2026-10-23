@@ -1,0 +1,407 @@
+---
+titulo: "Template - Mapa de Preços (criado para este projeto com base na IN SEGES/ME 65/2021 e IN SGD/ME 94/2022, art. 20)"
+tipo: modelo
+url_origem: modelos-oficiais/06-Mapa-de-Precos-template.xlsx (gerado por .claude/skills/coordenador-contratacao/scripts/gerar_mapa_precos.py)
+baixado_em: 2026-10-23
+situacao: vigente (modelo próprio, não oficial da SGD)
+---
+
+# modelos-oficiais/06-Mapa-de-Precos-template.xlsx
+
+Células com `<fórmula: ...>` são calculadas: não sobrescrever. Demais células numéricas ou vazias ao lado de rótulos são de entrada.
+
+## Aba: Orientações
+
+- B2="Mapa de Preços — template"
+- B3="Documento da pesquisa de preços da contratação (IN SEGES/ME nº 65/2021, art. 3º; IN SGD/ME nº 94/2022, art. 20). Responsáveis: Integrante Administrativo (coleta, fontes, fornecedores) com o Integrante Técnico (análise crítica e preço estimado)."
+- B5="Legenda"
+- B6="Fundo amarelo: célula para preencher.   Fundo azul: célula calculada, não editar.   Texto cinza em itálico: linha de exemplo, apagar antes de usar."
+- B8="Como preencher"
+- B9="1. Aba Identificação: objeto, processo, equipe e datas (art. 3º, I e II)."
+- B10="2. Aba Itens: um item por linha, com unidade, quantidade (do ETP) e o método estatístico escolhido."
+- B11="3. Aba Coleta: um preço por linha, com o parâmetro do art. 5º (I a V), a fonte, a data e o documento de suporte. Marque como Excluído o preço inexequível, inconsistente ou excessivamente elevado e escreva o motivo (art. 6º, caput e § 3º)."
+- B12="4. Aba Fornecedores: todos os fornecedores consultados na pesquisa direta, inclusive os que não responderam (art. 5º, § 2º, IV)."
+- B13="5. Aba Mapa: confira as estatísticas e os alertas. O preço estimado sai do método escolhido na aba Itens, com o ajuste percentual do art. 6º, § 2º, se houver."
+- B14="6. Aba Justificativas: metodologia, critérios de exclusão, escolha dos fornecedores e exceções (art. 3º, VI e VIII; art. 6º, §§ 1º e 5º)."
+- B16="Regras da IN SEGES/ME 65/2021 refletidas na planilha (conferir no texto da norma antes de usar)"
+- B17="Art. 5º: parâmetros I (sistemas oficiais, ex.: Painel de Preços), II (contratações similares da Administração, até 1 ano), III (mídia especializada, tabelas e sítios, até 6 meses), IV (pesquisa direta com no mínimo 3 fornecedores, até 6 meses), V (notas fiscais eletrônicas, até 1 ano)."
+- B18="Art. 5º, § 1º: priorizar os parâmetros I e II; se não forem usados, justificar. A coluna de alerta do Mapa aponta o item sem preço válido desses parâmetros."
+- B19="Art. 6º: método média, mediana ou menor valor, sobre três ou mais preços válidos. Menos de três exige justificativa e aprovação (§ 5º). Outro método exige justificativa e aprovação (§ 1º)."
+- B20="Art. 6º, § 4º: análise crítica quando houver grande variação. O coeficiente de variação (CV) é calculado por item; o limite de alerta é parâmetro do órgão, na aba Identificação."
+- B21="Art. 6º, § 6º: se o preço vier só do parâmetro I, não pode passar da mediana do item nos sistemas consultados."
+- B22="IN 94, art. 20, §§ 1º a 3º: proposta de fornecedor só com justificativa; considerar preços praticados pelos fabricantes; usar o PMC-TIC quando o item constar em catálogo, salvo pesquisa com valor inferior."
+
+## Aba: Identificação
+
+- A1="Identificação da pesquisa de preços"
+- A2="Órgão/entidade"
+- A3="Processo nº"
+- A4="Objeto da contratação (art. 3º, I)"
+- A5="Responsáveis pela pesquisa / Equipe de Planejamento (art. 3º, II)"
+- A6="Data de conclusão da pesquisa"
+- A7="Data prevista de divulgação do edital"
+- A8="Item em Catálogo de Soluções de TIC com PMC-TIC? (IN 94, art. 20, § 3º)" | B8="Não"
+- A9="Limite de coeficiente de variação para alerta (parâmetro do órgão)" | B9=0.25
+
+## Aba: Itens
+
+- A1="Item" | B1="Descrição (igual ao TR)" | C1="CATMAT/CATSER" | D1="Unidade" | E1="Quantidade (ETP)" | F1="Método (art. 6º)" | G1="Ajuste % (art. 6º, § 2º)" | H1="PMC-TIC (se houver)"
+- A2=1 | B2="EXEMPLO — Notebook corporativo, conforme especificação do TR" | C2="000000" | D2="unidade" | E2=150 | F2="Mediana" | G2=0
+
+## Aba: Coleta
+
+- A1="Item" | B1="Parâmetro (art. 5º)" | C1="Fonte (identificação: sistema, órgão/contrato, sítio, fornecedor, NF)" | D1="Data do preço / acesso" | E1="Valor unitário coletado" | F1="Fator de atualização (1 = sem)" | G1="Valor unitário atualizado" | H1="Situação" | I1="Motivo da exclusão (art. 6º, § 3º)" | J1="Documento de suporte (arquivo/página)"
+- A2=1 | B2="I" | C2="EXEMPLO — Painel de Preços, consulta em dd/mm/aaaa" | E2=5200 | F2=1 | G2=<fórmula: =IF(E2="","",E2*IF(F2="",1,F2))> | H2="Válido" | J2="insumos/precos/painel.pdf p. 2"
+- A3=1 | B3="II" | C3="EXEMPLO — Contrato nº xx/aaaa do órgão X" | E3=5450 | F3=1.02 | G3=<fórmula: =IF(E3="","",E3*IF(F3="",1,F3))> | H3="Válido" | J3="insumos/precos/contrato-x.pdf"
+- A4=1 | B4="IV" | C4="EXEMPLO — Fornecedor A (cotação formal)" | E4=9800 | F4=1 | G4=<fórmula: =IF(E4="","",E4*IF(F4="",1,F4))> | H4="Excluído" | I4="EXEMPLO — 80% acima da mediana dos demais preços" | J4="insumos/precos/cotacao-a.pdf"
+- G5=<fórmula: =IF(E5="","",E5*IF(F5="",1,F5))>
+- G6=<fórmula: =IF(E6="","",E6*IF(F6="",1,F6))>
+- G7=<fórmula: =IF(E7="","",E7*IF(F7="",1,F7))>
+- G8=<fórmula: =IF(E8="","",E8*IF(F8="",1,F8))>
+- G9=<fórmula: =IF(E9="","",E9*IF(F9="",1,F9))>
+- G10=<fórmula: =IF(E10="","",E10*IF(F10="",1,F10))>
+- G11=<fórmula: =IF(E11="","",E11*IF(F11="",1,F11))>
+- G12=<fórmula: =IF(E12="","",E12*IF(F12="",1,F12))>
+- G13=<fórmula: =IF(E13="","",E13*IF(F13="",1,F13))>
+- G14=<fórmula: =IF(E14="","",E14*IF(F14="",1,F14))>
+- G15=<fórmula: =IF(E15="","",E15*IF(F15="",1,F15))>
+- G16=<fórmula: =IF(E16="","",E16*IF(F16="",1,F16))>
+- G17=<fórmula: =IF(E17="","",E17*IF(F17="",1,F17))>
+- G18=<fórmula: =IF(E18="","",E18*IF(F18="",1,F18))>
+- G19=<fórmula: =IF(E19="","",E19*IF(F19="",1,F19))>
+- G20=<fórmula: =IF(E20="","",E20*IF(F20="",1,F20))>
+- G21=<fórmula: =IF(E21="","",E21*IF(F21="",1,F21))>
+- G22=<fórmula: =IF(E22="","",E22*IF(F22="",1,F22))>
+- G23=<fórmula: =IF(E23="","",E23*IF(F23="",1,F23))>
+- G24=<fórmula: =IF(E24="","",E24*IF(F24="",1,F24))>
+- G25=<fórmula: =IF(E25="","",E25*IF(F25="",1,F25))>
+- G26=<fórmula: =IF(E26="","",E26*IF(F26="",1,F26))>
+- G27=<fórmula: =IF(E27="","",E27*IF(F27="",1,F27))>
+- G28=<fórmula: =IF(E28="","",E28*IF(F28="",1,F28))>
+- G29=<fórmula: =IF(E29="","",E29*IF(F29="",1,F29))>
+- G30=<fórmula: =IF(E30="","",E30*IF(F30="",1,F30))>
+- G31=<fórmula: =IF(E31="","",E31*IF(F31="",1,F31))>
+- G32=<fórmula: =IF(E32="","",E32*IF(F32="",1,F32))>
+- G33=<fórmula: =IF(E33="","",E33*IF(F33="",1,F33))>
+- G34=<fórmula: =IF(E34="","",E34*IF(F34="",1,F34))>
+- G35=<fórmula: =IF(E35="","",E35*IF(F35="",1,F35))>
+- G36=<fórmula: =IF(E36="","",E36*IF(F36="",1,F36))>
+- G37=<fórmula: =IF(E37="","",E37*IF(F37="",1,F37))>
+- G38=<fórmula: =IF(E38="","",E38*IF(F38="",1,F38))>
+- G39=<fórmula: =IF(E39="","",E39*IF(F39="",1,F39))>
+- G40=<fórmula: =IF(E40="","",E40*IF(F40="",1,F40))>
+- G41=<fórmula: =IF(E41="","",E41*IF(F41="",1,F41))>
+- G42=<fórmula: =IF(E42="","",E42*IF(F42="",1,F42))>
+- G43=<fórmula: =IF(E43="","",E43*IF(F43="",1,F43))>
+- G44=<fórmula: =IF(E44="","",E44*IF(F44="",1,F44))>
+- G45=<fórmula: =IF(E45="","",E45*IF(F45="",1,F45))>
+- G46=<fórmula: =IF(E46="","",E46*IF(F46="",1,F46))>
+- G47=<fórmula: =IF(E47="","",E47*IF(F47="",1,F47))>
+- G48=<fórmula: =IF(E48="","",E48*IF(F48="",1,F48))>
+- G49=<fórmula: =IF(E49="","",E49*IF(F49="",1,F49))>
+- G50=<fórmula: =IF(E50="","",E50*IF(F50="",1,F50))>
+- G51=<fórmula: =IF(E51="","",E51*IF(F51="",1,F51))>
+- G52=<fórmula: =IF(E52="","",E52*IF(F52="",1,F52))>
+- G53=<fórmula: =IF(E53="","",E53*IF(F53="",1,F53))>
+- G54=<fórmula: =IF(E54="","",E54*IF(F54="",1,F54))>
+- G55=<fórmula: =IF(E55="","",E55*IF(F55="",1,F55))>
+- G56=<fórmula: =IF(E56="","",E56*IF(F56="",1,F56))>
+- G57=<fórmula: =IF(E57="","",E57*IF(F57="",1,F57))>
+- G58=<fórmula: =IF(E58="","",E58*IF(F58="",1,F58))>
+- G59=<fórmula: =IF(E59="","",E59*IF(F59="",1,F59))>
+- G60=<fórmula: =IF(E60="","",E60*IF(F60="",1,F60))>
+- G61=<fórmula: =IF(E61="","",E61*IF(F61="",1,F61))>
+- G62=<fórmula: =IF(E62="","",E62*IF(F62="",1,F62))>
+- G63=<fórmula: =IF(E63="","",E63*IF(F63="",1,F63))>
+- G64=<fórmula: =IF(E64="","",E64*IF(F64="",1,F64))>
+- G65=<fórmula: =IF(E65="","",E65*IF(F65="",1,F65))>
+- G66=<fórmula: =IF(E66="","",E66*IF(F66="",1,F66))>
+- G67=<fórmula: =IF(E67="","",E67*IF(F67="",1,F67))>
+- G68=<fórmula: =IF(E68="","",E68*IF(F68="",1,F68))>
+- G69=<fórmula: =IF(E69="","",E69*IF(F69="",1,F69))>
+- G70=<fórmula: =IF(E70="","",E70*IF(F70="",1,F70))>
+- G71=<fórmula: =IF(E71="","",E71*IF(F71="",1,F71))>
+- G72=<fórmula: =IF(E72="","",E72*IF(F72="",1,F72))>
+- G73=<fórmula: =IF(E73="","",E73*IF(F73="",1,F73))>
+- G74=<fórmula: =IF(E74="","",E74*IF(F74="",1,F74))>
+- G75=<fórmula: =IF(E75="","",E75*IF(F75="",1,F75))>
+- G76=<fórmula: =IF(E76="","",E76*IF(F76="",1,F76))>
+- G77=<fórmula: =IF(E77="","",E77*IF(F77="",1,F77))>
+- G78=<fórmula: =IF(E78="","",E78*IF(F78="",1,F78))>
+- G79=<fórmula: =IF(E79="","",E79*IF(F79="",1,F79))>
+- G80=<fórmula: =IF(E80="","",E80*IF(F80="",1,F80))>
+- G81=<fórmula: =IF(E81="","",E81*IF(F81="",1,F81))>
+- G82=<fórmula: =IF(E82="","",E82*IF(F82="",1,F82))>
+- G83=<fórmula: =IF(E83="","",E83*IF(F83="",1,F83))>
+- G84=<fórmula: =IF(E84="","",E84*IF(F84="",1,F84))>
+- G85=<fórmula: =IF(E85="","",E85*IF(F85="",1,F85))>
+- G86=<fórmula: =IF(E86="","",E86*IF(F86="",1,F86))>
+- G87=<fórmula: =IF(E87="","",E87*IF(F87="",1,F87))>
+- G88=<fórmula: =IF(E88="","",E88*IF(F88="",1,F88))>
+- G89=<fórmula: =IF(E89="","",E89*IF(F89="",1,F89))>
+- G90=<fórmula: =IF(E90="","",E90*IF(F90="",1,F90))>
+- G91=<fórmula: =IF(E91="","",E91*IF(F91="",1,F91))>
+- G92=<fórmula: =IF(E92="","",E92*IF(F92="",1,F92))>
+- G93=<fórmula: =IF(E93="","",E93*IF(F93="",1,F93))>
+- G94=<fórmula: =IF(E94="","",E94*IF(F94="",1,F94))>
+- G95=<fórmula: =IF(E95="","",E95*IF(F95="",1,F95))>
+- G96=<fórmula: =IF(E96="","",E96*IF(F96="",1,F96))>
+- G97=<fórmula: =IF(E97="","",E97*IF(F97="",1,F97))>
+- G98=<fórmula: =IF(E98="","",E98*IF(F98="",1,F98))>
+- G99=<fórmula: =IF(E99="","",E99*IF(F99="",1,F99))>
+- G100=<fórmula: =IF(E100="","",E100*IF(F100="",1,F100))>
+- G101=<fórmula: =IF(E101="","",E101*IF(F101="",1,F101))>
+- G102=<fórmula: =IF(E102="","",E102*IF(F102="",1,F102))>
+- G103=<fórmula: =IF(E103="","",E103*IF(F103="",1,F103))>
+- G104=<fórmula: =IF(E104="","",E104*IF(F104="",1,F104))>
+- G105=<fórmula: =IF(E105="","",E105*IF(F105="",1,F105))>
+- G106=<fórmula: =IF(E106="","",E106*IF(F106="",1,F106))>
+- G107=<fórmula: =IF(E107="","",E107*IF(F107="",1,F107))>
+- G108=<fórmula: =IF(E108="","",E108*IF(F108="",1,F108))>
+- G109=<fórmula: =IF(E109="","",E109*IF(F109="",1,F109))>
+- G110=<fórmula: =IF(E110="","",E110*IF(F110="",1,F110))>
+- G111=<fórmula: =IF(E111="","",E111*IF(F111="",1,F111))>
+- G112=<fórmula: =IF(E112="","",E112*IF(F112="",1,F112))>
+- G113=<fórmula: =IF(E113="","",E113*IF(F113="",1,F113))>
+- G114=<fórmula: =IF(E114="","",E114*IF(F114="",1,F114))>
+- G115=<fórmula: =IF(E115="","",E115*IF(F115="",1,F115))>
+- G116=<fórmula: =IF(E116="","",E116*IF(F116="",1,F116))>
+- G117=<fórmula: =IF(E117="","",E117*IF(F117="",1,F117))>
+- G118=<fórmula: =IF(E118="","",E118*IF(F118="",1,F118))>
+- G119=<fórmula: =IF(E119="","",E119*IF(F119="",1,F119))>
+- G120=<fórmula: =IF(E120="","",E120*IF(F120="",1,F120))>
+- G121=<fórmula: =IF(E121="","",E121*IF(F121="",1,F121))>
+- G122=<fórmula: =IF(E122="","",E122*IF(F122="",1,F122))>
+- G123=<fórmula: =IF(E123="","",E123*IF(F123="",1,F123))>
+- G124=<fórmula: =IF(E124="","",E124*IF(F124="",1,F124))>
+- G125=<fórmula: =IF(E125="","",E125*IF(F125="",1,F125))>
+- G126=<fórmula: =IF(E126="","",E126*IF(F126="",1,F126))>
+- G127=<fórmula: =IF(E127="","",E127*IF(F127="",1,F127))>
+- G128=<fórmula: =IF(E128="","",E128*IF(F128="",1,F128))>
+- G129=<fórmula: =IF(E129="","",E129*IF(F129="",1,F129))>
+- G130=<fórmula: =IF(E130="","",E130*IF(F130="",1,F130))>
+- G131=<fórmula: =IF(E131="","",E131*IF(F131="",1,F131))>
+- G132=<fórmula: =IF(E132="","",E132*IF(F132="",1,F132))>
+- G133=<fórmula: =IF(E133="","",E133*IF(F133="",1,F133))>
+- G134=<fórmula: =IF(E134="","",E134*IF(F134="",1,F134))>
+- G135=<fórmula: =IF(E135="","",E135*IF(F135="",1,F135))>
+- G136=<fórmula: =IF(E136="","",E136*IF(F136="",1,F136))>
+- G137=<fórmula: =IF(E137="","",E137*IF(F137="",1,F137))>
+- G138=<fórmula: =IF(E138="","",E138*IF(F138="",1,F138))>
+- G139=<fórmula: =IF(E139="","",E139*IF(F139="",1,F139))>
+- G140=<fórmula: =IF(E140="","",E140*IF(F140="",1,F140))>
+- G141=<fórmula: =IF(E141="","",E141*IF(F141="",1,F141))>
+- G142=<fórmula: =IF(E142="","",E142*IF(F142="",1,F142))>
+- G143=<fórmula: =IF(E143="","",E143*IF(F143="",1,F143))>
+- G144=<fórmula: =IF(E144="","",E144*IF(F144="",1,F144))>
+- G145=<fórmula: =IF(E145="","",E145*IF(F145="",1,F145))>
+- G146=<fórmula: =IF(E146="","",E146*IF(F146="",1,F146))>
+- G147=<fórmula: =IF(E147="","",E147*IF(F147="",1,F147))>
+- G148=<fórmula: =IF(E148="","",E148*IF(F148="",1,F148))>
+- G149=<fórmula: =IF(E149="","",E149*IF(F149="",1,F149))>
+- G150=<fórmula: =IF(E150="","",E150*IF(F150="",1,F150))>
+- G151=<fórmula: =IF(E151="","",E151*IF(F151="",1,F151))>
+- G152=<fórmula: =IF(E152="","",E152*IF(F152="",1,F152))>
+- G153=<fórmula: =IF(E153="","",E153*IF(F153="",1,F153))>
+- G154=<fórmula: =IF(E154="","",E154*IF(F154="",1,F154))>
+- G155=<fórmula: =IF(E155="","",E155*IF(F155="",1,F155))>
+- G156=<fórmula: =IF(E156="","",E156*IF(F156="",1,F156))>
+- G157=<fórmula: =IF(E157="","",E157*IF(F157="",1,F157))>
+- G158=<fórmula: =IF(E158="","",E158*IF(F158="",1,F158))>
+- G159=<fórmula: =IF(E159="","",E159*IF(F159="",1,F159))>
+- G160=<fórmula: =IF(E160="","",E160*IF(F160="",1,F160))>
+- G161=<fórmula: =IF(E161="","",E161*IF(F161="",1,F161))>
+- G162=<fórmula: =IF(E162="","",E162*IF(F162="",1,F162))>
+- G163=<fórmula: =IF(E163="","",E163*IF(F163="",1,F163))>
+- G164=<fórmula: =IF(E164="","",E164*IF(F164="",1,F164))>
+- G165=<fórmula: =IF(E165="","",E165*IF(F165="",1,F165))>
+- G166=<fórmula: =IF(E166="","",E166*IF(F166="",1,F166))>
+- G167=<fórmula: =IF(E167="","",E167*IF(F167="",1,F167))>
+- G168=<fórmula: =IF(E168="","",E168*IF(F168="",1,F168))>
+- G169=<fórmula: =IF(E169="","",E169*IF(F169="",1,F169))>
+- G170=<fórmula: =IF(E170="","",E170*IF(F170="",1,F170))>
+- G171=<fórmula: =IF(E171="","",E171*IF(F171="",1,F171))>
+- G172=<fórmula: =IF(E172="","",E172*IF(F172="",1,F172))>
+- G173=<fórmula: =IF(E173="","",E173*IF(F173="",1,F173))>
+- G174=<fórmula: =IF(E174="","",E174*IF(F174="",1,F174))>
+- G175=<fórmula: =IF(E175="","",E175*IF(F175="",1,F175))>
+- G176=<fórmula: =IF(E176="","",E176*IF(F176="",1,F176))>
+- G177=<fórmula: =IF(E177="","",E177*IF(F177="",1,F177))>
+- G178=<fórmula: =IF(E178="","",E178*IF(F178="",1,F178))>
+- G179=<fórmula: =IF(E179="","",E179*IF(F179="",1,F179))>
+- G180=<fórmula: =IF(E180="","",E180*IF(F180="",1,F180))>
+- G181=<fórmula: =IF(E181="","",E181*IF(F181="",1,F181))>
+- G182=<fórmula: =IF(E182="","",E182*IF(F182="",1,F182))>
+- G183=<fórmula: =IF(E183="","",E183*IF(F183="",1,F183))>
+- G184=<fórmula: =IF(E184="","",E184*IF(F184="",1,F184))>
+- G185=<fórmula: =IF(E185="","",E185*IF(F185="",1,F185))>
+- G186=<fórmula: =IF(E186="","",E186*IF(F186="",1,F186))>
+- G187=<fórmula: =IF(E187="","",E187*IF(F187="",1,F187))>
+- G188=<fórmula: =IF(E188="","",E188*IF(F188="",1,F188))>
+- G189=<fórmula: =IF(E189="","",E189*IF(F189="",1,F189))>
+- G190=<fórmula: =IF(E190="","",E190*IF(F190="",1,F190))>
+- G191=<fórmula: =IF(E191="","",E191*IF(F191="",1,F191))>
+- G192=<fórmula: =IF(E192="","",E192*IF(F192="",1,F192))>
+- G193=<fórmula: =IF(E193="","",E193*IF(F193="",1,F193))>
+- G194=<fórmula: =IF(E194="","",E194*IF(F194="",1,F194))>
+- G195=<fórmula: =IF(E195="","",E195*IF(F195="",1,F195))>
+- G196=<fórmula: =IF(E196="","",E196*IF(F196="",1,F196))>
+- G197=<fórmula: =IF(E197="","",E197*IF(F197="",1,F197))>
+- G198=<fórmula: =IF(E198="","",E198*IF(F198="",1,F198))>
+- G199=<fórmula: =IF(E199="","",E199*IF(F199="",1,F199))>
+- G200=<fórmula: =IF(E200="","",E200*IF(F200="",1,F200))>
+- G201=<fórmula: =IF(E201="","",E201*IF(F201="",1,F201))>
+- G202=<fórmula: =IF(E202="","",E202*IF(F202="",1,F202))>
+- G203=<fórmula: =IF(E203="","",E203*IF(F203="",1,F203))>
+- G204=<fórmula: =IF(E204="","",E204*IF(F204="",1,F204))>
+- G205=<fórmula: =IF(E205="","",E205*IF(F205="",1,F205))>
+- G206=<fórmula: =IF(E206="","",E206*IF(F206="",1,F206))>
+- G207=<fórmula: =IF(E207="","",E207*IF(F207="",1,F207))>
+- G208=<fórmula: =IF(E208="","",E208*IF(F208="",1,F208))>
+- G209=<fórmula: =IF(E209="","",E209*IF(F209="",1,F209))>
+- G210=<fórmula: =IF(E210="","",E210*IF(F210="",1,F210))>
+- G211=<fórmula: =IF(E211="","",E211*IF(F211="",1,F211))>
+- G212=<fórmula: =IF(E212="","",E212*IF(F212="",1,F212))>
+- G213=<fórmula: =IF(E213="","",E213*IF(F213="",1,F213))>
+- G214=<fórmula: =IF(E214="","",E214*IF(F214="",1,F214))>
+- G215=<fórmula: =IF(E215="","",E215*IF(F215="",1,F215))>
+- G216=<fórmula: =IF(E216="","",E216*IF(F216="",1,F216))>
+- G217=<fórmula: =IF(E217="","",E217*IF(F217="",1,F217))>
+- G218=<fórmula: =IF(E218="","",E218*IF(F218="",1,F218))>
+- G219=<fórmula: =IF(E219="","",E219*IF(F219="",1,F219))>
+- G220=<fórmula: =IF(E220="","",E220*IF(F220="",1,F220))>
+- G221=<fórmula: =IF(E221="","",E221*IF(F221="",1,F221))>
+- G222=<fórmula: =IF(E222="","",E222*IF(F222="",1,F222))>
+- G223=<fórmula: =IF(E223="","",E223*IF(F223="",1,F223))>
+- G224=<fórmula: =IF(E224="","",E224*IF(F224="",1,F224))>
+- G225=<fórmula: =IF(E225="","",E225*IF(F225="",1,F225))>
+- G226=<fórmula: =IF(E226="","",E226*IF(F226="",1,F226))>
+- G227=<fórmula: =IF(E227="","",E227*IF(F227="",1,F227))>
+- G228=<fórmula: =IF(E228="","",E228*IF(F228="",1,F228))>
+- G229=<fórmula: =IF(E229="","",E229*IF(F229="",1,F229))>
+- G230=<fórmula: =IF(E230="","",E230*IF(F230="",1,F230))>
+- G231=<fórmula: =IF(E231="","",E231*IF(F231="",1,F231))>
+- G232=<fórmula: =IF(E232="","",E232*IF(F232="",1,F232))>
+- G233=<fórmula: =IF(E233="","",E233*IF(F233="",1,F233))>
+- G234=<fórmula: =IF(E234="","",E234*IF(F234="",1,F234))>
+- G235=<fórmula: =IF(E235="","",E235*IF(F235="",1,F235))>
+- G236=<fórmula: =IF(E236="","",E236*IF(F236="",1,F236))>
+- G237=<fórmula: =IF(E237="","",E237*IF(F237="",1,F237))>
+- G238=<fórmula: =IF(E238="","",E238*IF(F238="",1,F238))>
+- G239=<fórmula: =IF(E239="","",E239*IF(F239="",1,F239))>
+- G240=<fórmula: =IF(E240="","",E240*IF(F240="",1,F240))>
+- G241=<fórmula: =IF(E241="","",E241*IF(F241="",1,F241))>
+- G242=<fórmula: =IF(E242="","",E242*IF(F242="",1,F242))>
+- G243=<fórmula: =IF(E243="","",E243*IF(F243="",1,F243))>
+- G244=<fórmula: =IF(E244="","",E244*IF(F244="",1,F244))>
+- G245=<fórmula: =IF(E245="","",E245*IF(F245="",1,F245))>
+- G246=<fórmula: =IF(E246="","",E246*IF(F246="",1,F246))>
+- G247=<fórmula: =IF(E247="","",E247*IF(F247="",1,F247))>
+- G248=<fórmula: =IF(E248="","",E248*IF(F248="",1,F248))>
+- G249=<fórmula: =IF(E249="","",E249*IF(F249="",1,F249))>
+- G250=<fórmula: =IF(E250="","",E250*IF(F250="",1,F250))>
+- G251=<fórmula: =IF(E251="","",E251*IF(F251="",1,F251))>
+- G252=<fórmula: =IF(E252="","",E252*IF(F252="",1,F252))>
+- G253=<fórmula: =IF(E253="","",E253*IF(F253="",1,F253))>
+- G254=<fórmula: =IF(E254="","",E254*IF(F254="",1,F254))>
+- G255=<fórmula: =IF(E255="","",E255*IF(F255="",1,F255))>
+- G256=<fórmula: =IF(E256="","",E256*IF(F256="",1,F256))>
+- G257=<fórmula: =IF(E257="","",E257*IF(F257="",1,F257))>
+- G258=<fórmula: =IF(E258="","",E258*IF(F258="",1,F258))>
+- G259=<fórmula: =IF(E259="","",E259*IF(F259="",1,F259))>
+- G260=<fórmula: =IF(E260="","",E260*IF(F260="",1,F260))>
+- G261=<fórmula: =IF(E261="","",E261*IF(F261="",1,F261))>
+- G262=<fórmula: =IF(E262="","",E262*IF(F262="",1,F262))>
+- G263=<fórmula: =IF(E263="","",E263*IF(F263="",1,F263))>
+- G264=<fórmula: =IF(E264="","",E264*IF(F264="",1,F264))>
+- G265=<fórmula: =IF(E265="","",E265*IF(F265="",1,F265))>
+- G266=<fórmula: =IF(E266="","",E266*IF(F266="",1,F266))>
+- G267=<fórmula: =IF(E267="","",E267*IF(F267="",1,F267))>
+- G268=<fórmula: =IF(E268="","",E268*IF(F268="",1,F268))>
+- G269=<fórmula: =IF(E269="","",E269*IF(F269="",1,F269))>
+- G270=<fórmula: =IF(E270="","",E270*IF(F270="",1,F270))>
+- G271=<fórmula: =IF(E271="","",E271*IF(F271="",1,F271))>
+- G272=<fórmula: =IF(E272="","",E272*IF(F272="",1,F272))>
+- G273=<fórmula: =IF(E273="","",E273*IF(F273="",1,F273))>
+- G274=<fórmula: =IF(E274="","",E274*IF(F274="",1,F274))>
+- G275=<fórmula: =IF(E275="","",E275*IF(F275="",1,F275))>
+- G276=<fórmula: =IF(E276="","",E276*IF(F276="",1,F276))>
+- G277=<fórmula: =IF(E277="","",E277*IF(F277="",1,F277))>
+- G278=<fórmula: =IF(E278="","",E278*IF(F278="",1,F278))>
+- G279=<fórmula: =IF(E279="","",E279*IF(F279="",1,F279))>
+- G280=<fórmula: =IF(E280="","",E280*IF(F280="",1,F280))>
+- G281=<fórmula: =IF(E281="","",E281*IF(F281="",1,F281))>
+- G282=<fórmula: =IF(E282="","",E282*IF(F282="",1,F282))>
+- G283=<fórmula: =IF(E283="","",E283*IF(F283="",1,F283))>
+- G284=<fórmula: =IF(E284="","",E284*IF(F284="",1,F284))>
+- G285=<fórmula: =IF(E285="","",E285*IF(F285="",1,F285))>
+- G286=<fórmula: =IF(E286="","",E286*IF(F286="",1,F286))>
+- G287=<fórmula: =IF(E287="","",E287*IF(F287="",1,F287))>
+- G288=<fórmula: =IF(E288="","",E288*IF(F288="",1,F288))>
+- G289=<fórmula: =IF(E289="","",E289*IF(F289="",1,F289))>
+- G290=<fórmula: =IF(E290="","",E290*IF(F290="",1,F290))>
+- G291=<fórmula: =IF(E291="","",E291*IF(F291="",1,F291))>
+- G292=<fórmula: =IF(E292="","",E292*IF(F292="",1,F292))>
+- G293=<fórmula: =IF(E293="","",E293*IF(F293="",1,F293))>
+- G294=<fórmula: =IF(E294="","",E294*IF(F294="",1,F294))>
+- G295=<fórmula: =IF(E295="","",E295*IF(F295="",1,F295))>
+- G296=<fórmula: =IF(E296="","",E296*IF(F296="",1,F296))>
+- G297=<fórmula: =IF(E297="","",E297*IF(F297="",1,F297))>
+- G298=<fórmula: =IF(E298="","",E298*IF(F298="",1,F298))>
+- G299=<fórmula: =IF(E299="","",E299*IF(F299="",1,F299))>
+- G300=<fórmula: =IF(E300="","",E300*IF(F300="",1,F300))>
+- G301=<fórmula: =IF(E301="","",E301*IF(F301="",1,F301))>
+
+## Aba: Fornecedores
+
+- A1="Fornecedor" | B1="CNPJ/CPF" | C1="E-mail / telefone" | D1="Data da solicitação" | E1="Data da resposta" | F1="Respondeu?" | G1="Justificativa da escolha (art. 3º, VIII)" | H1="Documento (solicitação/proposta)"
+- A2="EXEMPLO — Fornecedor A" | B2="00.000.000/0001-00" | C2="comercial@exemplo.com" | F2="Sim" | G2="EXEMPLO — revenda autorizada com contratos públicos do mesmo objeto" | H2="insumos/precos/cotacao-a.pdf"
+
+## Aba: Mapa
+
+- A1="Item" | B1="Descrição" | C1="Unidade" | D1="Quantidade" | E1="Nº preços válidos" | F1="Média" | G1="Mediana" | H1="Menor valor" | I1="Desvio padrão" | J1="CV" | K1="Método" | L1="Preço unitário (método)" | M1="Ajuste %" | N1="Preço unitário estimado" | O1="PMC-TIC" | P1="Valor total estimado" | Q1="Alertas"
+- A2=<fórmula: =IF(Itens!A2="","",Itens!A2)> | B2=<fórmula: =IF(A2="","",Itens!B2)> | C2=<fórmula: =IF(A2="","",Itens!D2)> | D2=<fórmula: =IF(A2="","",Itens!E2)> | E2=<fórmula: =IF(A2="","",COUNTIFS(Coleta!$A$2:$A$301,A2,Coleta!$H$2:$H$301,"Válido"))> | F2=<fórmula: =IF(OR(A2="",E2=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A2,Coleta!$H$2:$H$301,"Válido"))> | G2=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8bfc830> | H2=<fórmula: =IF(OR(A2="",E2=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A2,Coleta!$H$2:$H$301,"Válido"))> | I2=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8501d10> | J2=<fórmula: =IF(OR(A2="",E2<2),"",I2/F2)> | K2=<fórmula: =IF(A2="","",Itens!F2)> | L2=<fórmula: =IF(OR(A2="",E2=0,K2=""),"",IF(K2="Média",F2,IF(K2="Mediana",G2,H2)))> | M2=<fórmula: =IF(A2="","",IF(Itens!G2="",0,Itens!G2))> | N2=<fórmula: =IF(L2="","",ROUND(L2*(1+M2),2))> | O2=<fórmula: =IF(OR(A2="",Itens!H2=""),"",Itens!H2)> | P2=<fórmula: =IF(OR(N2="",D2=""),"",IF(O2="",N2,MIN(N2,O2))*D2)> | Q2=<fórmula: =IF(A2="","",TRIM(IF(E2<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A2,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A2,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J2<>"",J2>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K2="","Escolher o método na aba Itens. ","")&IF(AND(O2<>"",N2<>"",N2>O2),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A3=<fórmula: =IF(Itens!A3="","",Itens!A3)> | B3=<fórmula: =IF(A3="","",Itens!B3)> | C3=<fórmula: =IF(A3="","",Itens!D3)> | D3=<fórmula: =IF(A3="","",Itens!E3)> | E3=<fórmula: =IF(A3="","",COUNTIFS(Coleta!$A$2:$A$301,A3,Coleta!$H$2:$H$301,"Válido"))> | F3=<fórmula: =IF(OR(A3="",E3=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A3,Coleta!$H$2:$H$301,"Válido"))> | G3=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8502c10> | H3=<fórmula: =IF(OR(A3="",E3=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A3,Coleta!$H$2:$H$301,"Válido"))> | I3=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8b8d220> | J3=<fórmula: =IF(OR(A3="",E3<2),"",I3/F3)> | K3=<fórmula: =IF(A3="","",Itens!F3)> | L3=<fórmula: =IF(OR(A3="",E3=0,K3=""),"",IF(K3="Média",F3,IF(K3="Mediana",G3,H3)))> | M3=<fórmula: =IF(A3="","",IF(Itens!G3="",0,Itens!G3))> | N3=<fórmula: =IF(L3="","",ROUND(L3*(1+M3),2))> | O3=<fórmula: =IF(OR(A3="",Itens!H3=""),"",Itens!H3)> | P3=<fórmula: =IF(OR(N3="",D3=""),"",IF(O3="",N3,MIN(N3,O3))*D3)> | Q3=<fórmula: =IF(A3="","",TRIM(IF(E3<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A3,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A3,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J3<>"",J3>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K3="","Escolher o método na aba Itens. ","")&IF(AND(O3<>"",N3<>"",N3>O3),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A4=<fórmula: =IF(Itens!A4="","",Itens!A4)> | B4=<fórmula: =IF(A4="","",Itens!B4)> | C4=<fórmula: =IF(A4="","",Itens!D4)> | D4=<fórmula: =IF(A4="","",Itens!E4)> | E4=<fórmula: =IF(A4="","",COUNTIFS(Coleta!$A$2:$A$301,A4,Coleta!$H$2:$H$301,"Válido"))> | F4=<fórmula: =IF(OR(A4="",E4=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A4,Coleta!$H$2:$H$301,"Válido"))> | G4=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8b8fce0> | H4=<fórmula: =IF(OR(A4="",E4=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A4,Coleta!$H$2:$H$301,"Válido"))> | I4=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8519130> | J4=<fórmula: =IF(OR(A4="",E4<2),"",I4/F4)> | K4=<fórmula: =IF(A4="","",Itens!F4)> | L4=<fórmula: =IF(OR(A4="",E4=0,K4=""),"",IF(K4="Média",F4,IF(K4="Mediana",G4,H4)))> | M4=<fórmula: =IF(A4="","",IF(Itens!G4="",0,Itens!G4))> | N4=<fórmula: =IF(L4="","",ROUND(L4*(1+M4),2))> | O4=<fórmula: =IF(OR(A4="",Itens!H4=""),"",Itens!H4)> | P4=<fórmula: =IF(OR(N4="",D4=""),"",IF(O4="",N4,MIN(N4,O4))*D4)> | Q4=<fórmula: =IF(A4="","",TRIM(IF(E4<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A4,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A4,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J4<>"",J4>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K4="","Escolher o método na aba Itens. ","")&IF(AND(O4<>"",N4<>"",N4>O4),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A5=<fórmula: =IF(Itens!A5="","",Itens!A5)> | B5=<fórmula: =IF(A5="","",Itens!B5)> | C5=<fórmula: =IF(A5="","",Itens!D5)> | D5=<fórmula: =IF(A5="","",Itens!E5)> | E5=<fórmula: =IF(A5="","",COUNTIFS(Coleta!$A$2:$A$301,A5,Coleta!$H$2:$H$301,"Válido"))> | F5=<fórmula: =IF(OR(A5="",E5=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A5,Coleta!$H$2:$H$301,"Válido"))> | G5=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8bcead0> | H5=<fórmula: =IF(OR(A5="",E5=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A5,Coleta!$H$2:$H$301,"Válido"))> | I5=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8bcecf0> | J5=<fórmula: =IF(OR(A5="",E5<2),"",I5/F5)> | K5=<fórmula: =IF(A5="","",Itens!F5)> | L5=<fórmula: =IF(OR(A5="",E5=0,K5=""),"",IF(K5="Média",F5,IF(K5="Mediana",G5,H5)))> | M5=<fórmula: =IF(A5="","",IF(Itens!G5="",0,Itens!G5))> | N5=<fórmula: =IF(L5="","",ROUND(L5*(1+M5),2))> | O5=<fórmula: =IF(OR(A5="",Itens!H5=""),"",Itens!H5)> | P5=<fórmula: =IF(OR(N5="",D5=""),"",IF(O5="",N5,MIN(N5,O5))*D5)> | Q5=<fórmula: =IF(A5="","",TRIM(IF(E5<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A5,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A5,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J5<>"",J5>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K5="","Escolher o método na aba Itens. ","")&IF(AND(O5<>"",N5<>"",N5>O5),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A6=<fórmula: =IF(Itens!A6="","",Itens!A6)> | B6=<fórmula: =IF(A6="","",Itens!B6)> | C6=<fórmula: =IF(A6="","",Itens!D6)> | D6=<fórmula: =IF(A6="","",Itens!E6)> | E6=<fórmula: =IF(A6="","",COUNTIFS(Coleta!$A$2:$A$301,A6,Coleta!$H$2:$H$301,"Válido"))> | F6=<fórmula: =IF(OR(A6="",E6=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A6,Coleta!$H$2:$H$301,"Válido"))> | G6=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8b97350> | H6=<fórmula: =IF(OR(A6="",E6=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A6,Coleta!$H$2:$H$301,"Válido"))> | I6=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8b96f50> | J6=<fórmula: =IF(OR(A6="",E6<2),"",I6/F6)> | K6=<fórmula: =IF(A6="","",Itens!F6)> | L6=<fórmula: =IF(OR(A6="",E6=0,K6=""),"",IF(K6="Média",F6,IF(K6="Mediana",G6,H6)))> | M6=<fórmula: =IF(A6="","",IF(Itens!G6="",0,Itens!G6))> | N6=<fórmula: =IF(L6="","",ROUND(L6*(1+M6),2))> | O6=<fórmula: =IF(OR(A6="",Itens!H6=""),"",Itens!H6)> | P6=<fórmula: =IF(OR(N6="",D6=""),"",IF(O6="",N6,MIN(N6,O6))*D6)> | Q6=<fórmula: =IF(A6="","",TRIM(IF(E6<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A6,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A6,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J6<>"",J6>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K6="","Escolher o método na aba Itens. ","")&IF(AND(O6<>"",N6<>"",N6>O6),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A7=<fórmula: =IF(Itens!A7="","",Itens!A7)> | B7=<fórmula: =IF(A7="","",Itens!B7)> | C7=<fórmula: =IF(A7="","",Itens!D7)> | D7=<fórmula: =IF(A7="","",Itens!E7)> | E7=<fórmula: =IF(A7="","",COUNTIFS(Coleta!$A$2:$A$301,A7,Coleta!$H$2:$H$301,"Válido"))> | F7=<fórmula: =IF(OR(A7="",E7=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A7,Coleta!$H$2:$H$301,"Válido"))> | G7=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8bc6990> | H7=<fórmula: =IF(OR(A7="",E7=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A7,Coleta!$H$2:$H$301,"Válido"))> | I7=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8bc6a80> | J7=<fórmula: =IF(OR(A7="",E7<2),"",I7/F7)> | K7=<fórmula: =IF(A7="","",Itens!F7)> | L7=<fórmula: =IF(OR(A7="",E7=0,K7=""),"",IF(K7="Média",F7,IF(K7="Mediana",G7,H7)))> | M7=<fórmula: =IF(A7="","",IF(Itens!G7="",0,Itens!G7))> | N7=<fórmula: =IF(L7="","",ROUND(L7*(1+M7),2))> | O7=<fórmula: =IF(OR(A7="",Itens!H7=""),"",Itens!H7)> | P7=<fórmula: =IF(OR(N7="",D7=""),"",IF(O7="",N7,MIN(N7,O7))*D7)> | Q7=<fórmula: =IF(A7="","",TRIM(IF(E7<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A7,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A7,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J7<>"",J7>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K7="","Escolher o método na aba Itens. ","")&IF(AND(O7<>"",N7<>"",N7>O7),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A8=<fórmula: =IF(Itens!A8="","",Itens!A8)> | B8=<fórmula: =IF(A8="","",Itens!B8)> | C8=<fórmula: =IF(A8="","",Itens!D8)> | D8=<fórmula: =IF(A8="","",Itens!E8)> | E8=<fórmula: =IF(A8="","",COUNTIFS(Coleta!$A$2:$A$301,A8,Coleta!$H$2:$H$301,"Válido"))> | F8=<fórmula: =IF(OR(A8="",E8=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A8,Coleta!$H$2:$H$301,"Válido"))> | G8=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8544910> | H8=<fórmula: =IF(OR(A8="",E8=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A8,Coleta!$H$2:$H$301,"Válido"))> | I8=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c85449f0> | J8=<fórmula: =IF(OR(A8="",E8<2),"",I8/F8)> | K8=<fórmula: =IF(A8="","",Itens!F8)> | L8=<fórmula: =IF(OR(A8="",E8=0,K8=""),"",IF(K8="Média",F8,IF(K8="Mediana",G8,H8)))> | M8=<fórmula: =IF(A8="","",IF(Itens!G8="",0,Itens!G8))> | N8=<fórmula: =IF(L8="","",ROUND(L8*(1+M8),2))> | O8=<fórmula: =IF(OR(A8="",Itens!H8=""),"",Itens!H8)> | P8=<fórmula: =IF(OR(N8="",D8=""),"",IF(O8="",N8,MIN(N8,O8))*D8)> | Q8=<fórmula: =IF(A8="","",TRIM(IF(E8<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A8,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A8,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J8<>"",J8>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K8="","Escolher o método na aba Itens. ","")&IF(AND(O8<>"",N8<>"",N8>O8),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A9=<fórmula: =IF(Itens!A9="","",Itens!A9)> | B9=<fórmula: =IF(A9="","",Itens!B9)> | C9=<fórmula: =IF(A9="","",Itens!D9)> | D9=<fórmula: =IF(A9="","",Itens!E9)> | E9=<fórmula: =IF(A9="","",COUNTIFS(Coleta!$A$2:$A$301,A9,Coleta!$H$2:$H$301,"Válido"))> | F9=<fórmula: =IF(OR(A9="",E9=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A9,Coleta!$H$2:$H$301,"Válido"))> | G9=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8515f30> | H9=<fórmula: =IF(OR(A9="",E9=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A9,Coleta!$H$2:$H$301,"Válido"))> | I9=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8cf6090> | J9=<fórmula: =IF(OR(A9="",E9<2),"",I9/F9)> | K9=<fórmula: =IF(A9="","",Itens!F9)> | L9=<fórmula: =IF(OR(A9="",E9=0,K9=""),"",IF(K9="Média",F9,IF(K9="Mediana",G9,H9)))> | M9=<fórmula: =IF(A9="","",IF(Itens!G9="",0,Itens!G9))> | N9=<fórmula: =IF(L9="","",ROUND(L9*(1+M9),2))> | O9=<fórmula: =IF(OR(A9="",Itens!H9=""),"",Itens!H9)> | P9=<fórmula: =IF(OR(N9="",D9=""),"",IF(O9="",N9,MIN(N9,O9))*D9)> | Q9=<fórmula: =IF(A9="","",TRIM(IF(E9<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A9,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A9,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J9<>"",J9>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K9="","Escolher o método na aba Itens. ","")&IF(AND(O9<>"",N9<>"",N9>O9),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A10=<fórmula: =IF(Itens!A10="","",Itens!A10)> | B10=<fórmula: =IF(A10="","",Itens!B10)> | C10=<fórmula: =IF(A10="","",Itens!D10)> | D10=<fórmula: =IF(A10="","",Itens!E10)> | E10=<fórmula: =IF(A10="","",COUNTIFS(Coleta!$A$2:$A$301,A10,Coleta!$H$2:$H$301,"Válido"))> | F10=<fórmula: =IF(OR(A10="",E10=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A10,Coleta!$H$2:$H$301,"Válido"))> | G10=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8cf6d50> | H10=<fórmula: =IF(OR(A10="",E10=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A10,Coleta!$H$2:$H$301,"Válido"))> | I10=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8499860> | J10=<fórmula: =IF(OR(A10="",E10<2),"",I10/F10)> | K10=<fórmula: =IF(A10="","",Itens!F10)> | L10=<fórmula: =IF(OR(A10="",E10=0,K10=""),"",IF(K10="Média",F10,IF(K10="Mediana",G10,H10)))> | M10=<fórmula: =IF(A10="","",IF(Itens!G10="",0,Itens!G10))> | N10=<fórmula: =IF(L10="","",ROUND(L10*(1+M10),2))> | O10=<fórmula: =IF(OR(A10="",Itens!H10=""),"",Itens!H10)> | P10=<fórmula: =IF(OR(N10="",D10=""),"",IF(O10="",N10,MIN(N10,O10))*D10)> | Q10=<fórmula: =IF(A10="","",TRIM(IF(E10<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A10,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A10,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J10<>"",J10>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K10="","Escolher o método na aba Itens. ","")&IF(AND(O10<>"",N10<>"",N10>O10),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A11=<fórmula: =IF(Itens!A11="","",Itens!A11)> | B11=<fórmula: =IF(A11="","",Itens!B11)> | C11=<fórmula: =IF(A11="","",Itens!D11)> | D11=<fórmula: =IF(A11="","",Itens!E11)> | E11=<fórmula: =IF(A11="","",COUNTIFS(Coleta!$A$2:$A$301,A11,Coleta!$H$2:$H$301,"Válido"))> | F11=<fórmula: =IF(OR(A11="",E11=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A11,Coleta!$H$2:$H$301,"Válido"))> | G11=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84985d0> | H11=<fórmula: =IF(OR(A11="",E11=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A11,Coleta!$H$2:$H$301,"Válido"))> | I11=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8beb1b0> | J11=<fórmula: =IF(OR(A11="",E11<2),"",I11/F11)> | K11=<fórmula: =IF(A11="","",Itens!F11)> | L11=<fórmula: =IF(OR(A11="",E11=0,K11=""),"",IF(K11="Média",F11,IF(K11="Mediana",G11,H11)))> | M11=<fórmula: =IF(A11="","",IF(Itens!G11="",0,Itens!G11))> | N11=<fórmula: =IF(L11="","",ROUND(L11*(1+M11),2))> | O11=<fórmula: =IF(OR(A11="",Itens!H11=""),"",Itens!H11)> | P11=<fórmula: =IF(OR(N11="",D11=""),"",IF(O11="",N11,MIN(N11,O11))*D11)> | Q11=<fórmula: =IF(A11="","",TRIM(IF(E11<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A11,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A11,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J11<>"",J11>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K11="","Escolher o método na aba Itens. ","")&IF(AND(O11<>"",N11<>"",N11>O11),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A12=<fórmula: =IF(Itens!A12="","",Itens!A12)> | B12=<fórmula: =IF(A12="","",Itens!B12)> | C12=<fórmula: =IF(A12="","",Itens!D12)> | D12=<fórmula: =IF(A12="","",Itens!E12)> | E12=<fórmula: =IF(A12="","",COUNTIFS(Coleta!$A$2:$A$301,A12,Coleta!$H$2:$H$301,"Válido"))> | F12=<fórmula: =IF(OR(A12="",E12=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A12,Coleta!$H$2:$H$301,"Válido"))> | G12=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8bebcf0> | H12=<fórmula: =IF(OR(A12="",E12=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A12,Coleta!$H$2:$H$301,"Válido"))> | I12=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8b92180> | J12=<fórmula: =IF(OR(A12="",E12<2),"",I12/F12)> | K12=<fórmula: =IF(A12="","",Itens!F12)> | L12=<fórmula: =IF(OR(A12="",E12=0,K12=""),"",IF(K12="Média",F12,IF(K12="Mediana",G12,H12)))> | M12=<fórmula: =IF(A12="","",IF(Itens!G12="",0,Itens!G12))> | N12=<fórmula: =IF(L12="","",ROUND(L12*(1+M12),2))> | O12=<fórmula: =IF(OR(A12="",Itens!H12=""),"",Itens!H12)> | P12=<fórmula: =IF(OR(N12="",D12=""),"",IF(O12="",N12,MIN(N12,O12))*D12)> | Q12=<fórmula: =IF(A12="","",TRIM(IF(E12<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A12,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A12,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J12<>"",J12>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K12="","Escolher o método na aba Itens. ","")&IF(AND(O12<>"",N12<>"",N12>O12),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A13=<fórmula: =IF(Itens!A13="","",Itens!A13)> | B13=<fórmula: =IF(A13="","",Itens!B13)> | C13=<fórmula: =IF(A13="","",Itens!D13)> | D13=<fórmula: =IF(A13="","",Itens!E13)> | E13=<fórmula: =IF(A13="","",COUNTIFS(Coleta!$A$2:$A$301,A13,Coleta!$H$2:$H$301,"Válido"))> | F13=<fórmula: =IF(OR(A13="",E13=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A13,Coleta!$H$2:$H$301,"Válido"))> | G13=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8538fd0> | H13=<fórmula: =IF(OR(A13="",E13=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A13,Coleta!$H$2:$H$301,"Válido"))> | I13=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c85385d0> | J13=<fórmula: =IF(OR(A13="",E13<2),"",I13/F13)> | K13=<fórmula: =IF(A13="","",Itens!F13)> | L13=<fórmula: =IF(OR(A13="",E13=0,K13=""),"",IF(K13="Média",F13,IF(K13="Mediana",G13,H13)))> | M13=<fórmula: =IF(A13="","",IF(Itens!G13="",0,Itens!G13))> | N13=<fórmula: =IF(L13="","",ROUND(L13*(1+M13),2))> | O13=<fórmula: =IF(OR(A13="",Itens!H13=""),"",Itens!H13)> | P13=<fórmula: =IF(OR(N13="",D13=""),"",IF(O13="",N13,MIN(N13,O13))*D13)> | Q13=<fórmula: =IF(A13="","",TRIM(IF(E13<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A13,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A13,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J13<>"",J13>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K13="","Escolher o método na aba Itens. ","")&IF(AND(O13<>"",N13<>"",N13>O13),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A14=<fórmula: =IF(Itens!A14="","",Itens!A14)> | B14=<fórmula: =IF(A14="","",Itens!B14)> | C14=<fórmula: =IF(A14="","",Itens!D14)> | D14=<fórmula: =IF(A14="","",Itens!E14)> | E14=<fórmula: =IF(A14="","",COUNTIFS(Coleta!$A$2:$A$301,A14,Coleta!$H$2:$H$301,"Válido"))> | F14=<fórmula: =IF(OR(A14="",E14=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A14,Coleta!$H$2:$H$301,"Válido"))> | G14=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8561390> | H14=<fórmula: =IF(OR(A14="",E14=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A14,Coleta!$H$2:$H$301,"Válido"))> | I14=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8561400> | J14=<fórmula: =IF(OR(A14="",E14<2),"",I14/F14)> | K14=<fórmula: =IF(A14="","",Itens!F14)> | L14=<fórmula: =IF(OR(A14="",E14=0,K14=""),"",IF(K14="Média",F14,IF(K14="Mediana",G14,H14)))> | M14=<fórmula: =IF(A14="","",IF(Itens!G14="",0,Itens!G14))> | N14=<fórmula: =IF(L14="","",ROUND(L14*(1+M14),2))> | O14=<fórmula: =IF(OR(A14="",Itens!H14=""),"",Itens!H14)> | P14=<fórmula: =IF(OR(N14="",D14=""),"",IF(O14="",N14,MIN(N14,O14))*D14)> | Q14=<fórmula: =IF(A14="","",TRIM(IF(E14<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A14,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A14,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J14<>"",J14>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K14="","Escolher o método na aba Itens. ","")&IF(AND(O14<>"",N14<>"",N14>O14),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A15=<fórmula: =IF(Itens!A15="","",Itens!A15)> | B15=<fórmula: =IF(A15="","",Itens!B15)> | C15=<fórmula: =IF(A15="","",Itens!D15)> | D15=<fórmula: =IF(A15="","",Itens!E15)> | E15=<fórmula: =IF(A15="","",COUNTIFS(Coleta!$A$2:$A$301,A15,Coleta!$H$2:$H$301,"Válido"))> | F15=<fórmula: =IF(OR(A15="",E15=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A15,Coleta!$H$2:$H$301,"Válido"))> | G15=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8befef0> | H15=<fórmula: =IF(OR(A15="",E15=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A15,Coleta!$H$2:$H$301,"Válido"))> | I15=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8beff50> | J15=<fórmula: =IF(OR(A15="",E15<2),"",I15/F15)> | K15=<fórmula: =IF(A15="","",Itens!F15)> | L15=<fórmula: =IF(OR(A15="",E15=0,K15=""),"",IF(K15="Média",F15,IF(K15="Mediana",G15,H15)))> | M15=<fórmula: =IF(A15="","",IF(Itens!G15="",0,Itens!G15))> | N15=<fórmula: =IF(L15="","",ROUND(L15*(1+M15),2))> | O15=<fórmula: =IF(OR(A15="",Itens!H15=""),"",Itens!H15)> | P15=<fórmula: =IF(OR(N15="",D15=""),"",IF(O15="",N15,MIN(N15,O15))*D15)> | Q15=<fórmula: =IF(A15="","",TRIM(IF(E15<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A15,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A15,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J15<>"",J15>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K15="","Escolher o método na aba Itens. ","")&IF(AND(O15<>"",N15<>"",N15>O15),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A16=<fórmula: =IF(Itens!A16="","",Itens!A16)> | B16=<fórmula: =IF(A16="","",Itens!B16)> | C16=<fórmula: =IF(A16="","",Itens!D16)> | D16=<fórmula: =IF(A16="","",Itens!E16)> | E16=<fórmula: =IF(A16="","",COUNTIFS(Coleta!$A$2:$A$301,A16,Coleta!$H$2:$H$301,"Válido"))> | F16=<fórmula: =IF(OR(A16="",E16=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A16,Coleta!$H$2:$H$301,"Válido"))> | G16=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8befad0> | H16=<fórmula: =IF(OR(A16="",E16=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A16,Coleta!$H$2:$H$301,"Válido"))> | I16=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8befa70> | J16=<fórmula: =IF(OR(A16="",E16<2),"",I16/F16)> | K16=<fórmula: =IF(A16="","",Itens!F16)> | L16=<fórmula: =IF(OR(A16="",E16=0,K16=""),"",IF(K16="Média",F16,IF(K16="Mediana",G16,H16)))> | M16=<fórmula: =IF(A16="","",IF(Itens!G16="",0,Itens!G16))> | N16=<fórmula: =IF(L16="","",ROUND(L16*(1+M16),2))> | O16=<fórmula: =IF(OR(A16="",Itens!H16=""),"",Itens!H16)> | P16=<fórmula: =IF(OR(N16="",D16=""),"",IF(O16="",N16,MIN(N16,O16))*D16)> | Q16=<fórmula: =IF(A16="","",TRIM(IF(E16<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A16,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A16,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J16<>"",J16>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K16="","Escolher o método na aba Itens. ","")&IF(AND(O16<>"",N16<>"",N16>O16),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A17=<fórmula: =IF(Itens!A17="","",Itens!A17)> | B17=<fórmula: =IF(A17="","",Itens!B17)> | C17=<fórmula: =IF(A17="","",Itens!D17)> | D17=<fórmula: =IF(A17="","",Itens!E17)> | E17=<fórmula: =IF(A17="","",COUNTIFS(Coleta!$A$2:$A$301,A17,Coleta!$H$2:$H$301,"Válido"))> | F17=<fórmula: =IF(OR(A17="",E17=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A17,Coleta!$H$2:$H$301,"Válido"))> | G17=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8bef9b0> | H17=<fórmula: =IF(OR(A17="",E17=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A17,Coleta!$H$2:$H$301,"Válido"))> | I17=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8befa10> | J17=<fórmula: =IF(OR(A17="",E17<2),"",I17/F17)> | K17=<fórmula: =IF(A17="","",Itens!F17)> | L17=<fórmula: =IF(OR(A17="",E17=0,K17=""),"",IF(K17="Média",F17,IF(K17="Mediana",G17,H17)))> | M17=<fórmula: =IF(A17="","",IF(Itens!G17="",0,Itens!G17))> | N17=<fórmula: =IF(L17="","",ROUND(L17*(1+M17),2))> | O17=<fórmula: =IF(OR(A17="",Itens!H17=""),"",Itens!H17)> | P17=<fórmula: =IF(OR(N17="",D17=""),"",IF(O17="",N17,MIN(N17,O17))*D17)> | Q17=<fórmula: =IF(A17="","",TRIM(IF(E17<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A17,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A17,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J17<>"",J17>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K17="","Escolher o método na aba Itens. ","")&IF(AND(O17<>"",N17<>"",N17>O17),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A18=<fórmula: =IF(Itens!A18="","",Itens!A18)> | B18=<fórmula: =IF(A18="","",Itens!B18)> | C18=<fórmula: =IF(A18="","",Itens!D18)> | D18=<fórmula: =IF(A18="","",Itens!E18)> | E18=<fórmula: =IF(A18="","",COUNTIFS(Coleta!$A$2:$A$301,A18,Coleta!$H$2:$H$301,"Válido"))> | F18=<fórmula: =IF(OR(A18="",E18=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A18,Coleta!$H$2:$H$301,"Válido"))> | G18=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8befc50> | H18=<fórmula: =IF(OR(A18="",E18=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A18,Coleta!$H$2:$H$301,"Válido"))> | I18=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8befbf0> | J18=<fórmula: =IF(OR(A18="",E18<2),"",I18/F18)> | K18=<fórmula: =IF(A18="","",Itens!F18)> | L18=<fórmula: =IF(OR(A18="",E18=0,K18=""),"",IF(K18="Média",F18,IF(K18="Mediana",G18,H18)))> | M18=<fórmula: =IF(A18="","",IF(Itens!G18="",0,Itens!G18))> | N18=<fórmula: =IF(L18="","",ROUND(L18*(1+M18),2))> | O18=<fórmula: =IF(OR(A18="",Itens!H18=""),"",Itens!H18)> | P18=<fórmula: =IF(OR(N18="",D18=""),"",IF(O18="",N18,MIN(N18,O18))*D18)> | Q18=<fórmula: =IF(A18="","",TRIM(IF(E18<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A18,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A18,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J18<>"",J18>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K18="","Escolher o método na aba Itens. ","")&IF(AND(O18<>"",N18<>"",N18>O18),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A19=<fórmula: =IF(Itens!A19="","",Itens!A19)> | B19=<fórmula: =IF(A19="","",Itens!B19)> | C19=<fórmula: =IF(A19="","",Itens!D19)> | D19=<fórmula: =IF(A19="","",Itens!E19)> | E19=<fórmula: =IF(A19="","",COUNTIFS(Coleta!$A$2:$A$301,A19,Coleta!$H$2:$H$301,"Válido"))> | F19=<fórmula: =IF(OR(A19="",E19=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A19,Coleta!$H$2:$H$301,"Válido"))> | G19=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8befd10> | H19=<fórmula: =IF(OR(A19="",E19=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A19,Coleta!$H$2:$H$301,"Válido"))> | I19=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8befcb0> | J19=<fórmula: =IF(OR(A19="",E19<2),"",I19/F19)> | K19=<fórmula: =IF(A19="","",Itens!F19)> | L19=<fórmula: =IF(OR(A19="",E19=0,K19=""),"",IF(K19="Média",F19,IF(K19="Mediana",G19,H19)))> | M19=<fórmula: =IF(A19="","",IF(Itens!G19="",0,Itens!G19))> | N19=<fórmula: =IF(L19="","",ROUND(L19*(1+M19),2))> | O19=<fórmula: =IF(OR(A19="",Itens!H19=""),"",Itens!H19)> | P19=<fórmula: =IF(OR(N19="",D19=""),"",IF(O19="",N19,MIN(N19,O19))*D19)> | Q19=<fórmula: =IF(A19="","",TRIM(IF(E19<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A19,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A19,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J19<>"",J19>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K19="","Escolher o método na aba Itens. ","")&IF(AND(O19<>"",N19<>"",N19>O19),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A20=<fórmula: =IF(Itens!A20="","",Itens!A20)> | B20=<fórmula: =IF(A20="","",Itens!B20)> | C20=<fórmula: =IF(A20="","",Itens!D20)> | D20=<fórmula: =IF(A20="","",Itens!E20)> | E20=<fórmula: =IF(A20="","",COUNTIFS(Coleta!$A$2:$A$301,A20,Coleta!$H$2:$H$301,"Válido"))> | F20=<fórmula: =IF(OR(A20="",E20=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A20,Coleta!$H$2:$H$301,"Válido"))> | G20=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84ac650> | H20=<fórmula: =IF(OR(A20="",E20=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A20,Coleta!$H$2:$H$301,"Válido"))> | I20=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84ac6b0> | J20=<fórmula: =IF(OR(A20="",E20<2),"",I20/F20)> | K20=<fórmula: =IF(A20="","",Itens!F20)> | L20=<fórmula: =IF(OR(A20="",E20=0,K20=""),"",IF(K20="Média",F20,IF(K20="Mediana",G20,H20)))> | M20=<fórmula: =IF(A20="","",IF(Itens!G20="",0,Itens!G20))> | N20=<fórmula: =IF(L20="","",ROUND(L20*(1+M20),2))> | O20=<fórmula: =IF(OR(A20="",Itens!H20=""),"",Itens!H20)> | P20=<fórmula: =IF(OR(N20="",D20=""),"",IF(O20="",N20,MIN(N20,O20))*D20)> | Q20=<fórmula: =IF(A20="","",TRIM(IF(E20<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A20,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A20,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J20<>"",J20>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K20="","Escolher o método na aba Itens. ","")&IF(AND(O20<>"",N20<>"",N20>O20),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A21=<fórmula: =IF(Itens!A21="","",Itens!A21)> | B21=<fórmula: =IF(A21="","",Itens!B21)> | C21=<fórmula: =IF(A21="","",Itens!D21)> | D21=<fórmula: =IF(A21="","",Itens!E21)> | E21=<fórmula: =IF(A21="","",COUNTIFS(Coleta!$A$2:$A$301,A21,Coleta!$H$2:$H$301,"Válido"))> | F21=<fórmula: =IF(OR(A21="",E21=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A21,Coleta!$H$2:$H$301,"Válido"))> | G21=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8befe90> | H21=<fórmula: =IF(OR(A21="",E21=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A21,Coleta!$H$2:$H$301,"Válido"))> | I21=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8befe30> | J21=<fórmula: =IF(OR(A21="",E21<2),"",I21/F21)> | K21=<fórmula: =IF(A21="","",Itens!F21)> | L21=<fórmula: =IF(OR(A21="",E21=0,K21=""),"",IF(K21="Média",F21,IF(K21="Mediana",G21,H21)))> | M21=<fórmula: =IF(A21="","",IF(Itens!G21="",0,Itens!G21))> | N21=<fórmula: =IF(L21="","",ROUND(L21*(1+M21),2))> | O21=<fórmula: =IF(OR(A21="",Itens!H21=""),"",Itens!H21)> | P21=<fórmula: =IF(OR(N21="",D21=""),"",IF(O21="",N21,MIN(N21,O21))*D21)> | Q21=<fórmula: =IF(A21="","",TRIM(IF(E21<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A21,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A21,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J21<>"",J21>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K21="","Escolher o método na aba Itens. ","")&IF(AND(O21<>"",N21<>"",N21>O21),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A22=<fórmula: =IF(Itens!A22="","",Itens!A22)> | B22=<fórmula: =IF(A22="","",Itens!B22)> | C22=<fórmula: =IF(A22="","",Itens!D22)> | D22=<fórmula: =IF(A22="","",Itens!E22)> | E22=<fórmula: =IF(A22="","",COUNTIFS(Coleta!$A$2:$A$301,A22,Coleta!$H$2:$H$301,"Válido"))> | F22=<fórmula: =IF(OR(A22="",E22=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A22,Coleta!$H$2:$H$301,"Válido"))> | G22=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8befd70> | H22=<fórmula: =IF(OR(A22="",E22=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A22,Coleta!$H$2:$H$301,"Válido"))> | I22=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c8befdd0> | J22=<fórmula: =IF(OR(A22="",E22<2),"",I22/F22)> | K22=<fórmula: =IF(A22="","",Itens!F22)> | L22=<fórmula: =IF(OR(A22="",E22=0,K22=""),"",IF(K22="Média",F22,IF(K22="Mediana",G22,H22)))> | M22=<fórmula: =IF(A22="","",IF(Itens!G22="",0,Itens!G22))> | N22=<fórmula: =IF(L22="","",ROUND(L22*(1+M22),2))> | O22=<fórmula: =IF(OR(A22="",Itens!H22=""),"",Itens!H22)> | P22=<fórmula: =IF(OR(N22="",D22=""),"",IF(O22="",N22,MIN(N22,O22))*D22)> | Q22=<fórmula: =IF(A22="","",TRIM(IF(E22<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A22,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A22,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J22<>"",J22>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K22="","Escolher o método na aba Itens. ","")&IF(AND(O22<>"",N22<>"",N22>O22),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A23=<fórmula: =IF(Itens!A23="","",Itens!A23)> | B23=<fórmula: =IF(A23="","",Itens!B23)> | C23=<fórmula: =IF(A23="","",Itens!D23)> | D23=<fórmula: =IF(A23="","",Itens!E23)> | E23=<fórmula: =IF(A23="","",COUNTIFS(Coleta!$A$2:$A$301,A23,Coleta!$H$2:$H$301,"Válido"))> | F23=<fórmula: =IF(OR(A23="",E23=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A23,Coleta!$H$2:$H$301,"Válido"))> | G23=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84ac410> | H23=<fórmula: =IF(OR(A23="",E23=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A23,Coleta!$H$2:$H$301,"Válido"))> | I23=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84ac3b0> | J23=<fórmula: =IF(OR(A23="",E23<2),"",I23/F23)> | K23=<fórmula: =IF(A23="","",Itens!F23)> | L23=<fórmula: =IF(OR(A23="",E23=0,K23=""),"",IF(K23="Média",F23,IF(K23="Mediana",G23,H23)))> | M23=<fórmula: =IF(A23="","",IF(Itens!G23="",0,Itens!G23))> | N23=<fórmula: =IF(L23="","",ROUND(L23*(1+M23),2))> | O23=<fórmula: =IF(OR(A23="",Itens!H23=""),"",Itens!H23)> | P23=<fórmula: =IF(OR(N23="",D23=""),"",IF(O23="",N23,MIN(N23,O23))*D23)> | Q23=<fórmula: =IF(A23="","",TRIM(IF(E23<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A23,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A23,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J23<>"",J23>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K23="","Escolher o método na aba Itens. ","")&IF(AND(O23<>"",N23<>"",N23>O23),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A24=<fórmula: =IF(Itens!A24="","",Itens!A24)> | B24=<fórmula: =IF(A24="","",Itens!B24)> | C24=<fórmula: =IF(A24="","",Itens!D24)> | D24=<fórmula: =IF(A24="","",Itens!E24)> | E24=<fórmula: =IF(A24="","",COUNTIFS(Coleta!$A$2:$A$301,A24,Coleta!$H$2:$H$301,"Válido"))> | F24=<fórmula: =IF(OR(A24="",E24=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A24,Coleta!$H$2:$H$301,"Válido"))> | G24=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84ac4d0> | H24=<fórmula: =IF(OR(A24="",E24=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A24,Coleta!$H$2:$H$301,"Válido"))> | I24=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84ac470> | J24=<fórmula: =IF(OR(A24="",E24<2),"",I24/F24)> | K24=<fórmula: =IF(A24="","",Itens!F24)> | L24=<fórmula: =IF(OR(A24="",E24=0,K24=""),"",IF(K24="Média",F24,IF(K24="Mediana",G24,H24)))> | M24=<fórmula: =IF(A24="","",IF(Itens!G24="",0,Itens!G24))> | N24=<fórmula: =IF(L24="","",ROUND(L24*(1+M24),2))> | O24=<fórmula: =IF(OR(A24="",Itens!H24=""),"",Itens!H24)> | P24=<fórmula: =IF(OR(N24="",D24=""),"",IF(O24="",N24,MIN(N24,O24))*D24)> | Q24=<fórmula: =IF(A24="","",TRIM(IF(E24<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A24,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A24,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J24<>"",J24>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K24="","Escolher o método na aba Itens. ","")&IF(AND(O24<>"",N24<>"",N24>O24),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A25=<fórmula: =IF(Itens!A25="","",Itens!A25)> | B25=<fórmula: =IF(A25="","",Itens!B25)> | C25=<fórmula: =IF(A25="","",Itens!D25)> | D25=<fórmula: =IF(A25="","",Itens!E25)> | E25=<fórmula: =IF(A25="","",COUNTIFS(Coleta!$A$2:$A$301,A25,Coleta!$H$2:$H$301,"Válido"))> | F25=<fórmula: =IF(OR(A25="",E25=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A25,Coleta!$H$2:$H$301,"Válido"))> | G25=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84acd70> | H25=<fórmula: =IF(OR(A25="",E25=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A25,Coleta!$H$2:$H$301,"Válido"))> | I25=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84acdd0> | J25=<fórmula: =IF(OR(A25="",E25<2),"",I25/F25)> | K25=<fórmula: =IF(A25="","",Itens!F25)> | L25=<fórmula: =IF(OR(A25="",E25=0,K25=""),"",IF(K25="Média",F25,IF(K25="Mediana",G25,H25)))> | M25=<fórmula: =IF(A25="","",IF(Itens!G25="",0,Itens!G25))> | N25=<fórmula: =IF(L25="","",ROUND(L25*(1+M25),2))> | O25=<fórmula: =IF(OR(A25="",Itens!H25=""),"",Itens!H25)> | P25=<fórmula: =IF(OR(N25="",D25=""),"",IF(O25="",N25,MIN(N25,O25))*D25)> | Q25=<fórmula: =IF(A25="","",TRIM(IF(E25<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A25,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A25,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J25<>"",J25>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K25="","Escolher o método na aba Itens. ","")&IF(AND(O25<>"",N25<>"",N25>O25),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A26=<fórmula: =IF(Itens!A26="","",Itens!A26)> | B26=<fórmula: =IF(A26="","",Itens!B26)> | C26=<fórmula: =IF(A26="","",Itens!D26)> | D26=<fórmula: =IF(A26="","",Itens!E26)> | E26=<fórmula: =IF(A26="","",COUNTIFS(Coleta!$A$2:$A$301,A26,Coleta!$H$2:$H$301,"Válido"))> | F26=<fórmula: =IF(OR(A26="",E26=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A26,Coleta!$H$2:$H$301,"Válido"))> | G26=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84ac590> | H26=<fórmula: =IF(OR(A26="",E26=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A26,Coleta!$H$2:$H$301,"Válido"))> | I26=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84ac5f0> | J26=<fórmula: =IF(OR(A26="",E26<2),"",I26/F26)> | K26=<fórmula: =IF(A26="","",Itens!F26)> | L26=<fórmula: =IF(OR(A26="",E26=0,K26=""),"",IF(K26="Média",F26,IF(K26="Mediana",G26,H26)))> | M26=<fórmula: =IF(A26="","",IF(Itens!G26="",0,Itens!G26))> | N26=<fórmula: =IF(L26="","",ROUND(L26*(1+M26),2))> | O26=<fórmula: =IF(OR(A26="",Itens!H26=""),"",Itens!H26)> | P26=<fórmula: =IF(OR(N26="",D26=""),"",IF(O26="",N26,MIN(N26,O26))*D26)> | Q26=<fórmula: =IF(A26="","",TRIM(IF(E26<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A26,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A26,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J26<>"",J26>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K26="","Escolher o método na aba Itens. ","")&IF(AND(O26<>"",N26<>"",N26>O26),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A27=<fórmula: =IF(Itens!A27="","",Itens!A27)> | B27=<fórmula: =IF(A27="","",Itens!B27)> | C27=<fórmula: =IF(A27="","",Itens!D27)> | D27=<fórmula: =IF(A27="","",Itens!E27)> | E27=<fórmula: =IF(A27="","",COUNTIFS(Coleta!$A$2:$A$301,A27,Coleta!$H$2:$H$301,"Válido"))> | F27=<fórmula: =IF(OR(A27="",E27=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A27,Coleta!$H$2:$H$301,"Válido"))> | G27=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84acad0> | H27=<fórmula: =IF(OR(A27="",E27=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A27,Coleta!$H$2:$H$301,"Válido"))> | I27=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84ac530> | J27=<fórmula: =IF(OR(A27="",E27<2),"",I27/F27)> | K27=<fórmula: =IF(A27="","",Itens!F27)> | L27=<fórmula: =IF(OR(A27="",E27=0,K27=""),"",IF(K27="Média",F27,IF(K27="Mediana",G27,H27)))> | M27=<fórmula: =IF(A27="","",IF(Itens!G27="",0,Itens!G27))> | N27=<fórmula: =IF(L27="","",ROUND(L27*(1+M27),2))> | O27=<fórmula: =IF(OR(A27="",Itens!H27=""),"",Itens!H27)> | P27=<fórmula: =IF(OR(N27="",D27=""),"",IF(O27="",N27,MIN(N27,O27))*D27)> | Q27=<fórmula: =IF(A27="","",TRIM(IF(E27<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A27,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A27,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J27<>"",J27>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K27="","Escolher o método na aba Itens. ","")&IF(AND(O27<>"",N27<>"",N27>O27),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A28=<fórmula: =IF(Itens!A28="","",Itens!A28)> | B28=<fórmula: =IF(A28="","",Itens!B28)> | C28=<fórmula: =IF(A28="","",Itens!D28)> | D28=<fórmula: =IF(A28="","",Itens!E28)> | E28=<fórmula: =IF(A28="","",COUNTIFS(Coleta!$A$2:$A$301,A28,Coleta!$H$2:$H$301,"Válido"))> | F28=<fórmula: =IF(OR(A28="",E28=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A28,Coleta!$H$2:$H$301,"Válido"))> | G28=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84acb90> | H28=<fórmula: =IF(OR(A28="",E28=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A28,Coleta!$H$2:$H$301,"Válido"))> | I28=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84acb30> | J28=<fórmula: =IF(OR(A28="",E28<2),"",I28/F28)> | K28=<fórmula: =IF(A28="","",Itens!F28)> | L28=<fórmula: =IF(OR(A28="",E28=0,K28=""),"",IF(K28="Média",F28,IF(K28="Mediana",G28,H28)))> | M28=<fórmula: =IF(A28="","",IF(Itens!G28="",0,Itens!G28))> | N28=<fórmula: =IF(L28="","",ROUND(L28*(1+M28),2))> | O28=<fórmula: =IF(OR(A28="",Itens!H28=""),"",Itens!H28)> | P28=<fórmula: =IF(OR(N28="",D28=""),"",IF(O28="",N28,MIN(N28,O28))*D28)> | Q28=<fórmula: =IF(A28="","",TRIM(IF(E28<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A28,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A28,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J28<>"",J28>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K28="","Escolher o método na aba Itens. ","")&IF(AND(O28<>"",N28<>"",N28>O28),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A29=<fórmula: =IF(Itens!A29="","",Itens!A29)> | B29=<fórmula: =IF(A29="","",Itens!B29)> | C29=<fórmula: =IF(A29="","",Itens!D29)> | D29=<fórmula: =IF(A29="","",Itens!E29)> | E29=<fórmula: =IF(A29="","",COUNTIFS(Coleta!$A$2:$A$301,A29,Coleta!$H$2:$H$301,"Válido"))> | F29=<fórmula: =IF(OR(A29="",E29=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A29,Coleta!$H$2:$H$301,"Válido"))> | G29=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84acc50> | H29=<fórmula: =IF(OR(A29="",E29=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A29,Coleta!$H$2:$H$301,"Válido"))> | I29=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84acbf0> | J29=<fórmula: =IF(OR(A29="",E29<2),"",I29/F29)> | K29=<fórmula: =IF(A29="","",Itens!F29)> | L29=<fórmula: =IF(OR(A29="",E29=0,K29=""),"",IF(K29="Média",F29,IF(K29="Mediana",G29,H29)))> | M29=<fórmula: =IF(A29="","",IF(Itens!G29="",0,Itens!G29))> | N29=<fórmula: =IF(L29="","",ROUND(L29*(1+M29),2))> | O29=<fórmula: =IF(OR(A29="",Itens!H29=""),"",Itens!H29)> | P29=<fórmula: =IF(OR(N29="",D29=""),"",IF(O29="",N29,MIN(N29,O29))*D29)> | Q29=<fórmula: =IF(A29="","",TRIM(IF(E29<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A29,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A29,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J29<>"",J29>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K29="","Escolher o método na aba Itens. ","")&IF(AND(O29<>"",N29<>"",N29>O29),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A30=<fórmula: =IF(Itens!A30="","",Itens!A30)> | B30=<fórmula: =IF(A30="","",Itens!B30)> | C30=<fórmula: =IF(A30="","",Itens!D30)> | D30=<fórmula: =IF(A30="","",Itens!E30)> | E30=<fórmula: =IF(A30="","",COUNTIFS(Coleta!$A$2:$A$301,A30,Coleta!$H$2:$H$301,"Válido"))> | F30=<fórmula: =IF(OR(A30="",E30=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A30,Coleta!$H$2:$H$301,"Válido"))> | G30=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84ad4f0> | H30=<fórmula: =IF(OR(A30="",E30=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A30,Coleta!$H$2:$H$301,"Válido"))> | I30=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84ad550> | J30=<fórmula: =IF(OR(A30="",E30<2),"",I30/F30)> | K30=<fórmula: =IF(A30="","",Itens!F30)> | L30=<fórmula: =IF(OR(A30="",E30=0,K30=""),"",IF(K30="Média",F30,IF(K30="Mediana",G30,H30)))> | M30=<fórmula: =IF(A30="","",IF(Itens!G30="",0,Itens!G30))> | N30=<fórmula: =IF(L30="","",ROUND(L30*(1+M30),2))> | O30=<fórmula: =IF(OR(A30="",Itens!H30=""),"",Itens!H30)> | P30=<fórmula: =IF(OR(N30="",D30=""),"",IF(O30="",N30,MIN(N30,O30))*D30)> | Q30=<fórmula: =IF(A30="","",TRIM(IF(E30<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A30,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A30,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J30<>"",J30>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K30="","Escolher o método na aba Itens. ","")&IF(AND(O30<>"",N30<>"",N30>O30),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- A31=<fórmula: =IF(Itens!A31="","",Itens!A31)> | B31=<fórmula: =IF(A31="","",Itens!B31)> | C31=<fórmula: =IF(A31="","",Itens!D31)> | D31=<fórmula: =IF(A31="","",Itens!E31)> | E31=<fórmula: =IF(A31="","",COUNTIFS(Coleta!$A$2:$A$301,A31,Coleta!$H$2:$H$301,"Válido"))> | F31=<fórmula: =IF(OR(A31="",E31=0),"",AVERAGEIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A31,Coleta!$H$2:$H$301,"Válido"))> | G31=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84accb0> | H31=<fórmula: =IF(OR(A31="",E31=0),"",_xlfn.MINIFS(Coleta!$G$2:$G$301,Coleta!$A$2:$A$301,A31,Coleta!$H$2:$H$301,"Válido"))> | I31=<openpyxl.worksheet.formula.ArrayFormula object at 0x7fe3c84acd10> | J31=<fórmula: =IF(OR(A31="",E31<2),"",I31/F31)> | K31=<fórmula: =IF(A31="","",Itens!F31)> | L31=<fórmula: =IF(OR(A31="",E31=0,K31=""),"",IF(K31="Média",F31,IF(K31="Mediana",G31,H31)))> | M31=<fórmula: =IF(A31="","",IF(Itens!G31="",0,Itens!G31))> | N31=<fórmula: =IF(L31="","",ROUND(L31*(1+M31),2))> | O31=<fórmula: =IF(OR(A31="",Itens!H31=""),"",Itens!H31)> | P31=<fórmula: =IF(OR(N31="",D31=""),"",IF(O31="",N31,MIN(N31,O31))*D31)> | Q31=<fórmula: =IF(A31="","",TRIM(IF(E31<3,"Menos de 3 preços válidos: justificar e aprovar (art. 6º, § 5º). ","")&IF(COUNTIFS(Coleta!$A$2:$A$301,A31,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"I")+COUNTIFS(Coleta!$A$2:$A$301,A31,Coleta!$H$2:$H$301,"Válido",Coleta!$B$2:$B$301,"II")=0,"Sem preço dos parâmetros I ou II: justificar (art. 5º, § 1º). ","")&IF(AND(J31<>"",J31>Identificação!$B$9),"CV acima do limite: análise crítica (art. 6º, § 4º). ","")&IF(K31="","Escolher o método na aba Itens. ","")&IF(AND(O31<>"",N31<>"",N31>O31),"Estimado acima do PMC-TIC: usado o PMC-TIC (IN 94, art. 20, § 3º). ","")))>
+- O33="TOTAL" | P33=<fórmula: =SUM(P2:P31)>
+
+## Aba: Justificativas
+
+- A1="Justificativas da pesquisa de preços"
+- A3="Caracterização das fontes consultadas (art. 3º, III)"
+- A4="Método estatístico aplicado e justificativa (art. 3º, V e VI; art. 6º)"
+- A5="Critérios para desconsiderar valores inexequíveis, inconsistentes ou excessivamente elevados (art. 6º, § 3º)"
+- A6="Análise crítica dos preços com grande variação (art. 6º, § 4º)"
+- A7="Justificativa da ausência dos parâmetros I e II, se for o caso (art. 5º, § 1º)"
+- A8="Justificativa da escolha dos fornecedores na pesquisa direta (art. 3º, VIII)"
+- A9="Uso de propostas de fornecedores como única fonte, se for o caso (IN 94, art. 20, § 1º)"
+- A10="Itens com menos de 3 preços ou outro método: justificativa e aprovação (art. 6º, §§ 1º e 5º)"
+- A11="Orçamentos fora do prazo e índice de atualização usado (art. 5º, § 3º)"
+- A12="Memória de cálculo e documentos de suporte (art. 3º, VII)"

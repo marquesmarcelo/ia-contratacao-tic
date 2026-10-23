@@ -1,0 +1,529 @@
+---
+titulo: "Template - Planilha TCO e Análise Comparativa de Custos - Geral (SGD)"
+tipo: modelo
+url_origem: modelos-oficiais/03a-TCO-Geral-template.xlsx (anexado pelo usuário)
+baixado_em: 2026-10-23
+situacao: vigente
+---
+
+# modelos-oficiais/03a-TCO-Geral-template.xlsx
+
+Células com `<fórmula: ...>` são calculadas: não sobrescrever. Demais células numéricas ou vazias ao lado de rótulos são de entrada.
+
+## Aba: Sobre
+
+- B3="Template Planilha de Custo Total de Propriedade e Análise Comparativa de Custos para contratações de Softwares"
+- B5="Apresentação"
+- C6="Esta planilha visa auxiliar à equipe de planejamento da contratação em eleborar o levantamento de custos totais de todas as soluções consideradas viáveis e realizar a adequada análise comprativa de custos entre as diferentes soluções durante a elaboração do Estudo Técnico Preliminar."
+- B8="Histórico de Revisão"
+- C9="VERSÃO" | G9="DATA" | K9="DESCRIÇÃO" | T9="RESPONSÁVEL"
+- C10="1.0" | G10=2025-05-05 00:00:00 | K10="Criação" | T10="Cícero Padilha de Almeida,
+Cristiano Jorge Poubel de Castro, 
+Lucas Marcelo Ribeiro de Sousa Mota"
+- C11="1.1" | G11=2025-08-21 00:00:00 | K11="Inclusão de Cálculo do Valor Líquido Presente na aba "Análise Comparativa de Custos"" | T11="Cícero Padilha de Almeida,
+Cristiano Jorge Poubel de Castro, 
+Lucas Marcelo Ribeiro de Sousa Mota,
+Luis Geraldo Seixas."
+
+## Aba: Orientações Gerais
+
+- B3="Orientações para preenchimento da planilha de Custo Total de Propriedade e Análise Comparativa de Custos"
+- B5="Definições Fundamentais" | O5="Como está estruturada essa planilha"
+- C6="Custos Totais de Propriedade (Total Cost Ownership - TCO): Todos os custos diretos e indiretos inerentes ao ciclo de vida dos bens e serviços de cada solução, a exemplo dos valores de aquisição dos ativos, insumos, garantia técnica estendida, manutenção, migração, treinamento, alteração de ambiente, contratação de serviços adicionais para viabilização da operação, transição e descarte." | P6="As células marcadas em amarelo devem ser preenchidas pela equipe de planejamento da contratação, observando-se as informações obrigatórias e as opcionais."
+- B9="Como utilizar essa planilha" | P9="As células marcadas em cinza indicam que são resultados de operações ou contém fórmulas."
+- C10="A equipe de planejamento da cotratação possui total liberdade em alterar, modificar e adequadar esse planilha de modo a melhor representar as diferentes soluções e adequá-la aos diferentes níveis de complexidades inerentes a cada objeto de contratação"
+- P11="As marcações são apenas sugestões de formatação, sendo possível qualquer alteração ou modificação caso seja necessário."
+- C13="As abas TCO Solução "n" irão apresentar todo o detalhamentos de custos relacionados ao ciclo de vida da solução proposta. Nesta planilha, foram criadas 5 abas de soluções. A quantidade de soluções varia de objeto a objeto. Caso a equipe de planejameno necessite incluir mais soluções basta clonar a Aba e ajustar as fómulas na aba Análise Comparativas de Custos. Caso a equipe utilize um número menor de soluções basta remover as abas não utilizadas realizando os ajustes na aba Analise Comparativa de Custos."
+- O14="O TCO é o mesmo que a pesquisa de preços ?"
+- P15="O Custo Total de Propriedade não se confunde com a precificação da solução. O TCO é uma técnica de análise de custos que considera os custos inerentes ao ciclo de vida dos bens e serviços da solução, incluindo custos direitos e indiretos, a exemplo dos valores de aquisição dos ativos, insumos, garantia, manutenção, licenças de software, serviços de instalação, configuração, suporte, treinamento, apoio para a colocação da solução em produção, execução de rotinas de produção pelo órgão ou pela contratada, bem como outros consumíveis.
+
+A precificação da Solução representa apenas um dos custos a serem considerados na análise de TCO. Portanto não se deve confundir o estágio de precificação da contratação que deve seguir a  Instrução Normativa Seges/MGI n° 65, de 2021, com o processo de levantamento dos custos totais de propriedade que são realizados durante a elaboração do Estudo Técnico Preliminar.
+
+Para mais detalhes sobre como construir uma análise de TCO, consulte o Instrumento de Padronização de Procedimentos de Contratações de Soluções de Tecnologia da Informação  (IPPC-TIC) disponível no endereço eletrônico a seguir: https://www.gov.br/agu/pt-br/comunicacao/noticias/agu-lanca-guia-para-facilitar-contratacoes-na-area-de-tecnologia-da-informacao/Instrumento_de_Padronizao_AGU_TIC_Digital_reduzido.pdf/view"
+- B18="Posso mudar os elementos de custos listados na aba TCO Solução "n" ?"
+- C19="Sim, cada solução possui diferenças em sua cadeia de custos ao longo do cilo de vida dessa solução. O importante é mapear e documentar a estrutura de custos com a maior fidedignidade possível. Os modelos de Contratação publicados pela SGD apresentam sugestões de elementos de custos mínimos a serem considerados por tipo de solução, a exemplo da Portaria SGD/MGi n° 2.715, de 2023 que estabele o modelo de contratação de estações de trabalho."
+- O26="Por que devo fazer uma análise de Custos Totais de Propridade ?"
+- P27="O Estudo Técnico Preliminar é um artefato de apoio à tomada de decisão em relação à solução mais adequada, eficiente, econômica e efetiva para atender a determinadas necessidades da organização. Nesse sentido, ao considerar todos os custos relacionados ao ciclo de vida da solução, a análise TCO ajuda a identificar a solução mais econômica e eficiente durante toda sua vida útil, evitando surpresas financeiras futuras e mitigando riscos."
+- P30="A previsão legal para a utilização da análise de Custos Totais de Propriedade (TCO) consta do art. 6° inciso XX da Lei nº 14.133, de 2021, e incisos III e IV do art. 11 da Instrução Normativa SGD/MGI nº 94, de 2023."
+
+## Aba: TCO Solucao 1
+
+- B2="CUSTO TOTAL DE PROPRIEDADE"
+- G5="SOLUÇÃO" | K5=<fórmula: =F13>
+- B8="1. Identificação da Solução"
+- C10="Descrição da Solução:" | F10="<descrição detalhada da Solução"
+- C13="Identificação Abreviada:" | F13="Solução A"
+- B18="2. Custos estimados de Aquisição/Contratação"
+- C20="Descrição" | G20="Quantidade Estimada" | I20="Valor Unitário" | K20="Valor Total" | M20="Observações / Memória de Cálculo"
+- K21=<fórmula: =I21*G21>
+- K22=<fórmula: =I22*G22>
+- K23=<fórmula: =I23*G23>
+- K24=<fórmula: =I24*G24>
+- K25=<fórmula: =I25*G25>
+- K26=<fórmula: =I26*G26>
+- K27=<fórmula: =I27*G27>
+- K28=<fórmula: =I28*G28>
+- C29="Custo Estimado Total Aquisição:" | K29=<fórmula: =SUM(K21:L28)>
+- B32="3. Custos de Operação/Execução"
+- G34="Ano 1" | J34="Ano 2" | M34="Ano 3" | P34="Ano 4" | S34="Ano 5" | V34="Ano 6" | Y34="TOTAL"
+- C35="Descrição" | G35="Quantidade" | H35="Valor Unitário" | I35="Valor Total" | J35="Quantidade" | K35="Valor Unitário" | L35="Valor Total" | M35="Quantidade" | N35="Valor Unitário" | O35="Valor Total" | P35="Quantidade" | Q35="Valor Unitário" | R35="Valor Total" | S35="Quantidade" | T35="Valor Unitário" | U35="Valor Total" | V35="Quantidade" | W35="Valor Unitário" | X35="Valor Total"
+- I36=<fórmula: =H36*G36> | L36=<fórmula: =K36*J36> | O36=<fórmula: =N36*M36> | R36=<fórmula: =Q36*P36> | U36=<fórmula: =T36*S36> | X36=<fórmula: =W36*V36> | Y36=<fórmula: =SUM(X36,U36,R36,O36,L36,I36)>
+- I37=<fórmula: =H37*G37> | L37=<fórmula: =K37*J37> | O37=<fórmula: =N37*M37> | R37=<fórmula: =Q37*P37> | U37=<fórmula: =T37*S37> | X37=<fórmula: =W37*V37> | Y37=<fórmula: =SUM(X37,U37,R37,O37,L37,I37)>
+- I38=<fórmula: =H38*G38> | L38=<fórmula: =K38*J38> | O38=<fórmula: =N38*M38> | R38=<fórmula: =Q38*P38> | U38=<fórmula: =T38*S38> | X38=<fórmula: =W38*V38> | Y38=<fórmula: =SUM(X38,U38,R38,O38,L38,I38)>
+- I39=<fórmula: =H39*G39> | L39=<fórmula: =K39*J39> | O39=<fórmula: =N39*M39> | R39=<fórmula: =Q39*P39> | U39=<fórmula: =T39*S39> | X39=<fórmula: =W39*V39> | Y39=<fórmula: =SUM(X39,U39,R39,O39,L39,I39)>
+- I40=<fórmula: =H40*G40> | L40=<fórmula: =K40*J40> | O40=<fórmula: =N40*M40> | R40=<fórmula: =Q40*P40> | U40=<fórmula: =T40*S40> | X40=<fórmula: =W40*V40> | Y40=<fórmula: =SUM(X40,U40,R40,O40,L40,I40)>
+- I41=<fórmula: =H41*G41> | L41=<fórmula: =K41*J41> | O41=<fórmula: =N41*M41> | R41=<fórmula: =Q41*P41> | U41=<fórmula: =T41*S41> | X41=<fórmula: =W41*V41> | Y41=<fórmula: =SUM(X41,U41,R41,O41,L41,I41)>
+- I42=<fórmula: =H42*G42> | L42=<fórmula: =K42*J42> | O42=<fórmula: =N42*M42> | R42=<fórmula: =Q42*P42> | U42=<fórmula: =T42*S42> | X42=<fórmula: =W42*V42> | Y42=<fórmula: =SUM(X42,U42,R42,O42,L42,I42)>
+- I43=<fórmula: =H43*G43> | L43=<fórmula: =K43*J43> | O43=<fórmula: =N43*M43> | R43=<fórmula: =Q43*P43> | U43=<fórmula: =T43*S43> | X43=<fórmula: =W43*V43> | Y43=<fórmula: =SUM(X43,U43,R43,O43,L43,I43)>
+- I44=<fórmula: =H44*G44> | L44=<fórmula: =K44*J44> | O44=<fórmula: =N44*M44> | R44=<fórmula: =Q44*P44> | U44=<fórmula: =T44*S44> | X44=<fórmula: =W44*V44> | Y44=<fórmula: =SUM(X44,U44,R44,O44,L44,I44)>
+- C45="Custo Estimado Operação - Ano 1:" | I45=<fórmula: =SUM(I36:I44)> | J45="Custo Estimado Operação - Ano 2:" | L45=<fórmula: =SUM(L36:L44)> | M45="Custo Estimado Operação - Ano 2:" | O45=<fórmula: =SUM(O36:O44)> | P45="Custo Estimado Operação - Ano 3:" | R45=<fórmula: =SUM(R36:R44)> | S45="Custo Estimado Operação - Ano 5:" | U45=<fórmula: =SUM(U36:U44)> | V45="Custo Estimado Operação - Ano 6:" | X45=<fórmula: =SUM(X36:X44)>
+- C46="Custo Estimado Operação Total:" | Y46=<fórmula: =SUM(Y36:Y44)>
+- B49="4. Custos de Descarte/Transição"
+- C52="Descrição" | G52="Valor Total" | I52="Observações / Memória de Cálculo"
+- C61="Custo Estimado Total Descarte/Transição:" | G61=<fórmula: =SUM(G53:H60)>
+- B67="5. Custos Associados aos Riscos"
+- C70="Descrição" | G70="Valor Total" | I70="Observações / Memória de Cálculo"
+- C82="Custo Estimado Total Riscos:" | G82=<fórmula: =SUM(G71:H80)>
+- B87=<fórmula: ="ANÁLISE DE CUSTOS TOTAIS DE PROPRIEDADE -"& " "&F13>
+- B92="Descrição dos elementos de custos" | G92="Estimativa de TCO ao longo dos anos" | M92="CUSTO 
+TOTAL"
+- G93="ANO 1" | H93="ANO 2" | I93="ANO 3" | J93="ANO 4" | K93="ANO 5" | L93="ANO 6"
+- B94=<fórmula: =C21> | M94=<fórmula: =SUM(G94:L94)>
+- B95=<fórmula: =C22> | M95=<fórmula: =SUM(G95:L95)>
+- B96=<fórmula: =C23> | M96=<fórmula: =SUM(G96:L96)>
+- B97=<fórmula: =C24> | M97=<fórmula: =SUM(G97:L97)>
+- B98=<fórmula: =C25> | M98=<fórmula: =SUM(G98:L98)>
+- B99=<fórmula: =C26> | M99=<fórmula: =SUM(G99:L99)>
+- B100=<fórmula: =C27> | M100=<fórmula: =SUM(G100:L100)>
+- B101=<fórmula: =C28> | M101=<fórmula: =SUM(G101:L101)>
+- B102=<fórmula: =C36> | M102=<fórmula: =SUM(G102:L102)>
+- B103=<fórmula: =C37> | M103=<fórmula: =SUM(G103:L103)>
+- B104=<fórmula: =C38> | M104=<fórmula: =SUM(G104:L104)>
+- B105=<fórmula: =C39> | M105=<fórmula: =SUM(G105:L105)>
+- B106=<fórmula: =C40> | M106=<fórmula: =SUM(G106:L106)>
+- B107=<fórmula: =C41> | M107=<fórmula: =SUM(G107:L107)>
+- B108=<fórmula: =C42> | M108=<fórmula: =SUM(G108:L108)>
+- B109=<fórmula: =C43> | M109=<fórmula: =SUM(G109:L109)>
+- B110=<fórmula: =C44> | M110=<fórmula: =SUM(G110:L110)>
+- B111=<fórmula: =C53> | M111=<fórmula: =SUM(G111:L111)>
+- B112=<fórmula: =C54> | M112=<fórmula: =SUM(G112:L112)>
+- B113=<fórmula: =C55> | M113=<fórmula: =SUM(G113:L113)>
+- B114=<fórmula: =C71> | M114=<fórmula: =SUM(G114:L114)>
+- B115=<fórmula: =C72> | M115=<fórmula: =SUM(G115:L115)>
+- B116=<fórmula: =C73> | M116=<fórmula: =SUM(G116:L116)>
+- B117=<fórmula: =C74> | M117=<fórmula: =SUM(G117:L117)>
+- B118=<fórmula: =C75> | M118=<fórmula: =SUM(G118:L118)>
+- M119=<fórmula: =SUM(G119:L119)>
+- M120=<fórmula: =SUM(G120:L120)>
+- M121=<fórmula: =SUM(G121:L121)>
+- M122=<fórmula: =SUM(G122:L122)>
+- M123=<fórmula: =SUM(G123:L123)>
+- M124=<fórmula: =SUM(G124:L124)>
+- M125=<fórmula: =SUM(G125:L125)>
+- M126=<fórmula: =SUM(G126:L126)>
+- M127=<fórmula: =SUM(G127:L127)>
+- B128="TOTAL" | G128=<fórmula: =SUM(G94:G127)> | H128=<fórmula: =SUM(H94:H127)> | I128=<fórmula: =SUM(I94:I127)> | J128=<fórmula: =SUM(J94:J127)> | K128=<fórmula: =SUM(K94:K127)> | L128=<fórmula: =SUM(L94:L127)> | M128=<fórmula: =SUM(M94:M127)>
+
+## Aba: TCO Solucao 2
+
+- B2="CUSTO TOTAL DE PROPRIEDADE"
+- G5="SOLUÇÃO" | K5=<fórmula: =F13>
+- B8="1. Identificação da Solução"
+- C10="Descrição da Solução:" | F10="<descrição detalhada da Solução"
+- C13="Identificação Abreviada:" | F13="Solução B"
+- B18="2. Custos estimados de Aquisição/Contratação"
+- C20="Descrição" | G20="Quantidade Estimada" | I20="Valor Unitário" | K20="Valor Total" | M20="Observações / Memória de Cálculo"
+- K21=<fórmula: =I21*G21>
+- K22=<fórmula: =I22*G22>
+- K23=<fórmula: =I23*G23>
+- K24=<fórmula: =I24*G24>
+- K25=<fórmula: =I25*G25>
+- K26=<fórmula: =I26*G26>
+- K27=<fórmula: =I27*G27>
+- K28=<fórmula: =I28*G28>
+- C29="Custo Estimado Total Aquisição:" | K29=<fórmula: =SUM(K21:L28)>
+- B32="3. Custos de Operação/Execução"
+- G34="Ano 1" | J34="Ano 2" | M34="Ano 3" | P34="Ano 4" | S34="Ano 5" | V34="Ano 6" | Y34="TOTAL"
+- C35="Descrição" | G35="Quantidade" | H35="Valor Unitário" | I35="Valor Total" | J35="Quantidade" | K35="Valor Unitário" | L35="Valor Total" | M35="Quantidade" | N35="Valor Unitário" | O35="Valor Total" | P35="Quantidade" | Q35="Valor Unitário" | R35="Valor Total" | S35="Quantidade" | T35="Valor Unitário" | U35="Valor Total" | V35="Quantidade" | W35="Valor Unitário" | X35="Valor Total"
+- I36=<fórmula: =H36*G36> | L36=<fórmula: =K36*J36> | O36=<fórmula: =N36*M36> | R36=<fórmula: =Q36*P36> | U36=<fórmula: =T36*S36> | X36=<fórmula: =W36*V36> | Y36=<fórmula: =SUM(X36,U36,R36,O36,L36,I36)>
+- I37=<fórmula: =H37*G37> | L37=<fórmula: =K37*J37> | O37=<fórmula: =N37*M37> | R37=<fórmula: =Q37*P37> | U37=<fórmula: =T37*S37> | X37=<fórmula: =W37*V37> | Y37=<fórmula: =SUM(X37,U37,R37,O37,L37,I37)>
+- I38=<fórmula: =H38*G38> | L38=<fórmula: =K38*J38> | O38=<fórmula: =N38*M38> | R38=<fórmula: =Q38*P38> | U38=<fórmula: =T38*S38> | X38=<fórmula: =W38*V38> | Y38=<fórmula: =SUM(X38,U38,R38,O38,L38,I38)>
+- I39=<fórmula: =H39*G39> | L39=<fórmula: =K39*J39> | O39=<fórmula: =N39*M39> | R39=<fórmula: =Q39*P39> | U39=<fórmula: =T39*S39> | X39=<fórmula: =W39*V39> | Y39=<fórmula: =SUM(X39,U39,R39,O39,L39,I39)>
+- I40=<fórmula: =H40*G40> | L40=<fórmula: =K40*J40> | O40=<fórmula: =N40*M40> | R40=<fórmula: =Q40*P40> | U40=<fórmula: =T40*S40> | X40=<fórmula: =W40*V40> | Y40=<fórmula: =SUM(X40,U40,R40,O40,L40,I40)>
+- I41=<fórmula: =H41*G41> | L41=<fórmula: =K41*J41> | O41=<fórmula: =N41*M41> | R41=<fórmula: =Q41*P41> | U41=<fórmula: =T41*S41> | X41=<fórmula: =W41*V41> | Y41=<fórmula: =SUM(X41,U41,R41,O41,L41,I41)>
+- I42=<fórmula: =H42*G42> | L42=<fórmula: =K42*J42> | O42=<fórmula: =N42*M42> | R42=<fórmula: =Q42*P42> | U42=<fórmula: =T42*S42> | X42=<fórmula: =W42*V42> | Y42=<fórmula: =SUM(X42,U42,R42,O42,L42,I42)>
+- I43=<fórmula: =H43*G43> | L43=<fórmula: =K43*J43> | O43=<fórmula: =N43*M43> | R43=<fórmula: =Q43*P43> | U43=<fórmula: =T43*S43> | X43=<fórmula: =W43*V43> | Y43=<fórmula: =SUM(X43,U43,R43,O43,L43,I43)>
+- I44=<fórmula: =H44*G44> | L44=<fórmula: =K44*J44> | O44=<fórmula: =N44*M44> | R44=<fórmula: =Q44*P44> | U44=<fórmula: =T44*S44> | X44=<fórmula: =W44*V44> | Y44=<fórmula: =SUM(X44,U44,R44,O44,L44,I44)>
+- C45="Custo Estimado Operação - Ano 1:" | I45=<fórmula: =SUM(I36:I44)> | J45="Custo Estimado Operação - Ano 2:" | L45=<fórmula: =SUM(L36:L44)> | M45="Custo Estimado Operação - Ano 2:" | O45=<fórmula: =SUM(O36:O44)> | P45="Custo Estimado Operação - Ano 3:" | R45=<fórmula: =SUM(R36:R44)> | S45="Custo Estimado Operação - Ano 5:" | U45=<fórmula: =SUM(U36:U44)> | V45="Custo Estimado Operação - Ano 6:" | X45=<fórmula: =SUM(X36:X44)>
+- C46="Custo Estimado Operação Total:" | Y46=<fórmula: =SUM(Y36:Y44)>
+- B49="4. Custos de Descarte/Transição"
+- C52="Descrição" | G52="Valor Total" | I52="Observações / Memória de Cálculo"
+- C61="Custo Estimado Total Descarte/Transição:" | G61=<fórmula: =SUM(G53:H60)>
+- B67="5. Custos Associados aos Riscos"
+- C70="Descrição" | G70="Valor Total" | I70="Observações / Memória de Cálculo"
+- C82="Custo Estimado Total Riscos:" | G82=<fórmula: =SUM(G71:H80)>
+- B87=<fórmula: ="ANÁLISE DE CUSTOS TOTAIS DE PROPRIEDADE -"& " "&F13>
+- B92="Descrição dos elementos de custos" | G92="Estimativa de TCO ao longo dos anos" | M92="CUSTO 
+TOTAL"
+- G93="ANO 1" | H93="ANO 2" | I93="ANO 3" | J93="ANO 4" | K93="ANO 5" | L93="ANO 6"
+- B94=<fórmula: =C21> | M94=<fórmula: =SUM(G94:L94)>
+- B95=<fórmula: =C22> | M95=<fórmula: =SUM(G95:L95)>
+- B96=<fórmula: =C23> | M96=<fórmula: =SUM(G96:L96)>
+- B97=<fórmula: =C24> | M97=<fórmula: =SUM(G97:L97)>
+- B98=<fórmula: =C25> | M98=<fórmula: =SUM(G98:L98)>
+- B99=<fórmula: =C26> | M99=<fórmula: =SUM(G99:L99)>
+- B100=<fórmula: =C27> | M100=<fórmula: =SUM(G100:L100)>
+- B101=<fórmula: =C28> | M101=<fórmula: =SUM(G101:L101)>
+- B102=<fórmula: =C36> | M102=<fórmula: =SUM(G102:L102)>
+- B103=<fórmula: =C37> | M103=<fórmula: =SUM(G103:L103)>
+- B104=<fórmula: =C38> | M104=<fórmula: =SUM(G104:L104)>
+- B105=<fórmula: =C39> | M105=<fórmula: =SUM(G105:L105)>
+- B106=<fórmula: =C40> | M106=<fórmula: =SUM(G106:L106)>
+- B107=<fórmula: =C41> | M107=<fórmula: =SUM(G107:L107)>
+- B108=<fórmula: =C42> | M108=<fórmula: =SUM(G108:L108)>
+- B109=<fórmula: =C43> | M109=<fórmula: =SUM(G109:L109)>
+- B110=<fórmula: =C44> | M110=<fórmula: =SUM(G110:L110)>
+- B111=<fórmula: =C53> | M111=<fórmula: =SUM(G111:L111)>
+- B112=<fórmula: =C54> | M112=<fórmula: =SUM(G112:L112)>
+- B113=<fórmula: =C55> | M113=<fórmula: =SUM(G113:L113)>
+- B114=<fórmula: =C71> | M114=<fórmula: =SUM(G114:L114)>
+- B115=<fórmula: =C72> | M115=<fórmula: =SUM(G115:L115)>
+- B116=<fórmula: =C73> | M116=<fórmula: =SUM(G116:L116)>
+- B117=<fórmula: =C74> | M117=<fórmula: =SUM(G117:L117)>
+- B118=<fórmula: =C75> | M118=<fórmula: =SUM(G118:L118)>
+- M119=<fórmula: =SUM(G119:L119)>
+- M120=<fórmula: =SUM(G120:L120)>
+- M121=<fórmula: =SUM(G121:L121)>
+- M122=<fórmula: =SUM(G122:L122)>
+- M123=<fórmula: =SUM(G123:L123)>
+- M124=<fórmula: =SUM(G124:L124)>
+- M125=<fórmula: =SUM(G125:L125)>
+- M126=<fórmula: =SUM(G126:L126)>
+- M127=<fórmula: =SUM(G127:L127)>
+- B128="TOTAL" | G128=<fórmula: =SUM(G94:G127)> | H128=<fórmula: =SUM(H94:H127)> | I128=<fórmula: =SUM(I94:I127)> | J128=<fórmula: =SUM(J94:J127)> | K128=<fórmula: =SUM(K94:K127)> | L128=<fórmula: =SUM(L94:L127)> | M128=<fórmula: =SUM(M94:M127)>
+
+## Aba: TCO Solucao 3
+
+- B2="CUSTO TOTAL DE PROPRIEDADE"
+- G5="SOLUÇÃO" | K5=<fórmula: =F13>
+- B8="1. Identificação da Solução"
+- C10="Descrição da Solução:" | F10="<descrição detalhada da Solução"
+- C13="Identificação Abreviada:" | F13="Solução C"
+- B18="2. Custos estimados de Aquisição/Contratação"
+- C20="Descrição" | G20="Quantidade Estimada" | I20="Valor Unitário" | K20="Valor Total" | M20="Observações / Memória de Cálculo"
+- K21=<fórmula: =I21*G21>
+- K22=<fórmula: =I22*G22>
+- K23=<fórmula: =I23*G23>
+- K24=<fórmula: =I24*G24>
+- K25=<fórmula: =I25*G25>
+- K26=<fórmula: =I26*G26>
+- K27=<fórmula: =I27*G27>
+- K28=<fórmula: =I28*G28>
+- C29="Custo Estimado Total Aquisição:" | K29=<fórmula: =SUM(K21:L28)>
+- B32="3. Custos de Operação/Execução"
+- G34="Ano 1" | J34="Ano 2" | M34="Ano 3" | P34="Ano 4" | S34="Ano 5" | V34="Ano 6" | Y34="TOTAL"
+- C35="Descrição" | G35="Quantidade" | H35="Valor Unitário" | I35="Valor Total" | J35="Quantidade" | K35="Valor Unitário" | L35="Valor Total" | M35="Quantidade" | N35="Valor Unitário" | O35="Valor Total" | P35="Quantidade" | Q35="Valor Unitário" | R35="Valor Total" | S35="Quantidade" | T35="Valor Unitário" | U35="Valor Total" | V35="Quantidade" | W35="Valor Unitário" | X35="Valor Total"
+- I36=<fórmula: =H36*G36> | L36=<fórmula: =K36*J36> | O36=<fórmula: =N36*M36> | R36=<fórmula: =Q36*P36> | U36=<fórmula: =T36*S36> | X36=<fórmula: =W36*V36> | Y36=<fórmula: =SUM(X36,U36,R36,O36,L36,I36)>
+- I37=<fórmula: =H37*G37> | L37=<fórmula: =K37*J37> | O37=<fórmula: =N37*M37> | R37=<fórmula: =Q37*P37> | U37=<fórmula: =T37*S37> | X37=<fórmula: =W37*V37> | Y37=<fórmula: =SUM(X37,U37,R37,O37,L37,I37)>
+- I38=<fórmula: =H38*G38> | L38=<fórmula: =K38*J38> | O38=<fórmula: =N38*M38> | R38=<fórmula: =Q38*P38> | U38=<fórmula: =T38*S38> | X38=<fórmula: =W38*V38> | Y38=<fórmula: =SUM(X38,U38,R38,O38,L38,I38)>
+- I39=<fórmula: =H39*G39> | L39=<fórmula: =K39*J39> | O39=<fórmula: =N39*M39> | R39=<fórmula: =Q39*P39> | U39=<fórmula: =T39*S39> | X39=<fórmula: =W39*V39> | Y39=<fórmula: =SUM(X39,U39,R39,O39,L39,I39)>
+- I40=<fórmula: =H40*G40> | L40=<fórmula: =K40*J40> | O40=<fórmula: =N40*M40> | R40=<fórmula: =Q40*P40> | U40=<fórmula: =T40*S40> | X40=<fórmula: =W40*V40> | Y40=<fórmula: =SUM(X40,U40,R40,O40,L40,I40)>
+- I41=<fórmula: =H41*G41> | L41=<fórmula: =K41*J41> | O41=<fórmula: =N41*M41> | R41=<fórmula: =Q41*P41> | U41=<fórmula: =T41*S41> | X41=<fórmula: =W41*V41> | Y41=<fórmula: =SUM(X41,U41,R41,O41,L41,I41)>
+- I42=<fórmula: =H42*G42> | L42=<fórmula: =K42*J42> | O42=<fórmula: =N42*M42> | R42=<fórmula: =Q42*P42> | U42=<fórmula: =T42*S42> | X42=<fórmula: =W42*V42> | Y42=<fórmula: =SUM(X42,U42,R42,O42,L42,I42)>
+- I43=<fórmula: =H43*G43> | L43=<fórmula: =K43*J43> | O43=<fórmula: =N43*M43> | R43=<fórmula: =Q43*P43> | U43=<fórmula: =T43*S43> | X43=<fórmula: =W43*V43> | Y43=<fórmula: =SUM(X43,U43,R43,O43,L43,I43)>
+- I44=<fórmula: =H44*G44> | L44=<fórmula: =K44*J44> | O44=<fórmula: =N44*M44> | R44=<fórmula: =Q44*P44> | U44=<fórmula: =T44*S44> | X44=<fórmula: =W44*V44> | Y44=<fórmula: =SUM(X44,U44,R44,O44,L44,I44)>
+- C45="Custo Estimado Operação - Ano 1:" | I45=<fórmula: =SUM(I36:I44)> | J45="Custo Estimado Operação - Ano 2:" | L45=<fórmula: =SUM(L36:L44)> | M45="Custo Estimado Operação - Ano 2:" | O45=<fórmula: =SUM(O36:O44)> | P45="Custo Estimado Operação - Ano 3:" | R45=<fórmula: =SUM(R36:R44)> | S45="Custo Estimado Operação - Ano 5:" | U45=<fórmula: =SUM(U36:U44)> | V45="Custo Estimado Operação - Ano 6:" | X45=<fórmula: =SUM(X36:X44)>
+- C46="Custo Estimado Operação Total:" | Y46=<fórmula: =SUM(Y36:Y44)>
+- B49="4. Custos de Descarte/Transição"
+- C52="Descrição" | G52="Valor Total" | I52="Observações / Memória de Cálculo"
+- C61="Custo Estimado Total Descarte/Transição:" | G61=<fórmula: =SUM(G53:H60)>
+- B67="5. Custos Associados aos Riscos"
+- C70="Descrição" | G70="Valor Total" | I70="Observações / Memória de Cálculo"
+- C82="Custo Estimado Total Riscos:" | G82=<fórmula: =SUM(G71:H80)>
+- B87=<fórmula: ="ANÁLISE DE CUSTOS TOTAIS DE PROPRIEDADE -"& " "&F13>
+- B92="Descrição dos elementos de custos" | G92="Estimativa de TCO ao longo dos anos" | M92="CUSTO 
+TOTAL"
+- G93="ANO 1" | H93="ANO 2" | I93="ANO 3" | J93="ANO 4" | K93="ANO 5" | L93="ANO 6"
+- B94=<fórmula: =C21> | M94=<fórmula: =SUM(G94:L94)>
+- B95=<fórmula: =C22> | M95=<fórmula: =SUM(G95:L95)>
+- B96=<fórmula: =C23> | M96=<fórmula: =SUM(G96:L96)>
+- B97=<fórmula: =C24> | M97=<fórmula: =SUM(G97:L97)>
+- B98=<fórmula: =C25> | M98=<fórmula: =SUM(G98:L98)>
+- B99=<fórmula: =C26> | M99=<fórmula: =SUM(G99:L99)>
+- B100=<fórmula: =C27> | M100=<fórmula: =SUM(G100:L100)>
+- B101=<fórmula: =C28> | M101=<fórmula: =SUM(G101:L101)>
+- B102=<fórmula: =C36> | M102=<fórmula: =SUM(G102:L102)>
+- B103=<fórmula: =C37> | M103=<fórmula: =SUM(G103:L103)>
+- B104=<fórmula: =C38> | M104=<fórmula: =SUM(G104:L104)>
+- B105=<fórmula: =C39> | M105=<fórmula: =SUM(G105:L105)>
+- B106=<fórmula: =C40> | M106=<fórmula: =SUM(G106:L106)>
+- B107=<fórmula: =C41> | M107=<fórmula: =SUM(G107:L107)>
+- B108=<fórmula: =C42> | M108=<fórmula: =SUM(G108:L108)>
+- B109=<fórmula: =C43> | M109=<fórmula: =SUM(G109:L109)>
+- B110=<fórmula: =C44> | M110=<fórmula: =SUM(G110:L110)>
+- B111=<fórmula: =C53> | M111=<fórmula: =SUM(G111:L111)>
+- B112=<fórmula: =C54> | M112=<fórmula: =SUM(G112:L112)>
+- B113=<fórmula: =C55> | M113=<fórmula: =SUM(G113:L113)>
+- B114=<fórmula: =C71> | M114=<fórmula: =SUM(G114:L114)>
+- B115=<fórmula: =C72> | M115=<fórmula: =SUM(G115:L115)>
+- B116=<fórmula: =C73> | M116=<fórmula: =SUM(G116:L116)>
+- B117=<fórmula: =C74> | M117=<fórmula: =SUM(G117:L117)>
+- B118=<fórmula: =C75> | M118=<fórmula: =SUM(G118:L118)>
+- M119=<fórmula: =SUM(G119:L119)>
+- M120=<fórmula: =SUM(G120:L120)>
+- M121=<fórmula: =SUM(G121:L121)>
+- M122=<fórmula: =SUM(G122:L122)>
+- M123=<fórmula: =SUM(G123:L123)>
+- M124=<fórmula: =SUM(G124:L124)>
+- M125=<fórmula: =SUM(G125:L125)>
+- M126=<fórmula: =SUM(G126:L126)>
+- M127=<fórmula: =SUM(G127:L127)>
+- B128="TOTAL" | G128=<fórmula: =SUM(G94:G127)> | H128=<fórmula: =SUM(H94:H127)> | I128=<fórmula: =SUM(I94:I127)> | J128=<fórmula: =SUM(J94:J127)> | K128=<fórmula: =SUM(K94:K127)> | L128=<fórmula: =SUM(L94:L127)> | M128=<fórmula: =SUM(M94:M127)>
+
+## Aba: TCO Solucao 4
+
+- B2="CUSTO TOTAL DE PROPRIEDADE"
+- G5="SOLUÇÃO" | K5=<fórmula: =F13>
+- B8="1. Identificação da Solução"
+- C10="Descrição da Solução:" | F10="<descrição detalhada da Solução"
+- C13="Identificação Abreviada:" | F13="Solução D"
+- B18="2. Custos estimados de Aquisição/Contratação"
+- C20="Descrição" | G20="Quantidade Estimada" | I20="Valor Unitário" | K20="Valor Total" | M20="Observações / Memória de Cálculo"
+- K21=<fórmula: =I21*G21>
+- K22=<fórmula: =I22*G22>
+- K23=<fórmula: =I23*G23>
+- K24=<fórmula: =I24*G24>
+- K25=<fórmula: =I25*G25>
+- K26=<fórmula: =I26*G26>
+- K27=<fórmula: =I27*G27>
+- K28=<fórmula: =I28*G28>
+- C29="Custo Estimado Total Aquisição:" | K29=<fórmula: =SUM(K21:L28)>
+- B32="3. Custos de Operação/Execução"
+- G34="Ano 1" | J34="Ano 2" | M34="Ano 3" | P34="Ano 4" | S34="Ano 5" | V34="Ano 6" | Y34="TOTAL"
+- C35="Descrição" | G35="Quantidade" | H35="Valor Unitário" | I35="Valor Total" | J35="Quantidade" | K35="Valor Unitário" | L35="Valor Total" | M35="Quantidade" | N35="Valor Unitário" | O35="Valor Total" | P35="Quantidade" | Q35="Valor Unitário" | R35="Valor Total" | S35="Quantidade" | T35="Valor Unitário" | U35="Valor Total" | V35="Quantidade" | W35="Valor Unitário" | X35="Valor Total"
+- I36=<fórmula: =H36*G36> | L36=<fórmula: =K36*J36> | O36=<fórmula: =N36*M36> | R36=<fórmula: =Q36*P36> | U36=<fórmula: =T36*S36> | X36=<fórmula: =W36*V36> | Y36=<fórmula: =SUM(X36,U36,R36,O36,L36,I36)>
+- I37=<fórmula: =H37*G37> | L37=<fórmula: =K37*J37> | O37=<fórmula: =N37*M37> | R37=<fórmula: =Q37*P37> | U37=<fórmula: =T37*S37> | X37=<fórmula: =W37*V37> | Y37=<fórmula: =SUM(X37,U37,R37,O37,L37,I37)>
+- I38=<fórmula: =H38*G38> | L38=<fórmula: =K38*J38> | O38=<fórmula: =N38*M38> | R38=<fórmula: =Q38*P38> | U38=<fórmula: =T38*S38> | X38=<fórmula: =W38*V38> | Y38=<fórmula: =SUM(X38,U38,R38,O38,L38,I38)>
+- I39=<fórmula: =H39*G39> | L39=<fórmula: =K39*J39> | O39=<fórmula: =N39*M39> | R39=<fórmula: =Q39*P39> | U39=<fórmula: =T39*S39> | X39=<fórmula: =W39*V39> | Y39=<fórmula: =SUM(X39,U39,R39,O39,L39,I39)>
+- I40=<fórmula: =H40*G40> | L40=<fórmula: =K40*J40> | O40=<fórmula: =N40*M40> | R40=<fórmula: =Q40*P40> | U40=<fórmula: =T40*S40> | X40=<fórmula: =W40*V40> | Y40=<fórmula: =SUM(X40,U40,R40,O40,L40,I40)>
+- I41=<fórmula: =H41*G41> | L41=<fórmula: =K41*J41> | O41=<fórmula: =N41*M41> | R41=<fórmula: =Q41*P41> | U41=<fórmula: =T41*S41> | X41=<fórmula: =W41*V41> | Y41=<fórmula: =SUM(X41,U41,R41,O41,L41,I41)>
+- I42=<fórmula: =H42*G42> | L42=<fórmula: =K42*J42> | O42=<fórmula: =N42*M42> | R42=<fórmula: =Q42*P42> | U42=<fórmula: =T42*S42> | X42=<fórmula: =W42*V42> | Y42=<fórmula: =SUM(X42,U42,R42,O42,L42,I42)>
+- I43=<fórmula: =H43*G43> | L43=<fórmula: =K43*J43> | O43=<fórmula: =N43*M43> | R43=<fórmula: =Q43*P43> | U43=<fórmula: =T43*S43> | X43=<fórmula: =W43*V43> | Y43=<fórmula: =SUM(X43,U43,R43,O43,L43,I43)>
+- I44=<fórmula: =H44*G44> | L44=<fórmula: =K44*J44> | O44=<fórmula: =N44*M44> | R44=<fórmula: =Q44*P44> | U44=<fórmula: =T44*S44> | X44=<fórmula: =W44*V44> | Y44=<fórmula: =SUM(X44,U44,R44,O44,L44,I44)>
+- C45="Custo Estimado Operação - Ano 1:" | I45=<fórmula: =SUM(I36:I44)> | J45="Custo Estimado Operação - Ano 2:" | L45=<fórmula: =SUM(L36:L44)> | M45="Custo Estimado Operação - Ano 2:" | O45=<fórmula: =SUM(O36:O44)> | P45="Custo Estimado Operação - Ano 3:" | R45=<fórmula: =SUM(R36:R44)> | S45="Custo Estimado Operação - Ano 5:" | U45=<fórmula: =SUM(U36:U44)> | V45="Custo Estimado Operação - Ano 6:" | X45=<fórmula: =SUM(X36:X44)>
+- C46="Custo Estimado Operação Total:" | Y46=<fórmula: =SUM(Y36:Y44)>
+- B49="4. Custos de Descarte/Transição"
+- C52="Descrição" | G52="Valor Total" | I52="Observações / Memória de Cálculo"
+- C61="Custo Estimado Total Descarte/Transição:" | G61=<fórmula: =SUM(G53:H60)>
+- B67="5. Custos Associados aos Riscos"
+- C70="Descrição" | G70="Valor Total" | I70="Observações / Memória de Cálculo"
+- C82="Custo Estimado Total Riscos:" | G82=<fórmula: =SUM(G71:H80)>
+- B87=<fórmula: ="ANÁLISE DE CUSTOS TOTAIS DE PROPRIEDADE -"& " "&F13>
+- B92="Descrição dos elementos de custos" | G92="Estimativa de TCO ao longo dos anos" | M92="CUSTO 
+TOTAL"
+- G93="ANO 1" | H93="ANO 2" | I93="ANO 3" | J93="ANO 4" | K93="ANO 5" | L93="ANO 6"
+- B94=<fórmula: =C21> | M94=<fórmula: =SUM(G94:L94)>
+- B95=<fórmula: =C22> | M95=<fórmula: =SUM(G95:L95)>
+- B96=<fórmula: =C23> | M96=<fórmula: =SUM(G96:L96)>
+- B97=<fórmula: =C24> | M97=<fórmula: =SUM(G97:L97)>
+- B98=<fórmula: =C25> | M98=<fórmula: =SUM(G98:L98)>
+- B99=<fórmula: =C26> | M99=<fórmula: =SUM(G99:L99)>
+- B100=<fórmula: =C27> | M100=<fórmula: =SUM(G100:L100)>
+- B101=<fórmula: =C28> | M101=<fórmula: =SUM(G101:L101)>
+- B102=<fórmula: =C36> | M102=<fórmula: =SUM(G102:L102)>
+- B103=<fórmula: =C37> | M103=<fórmula: =SUM(G103:L103)>
+- B104=<fórmula: =C38> | M104=<fórmula: =SUM(G104:L104)>
+- B105=<fórmula: =C39> | M105=<fórmula: =SUM(G105:L105)>
+- B106=<fórmula: =C40> | M106=<fórmula: =SUM(G106:L106)>
+- B107=<fórmula: =C41> | M107=<fórmula: =SUM(G107:L107)>
+- B108=<fórmula: =C42> | M108=<fórmula: =SUM(G108:L108)>
+- B109=<fórmula: =C43> | M109=<fórmula: =SUM(G109:L109)>
+- B110=<fórmula: =C44> | M110=<fórmula: =SUM(G110:L110)>
+- B111=<fórmula: =C53> | M111=<fórmula: =SUM(G111:L111)>
+- B112=<fórmula: =C54> | M112=<fórmula: =SUM(G112:L112)>
+- B113=<fórmula: =C55> | M113=<fórmula: =SUM(G113:L113)>
+- B114=<fórmula: =C71> | M114=<fórmula: =SUM(G114:L114)>
+- B115=<fórmula: =C72> | M115=<fórmula: =SUM(G115:L115)>
+- B116=<fórmula: =C73> | M116=<fórmula: =SUM(G116:L116)>
+- B117=<fórmula: =C74> | M117=<fórmula: =SUM(G117:L117)>
+- B118=<fórmula: =C75> | M118=<fórmula: =SUM(G118:L118)>
+- M119=<fórmula: =SUM(G119:L119)>
+- M120=<fórmula: =SUM(G120:L120)>
+- M121=<fórmula: =SUM(G121:L121)>
+- M122=<fórmula: =SUM(G122:L122)>
+- M123=<fórmula: =SUM(G123:L123)>
+- M124=<fórmula: =SUM(G124:L124)>
+- M125=<fórmula: =SUM(G125:L125)>
+- M126=<fórmula: =SUM(G126:L126)>
+- M127=<fórmula: =SUM(G127:L127)>
+- B128="TOTAL" | G128=<fórmula: =SUM(G94:G127)> | H128=<fórmula: =SUM(H94:H127)> | I128=<fórmula: =SUM(I94:I127)> | J128=<fórmula: =SUM(J94:J127)> | K128=<fórmula: =SUM(K94:K127)> | L128=<fórmula: =SUM(L94:L127)> | M128=<fórmula: =SUM(M94:M127)>
+
+## Aba: TCO Solucao 5
+
+- B2="CUSTO TOTAL DE PROPRIEDADE"
+- G5="SOLUÇÃO" | K5=<fórmula: =F13>
+- B8="1. Identificação da Solução"
+- C10="Descrição da Solução:" | F10="<descrição detalhada da Solução"
+- C13="Identificação Abreviada:" | F13="Solução E"
+- B18="2. Custos estimados de Aquisição/Contratação"
+- C20="Descrição" | G20="Quantidade Estimada" | I20="Valor Unitário" | K20="Valor Total" | M20="Observações / Memória de Cálculo"
+- K21=<fórmula: =I21*G21>
+- K22=<fórmula: =I22*G22>
+- K23=<fórmula: =I23*G23>
+- K24=<fórmula: =I24*G24>
+- K25=<fórmula: =I25*G25>
+- K26=<fórmula: =I26*G26>
+- K27=<fórmula: =I27*G27>
+- K28=<fórmula: =I28*G28>
+- C29="Custo Estimado Total Aquisição:" | K29=<fórmula: =SUM(K21:L28)>
+- B32="3. Custos de Operação/Execução"
+- G34="Ano 1" | J34="Ano 2" | M34="Ano 3" | P34="Ano 4" | S34="Ano 5" | V34="Ano 6" | Y34="TOTAL"
+- C35="Descrição" | G35="Quantidade" | H35="Valor Unitário" | I35="Valor Total" | J35="Quantidade" | K35="Valor Unitário" | L35="Valor Total" | M35="Quantidade" | N35="Valor Unitário" | O35="Valor Total" | P35="Quantidade" | Q35="Valor Unitário" | R35="Valor Total" | S35="Quantidade" | T35="Valor Unitário" | U35="Valor Total" | V35="Quantidade" | W35="Valor Unitário" | X35="Valor Total"
+- I36=<fórmula: =H36*G36> | L36=<fórmula: =K36*J36> | O36=<fórmula: =N36*M36> | R36=<fórmula: =Q36*P36> | U36=<fórmula: =T36*S36> | X36=<fórmula: =W36*V36> | Y36=<fórmula: =SUM(X36,U36,R36,O36,L36,I36)>
+- I37=<fórmula: =H37*G37> | L37=<fórmula: =K37*J37> | O37=<fórmula: =N37*M37> | R37=<fórmula: =Q37*P37> | U37=<fórmula: =T37*S37> | X37=<fórmula: =W37*V37> | Y37=<fórmula: =SUM(X37,U37,R37,O37,L37,I37)>
+- I38=<fórmula: =H38*G38> | L38=<fórmula: =K38*J38> | O38=<fórmula: =N38*M38> | R38=<fórmula: =Q38*P38> | U38=<fórmula: =T38*S38> | X38=<fórmula: =W38*V38> | Y38=<fórmula: =SUM(X38,U38,R38,O38,L38,I38)>
+- I39=<fórmula: =H39*G39> | L39=<fórmula: =K39*J39> | O39=<fórmula: =N39*M39> | R39=<fórmula: =Q39*P39> | U39=<fórmula: =T39*S39> | X39=<fórmula: =W39*V39> | Y39=<fórmula: =SUM(X39,U39,R39,O39,L39,I39)>
+- I40=<fórmula: =H40*G40> | L40=<fórmula: =K40*J40> | O40=<fórmula: =N40*M40> | R40=<fórmula: =Q40*P40> | U40=<fórmula: =T40*S40> | X40=<fórmula: =W40*V40> | Y40=<fórmula: =SUM(X40,U40,R40,O40,L40,I40)>
+- I41=<fórmula: =H41*G41> | L41=<fórmula: =K41*J41> | O41=<fórmula: =N41*M41> | R41=<fórmula: =Q41*P41> | U41=<fórmula: =T41*S41> | X41=<fórmula: =W41*V41> | Y41=<fórmula: =SUM(X41,U41,R41,O41,L41,I41)>
+- I42=<fórmula: =H42*G42> | L42=<fórmula: =K42*J42> | O42=<fórmula: =N42*M42> | R42=<fórmula: =Q42*P42> | U42=<fórmula: =T42*S42> | X42=<fórmula: =W42*V42> | Y42=<fórmula: =SUM(X42,U42,R42,O42,L42,I42)>
+- I43=<fórmula: =H43*G43> | L43=<fórmula: =K43*J43> | O43=<fórmula: =N43*M43> | R43=<fórmula: =Q43*P43> | U43=<fórmula: =T43*S43> | X43=<fórmula: =W43*V43> | Y43=<fórmula: =SUM(X43,U43,R43,O43,L43,I43)>
+- I44=<fórmula: =H44*G44> | L44=<fórmula: =K44*J44> | O44=<fórmula: =N44*M44> | R44=<fórmula: =Q44*P44> | U44=<fórmula: =T44*S44> | X44=<fórmula: =W44*V44> | Y44=<fórmula: =SUM(X44,U44,R44,O44,L44,I44)>
+- C45="Custo Estimado Operação - Ano 1:" | I45=<fórmula: =SUM(I36:I44)> | J45="Custo Estimado Operação - Ano 2:" | L45=<fórmula: =SUM(L36:L44)> | M45="Custo Estimado Operação - Ano 2:" | O45=<fórmula: =SUM(O36:O44)> | P45="Custo Estimado Operação - Ano 3:" | R45=<fórmula: =SUM(R36:R44)> | S45="Custo Estimado Operação - Ano 5:" | U45=<fórmula: =SUM(U36:U44)> | V45="Custo Estimado Operação - Ano 6:" | X45=<fórmula: =SUM(X36:X44)>
+- C46="Custo Estimado Operação Total:" | Y46=<fórmula: =SUM(Y36:Y44)>
+- B49="4. Custos de Descarte/Transição"
+- C52="Descrição" | G52="Valor Total" | I52="Observações / Memória de Cálculo"
+- C61="Custo Estimado Total Descarte/Transição:" | G61=<fórmula: =SUM(G53:H60)>
+- B67="5. Custos Associados aos Riscos"
+- C70="Descrição" | G70="Valor Total" | I70="Observações / Memória de Cálculo"
+- C82="Custo Estimado Total Riscos:" | G82=<fórmula: =SUM(G71:H80)>
+- B87=<fórmula: ="ANÁLISE DE CUSTOS TOTAIS DE PROPRIEDADE -"& " "&F13>
+- B92="Descrição dos elementos de custos" | G92="Estimativa de TCO ao longo dos anos" | M92="CUSTO 
+TOTAL"
+- G93="ANO 1" | H93="ANO 2" | I93="ANO 3" | J93="ANO 4" | K93="ANO 5" | L93="ANO 6"
+- B94=<fórmula: =C21> | M94=<fórmula: =SUM(G94:L94)>
+- B95=<fórmula: =C22> | M95=<fórmula: =SUM(G95:L95)>
+- B96=<fórmula: =C23> | M96=<fórmula: =SUM(G96:L96)>
+- B97=<fórmula: =C24> | M97=<fórmula: =SUM(G97:L97)>
+- B98=<fórmula: =C25> | M98=<fórmula: =SUM(G98:L98)>
+- B99=<fórmula: =C26> | M99=<fórmula: =SUM(G99:L99)>
+- B100=<fórmula: =C27> | M100=<fórmula: =SUM(G100:L100)>
+- B101=<fórmula: =C28> | M101=<fórmula: =SUM(G101:L101)>
+- B102=<fórmula: =C36> | M102=<fórmula: =SUM(G102:L102)>
+- B103=<fórmula: =C37> | M103=<fórmula: =SUM(G103:L103)>
+- B104=<fórmula: =C38> | M104=<fórmula: =SUM(G104:L104)>
+- B105=<fórmula: =C39> | M105=<fórmula: =SUM(G105:L105)>
+- B106=<fórmula: =C40> | M106=<fórmula: =SUM(G106:L106)>
+- B107=<fórmula: =C41> | M107=<fórmula: =SUM(G107:L107)>
+- B108=<fórmula: =C42> | M108=<fórmula: =SUM(G108:L108)>
+- B109=<fórmula: =C43> | M109=<fórmula: =SUM(G109:L109)>
+- B110=<fórmula: =C44> | M110=<fórmula: =SUM(G110:L110)>
+- B111=<fórmula: =C53> | M111=<fórmula: =SUM(G111:L111)>
+- B112=<fórmula: =C54> | M112=<fórmula: =SUM(G112:L112)>
+- B113=<fórmula: =C55> | M113=<fórmula: =SUM(G113:L113)>
+- B114=<fórmula: =C71> | M114=<fórmula: =SUM(G114:L114)>
+- B115=<fórmula: =C72> | M115=<fórmula: =SUM(G115:L115)>
+- B116=<fórmula: =C73> | M116=<fórmula: =SUM(G116:L116)>
+- B117=<fórmula: =C74> | M117=<fórmula: =SUM(G117:L117)>
+- B118=<fórmula: =C75> | M118=<fórmula: =SUM(G118:L118)>
+- M119=<fórmula: =SUM(G119:L119)>
+- M120=<fórmula: =SUM(G120:L120)>
+- M121=<fórmula: =SUM(G121:L121)>
+- M122=<fórmula: =SUM(G122:L122)>
+- M123=<fórmula: =SUM(G123:L123)>
+- M124=<fórmula: =SUM(G124:L124)>
+- M125=<fórmula: =SUM(G125:L125)>
+- M126=<fórmula: =SUM(G126:L126)>
+- M127=<fórmula: =SUM(G127:L127)>
+- B128="TOTAL" | G128=<fórmula: =SUM(G94:G127)> | H128=<fórmula: =SUM(H94:H127)> | I128=<fórmula: =SUM(I94:I127)> | J128=<fórmula: =SUM(J94:J127)> | K128=<fórmula: =SUM(K94:K127)> | L128=<fórmula: =SUM(L94:L127)> | M128=<fórmula: =SUM(M94:M127)>
+
+## Aba: TCO Solucao N
+
+- B2="CUSTO TOTAL DE PROPRIEDADE"
+- G5="SOLUÇÃO" | K5=<fórmula: =F13>
+- B8="1. Identificação da Solução"
+- C10="Descrição da Solução:" | F10="<descrição detalhada da Solução"
+- C13="Identificação Abreviada:" | F13="Solução N"
+- B18="2. Custos estimados de Aquisição/Contratação"
+- C20="Descrição" | G20="Quantidade Estimada" | I20="Valor Unitário" | K20="Valor Total" | M20="Observações / Memória de Cálculo"
+- K21=<fórmula: =I21*G21>
+- K22=<fórmula: =I22*G22>
+- K23=<fórmula: =I23*G23>
+- K24=<fórmula: =I24*G24>
+- K25=<fórmula: =I25*G25>
+- K26=<fórmula: =I26*G26>
+- K27=<fórmula: =I27*G27>
+- K28=<fórmula: =I28*G28>
+- C29="Custo Estimado Total Aquisição:" | K29=<fórmula: =SUM(K21:L28)>
+- B32="3. Custos de Operação/Execução"
+- G34="Ano 1" | J34="Ano 2" | M34="Ano 3" | P34="Ano 4" | S34="Ano 5" | V34="Ano 6" | Y34="TOTAL"
+- C35="Descrição" | G35="Quantidade" | H35="Valor Unitário" | I35="Valor Total" | J35="Quantidade" | K35="Valor Unitário" | L35="Valor Total" | M35="Quantidade" | N35="Valor Unitário" | O35="Valor Total" | P35="Quantidade" | Q35="Valor Unitário" | R35="Valor Total" | S35="Quantidade" | T35="Valor Unitário" | U35="Valor Total" | V35="Quantidade" | W35="Valor Unitário" | X35="Valor Total"
+- I36=<fórmula: =H36*G36> | L36=<fórmula: =K36*J36> | O36=<fórmula: =N36*M36> | R36=<fórmula: =Q36*P36> | U36=<fórmula: =T36*S36> | X36=<fórmula: =W36*V36> | Y36=<fórmula: =SUM(X36,U36,R36,O36,L36,I36)>
+- I37=<fórmula: =H37*G37> | L37=<fórmula: =K37*J37> | O37=<fórmula: =N37*M37> | R37=<fórmula: =Q37*P37> | U37=<fórmula: =T37*S37> | X37=<fórmula: =W37*V37> | Y37=<fórmula: =SUM(X37,U37,R37,O37,L37,I37)>
+- I38=<fórmula: =H38*G38> | L38=<fórmula: =K38*J38> | O38=<fórmula: =N38*M38> | R38=<fórmula: =Q38*P38> | U38=<fórmula: =T38*S38> | X38=<fórmula: =W38*V38> | Y38=<fórmula: =SUM(X38,U38,R38,O38,L38,I38)>
+- I39=<fórmula: =H39*G39> | L39=<fórmula: =K39*J39> | O39=<fórmula: =N39*M39> | R39=<fórmula: =Q39*P39> | U39=<fórmula: =T39*S39> | X39=<fórmula: =W39*V39> | Y39=<fórmula: =SUM(X39,U39,R39,O39,L39,I39)>
+- I40=<fórmula: =H40*G40> | L40=<fórmula: =K40*J40> | O40=<fórmula: =N40*M40> | R40=<fórmula: =Q40*P40> | U40=<fórmula: =T40*S40> | X40=<fórmula: =W40*V40> | Y40=<fórmula: =SUM(X40,U40,R40,O40,L40,I40)>
+- I41=<fórmula: =H41*G41> | L41=<fórmula: =K41*J41> | O41=<fórmula: =N41*M41> | R41=<fórmula: =Q41*P41> | U41=<fórmula: =T41*S41> | X41=<fórmula: =W41*V41> | Y41=<fórmula: =SUM(X41,U41,R41,O41,L41,I41)>
+- I42=<fórmula: =H42*G42> | L42=<fórmula: =K42*J42> | O42=<fórmula: =N42*M42> | R42=<fórmula: =Q42*P42> | U42=<fórmula: =T42*S42> | X42=<fórmula: =W42*V42> | Y42=<fórmula: =SUM(X42,U42,R42,O42,L42,I42)>
+- I43=<fórmula: =H43*G43> | L43=<fórmula: =K43*J43> | O43=<fórmula: =N43*M43> | R43=<fórmula: =Q43*P43> | U43=<fórmula: =T43*S43> | X43=<fórmula: =W43*V43> | Y43=<fórmula: =SUM(X43,U43,R43,O43,L43,I43)>
+- I44=<fórmula: =H44*G44> | L44=<fórmula: =K44*J44> | O44=<fórmula: =N44*M44> | R44=<fórmula: =Q44*P44> | U44=<fórmula: =T44*S44> | X44=<fórmula: =W44*V44> | Y44=<fórmula: =SUM(X44,U44,R44,O44,L44,I44)>
+- C45="Custo Estimado Operação - Ano 1:" | I45=<fórmula: =SUM(I36:I44)> | J45="Custo Estimado Operação - Ano 2:" | L45=<fórmula: =SUM(L36:L44)> | M45="Custo Estimado Operação - Ano 2:" | O45=<fórmula: =SUM(O36:O44)> | P45="Custo Estimado Operação - Ano 3:" | R45=<fórmula: =SUM(R36:R44)> | S45="Custo Estimado Operação - Ano 5:" | U45=<fórmula: =SUM(U36:U44)> | V45="Custo Estimado Operação - Ano 6:" | X45=<fórmula: =SUM(X36:X44)>
+- C46="Custo Estimado Operação Total:" | Y46=<fórmula: =SUM(Y36:Y44)>
+- B49="4. Custos de Descarte/Transição"
+- C52="Descrição" | G52="Valor Total" | I52="Observações / Memória de Cálculo"
+- C61="Custo Estimado Total Descarte/Transição:" | G61=<fórmula: =SUM(G53:H60)>
+- B67="5. Custos Associados aos Riscos"
+- C70="Descrição" | G70="Valor Total" | I70="Observações / Memória de Cálculo"
+- C82="Custo Estimado Total Riscos:" | G82=<fórmula: =SUM(G71:H80)>
+- B87=<fórmula: ="ANÁLISE DE CUSTOS TOTAIS DE PROPRIEDADE -"& " "&F13>
+- B92="Descrição dos elementos de custos" | G92="Estimativa de TCO ao longo dos anos" | M92="CUSTO 
+TOTAL"
+- G93="ANO 1" | H93="ANO 2" | I93="ANO 3" | J93="ANO 4" | K93="ANO 5" | L93="ANO 6"
+- B94=<fórmula: =C21> | M94=<fórmula: =SUM(G94:L94)>
+- B95=<fórmula: =C22> | M95=<fórmula: =SUM(G95:L95)>
+- B96=<fórmula: =C23> | M96=<fórmula: =SUM(G96:L96)>
+- B97=<fórmula: =C24> | M97=<fórmula: =SUM(G97:L97)>
+- B98=<fórmula: =C25> | M98=<fórmula: =SUM(G98:L98)>
+- B99=<fórmula: =C26> | M99=<fórmula: =SUM(G99:L99)>
+- B100=<fórmula: =C27> | M100=<fórmula: =SUM(G100:L100)>
+- B101=<fórmula: =C28> | M101=<fórmula: =SUM(G101:L101)>
+- B102=<fórmula: =C36> | M102=<fórmula: =SUM(G102:L102)>
+- B103=<fórmula: =C37> | M103=<fórmula: =SUM(G103:L103)>
+- B104=<fórmula: =C38> | M104=<fórmula: =SUM(G104:L104)>
+- B105=<fórmula: =C39> | M105=<fórmula: =SUM(G105:L105)>
+- B106=<fórmula: =C40> | M106=<fórmula: =SUM(G106:L106)>
+- B107=<fórmula: =C41> | M107=<fórmula: =SUM(G107:L107)>
+- B108=<fórmula: =C42> | M108=<fórmula: =SUM(G108:L108)>
+- B109=<fórmula: =C43> | M109=<fórmula: =SUM(G109:L109)>
+- B110=<fórmula: =C44> | M110=<fórmula: =SUM(G110:L110)>
+- B111=<fórmula: =C53> | M111=<fórmula: =SUM(G111:L111)>
+- B112=<fórmula: =C54> | M112=<fórmula: =SUM(G112:L112)>
+- B113=<fórmula: =C55> | M113=<fórmula: =SUM(G113:L113)>
+- B114=<fórmula: =C71> | M114=<fórmula: =SUM(G114:L114)>
+- B115=<fórmula: =C72> | M115=<fórmula: =SUM(G115:L115)>
+- B116=<fórmula: =C73> | M116=<fórmula: =SUM(G116:L116)>
+- B117=<fórmula: =C74> | M117=<fórmula: =SUM(G117:L117)>
+- B118=<fórmula: =C75> | M118=<fórmula: =SUM(G118:L118)>
+- M119=<fórmula: =SUM(G119:L119)>
+- M120=<fórmula: =SUM(G120:L120)>
+- M121=<fórmula: =SUM(G121:L121)>
+- M122=<fórmula: =SUM(G122:L122)>
+- M123=<fórmula: =SUM(G123:L123)>
+- M124=<fórmula: =SUM(G124:L124)>
+- M125=<fórmula: =SUM(G125:L125)>
+- M126=<fórmula: =SUM(G126:L126)>
+- M127=<fórmula: =SUM(G127:L127)>
+- B128="TOTAL" | G128=<fórmula: =SUM(G94:G127)> | H128=<fórmula: =SUM(H94:H127)> | I128=<fórmula: =SUM(I94:I127)> | J128=<fórmula: =SUM(J94:J127)> | K128=<fórmula: =SUM(K94:K127)> | L128=<fórmula: =SUM(L94:L127)> | M128=<fórmula: =SUM(M94:M127)>
+
+## Aba: Analise Comparativa de Custos
+
+- B2="ANÁLISE COMPARATIVA DE CUSTOS"
+- N5="Análise de Indicadores de viabilidade financeira de projetos"
+- B6="ID" | C6="Descrição das Soluções" | F6="Estimativa de TCO ao longo do ciclo de vida do Objeto/Serviço" | L6="CUSTO 
+TOTAL" | N6="Solução" | P6="Custo Total em 6 anos" | Q6="Valor Presente Líquido"
+- F7="ANO 1" | G7="ANO 2" | H7="ANO 3" | I7="ANO 4" | J7="ANO 5" | K7="ANO 6"
+- B8=1 | C8=<fórmula: ='TCO Solucao 1'!F13> | F8=<fórmula: ='TCO Solucao 1'!G128> | G8=<fórmula: ='TCO Solucao 1'!H128> | H8=<fórmula: ='TCO Solucao 1'!I128> | I8=<fórmula: ='TCO Solucao 1'!J128> | J8=<fórmula: ='TCO Solucao 1'!K128> | K8=<fórmula: ='TCO Solucao 1'!L128> | L8=<fórmula: ='TCO Solucao 1'!M128> | N8=<fórmula: =B8> | O8=<fórmula: =C8> | P8=<fórmula: =SUM(F8:K8)> | Q8=<fórmula: =NPV($O$11,F8:K8)>
+- B9=2 | C9=<fórmula: ='TCO Solucao 2'!F13> | F9=<fórmula: ='TCO Solucao 2'!G128> | G9=<fórmula: ='TCO Solucao 2'!H128> | H9=<fórmula: ='TCO Solucao 2'!I128> | I9=<fórmula: ='TCO Solucao 2'!J128> | J9=<fórmula: ='TCO Solucao 2'!K128> | K9=<fórmula: ='TCO Solucao 2'!L128> | L9=<fórmula: ='TCO Solucao 2'!M128> | N9=<fórmula: =B9> | O9=<fórmula: =C9> | P9=<fórmula: =SUM(F9:K9)> | Q9=<fórmula: =NPV($O$11,F9:K9)>
+- B10=3 | C10=<fórmula: ='TCO Solucao 3'!F13> | F10=<fórmula: ='TCO Solucao 3'!G128> | G10=<fórmula: ='TCO Solucao 3'!H128> | H10=<fórmula: ='TCO Solucao 3'!I128> | I10=<fórmula: ='TCO Solucao 3'!J128> | J10=<fórmula: ='TCO Solucao 3'!K128> | K10=<fórmula: ='TCO Solucao 3'!L128> | L10=<fórmula: ='TCO Solucao 3'!M128> | N10=<fórmula: =B10> | O10=<fórmula: =C10> | P10=<fórmula: =SUM(F10:K10)> | Q10=<fórmula: =NPV($O$11,F10:K10)>
+- B11=4 | C11=<fórmula: ='TCO Solucao 4'!F13> | F11=<fórmula: ='TCO Solucao 4'!G128> | G11=<fórmula: ='TCO Solucao 4'!H128> | H11=<fórmula: ='TCO Solucao 4'!I128> | I11=<fórmula: ='TCO Solucao 4'!J128> | J11=<fórmula: ='TCO Solucao 4'!K128> | K11=<fórmula: ='TCO Solucao 4'!L128> | L11=<fórmula: ='TCO Solucao 4'!M128> | N11="Taxa Selic Anual:" | O11=0.15
+- B12=5 | C12=<fórmula: ='TCO Solucao 5'!F13> | F12=<fórmula: ='TCO Solucao 5'!G128> | G12=<fórmula: ='TCO Solucao 5'!H128> | H12=<fórmula: ='TCO Solucao 5'!I128> | I12=<fórmula: ='TCO Solucao 5'!J128> | J12=<fórmula: ='TCO Solucao 5'!K128> | K12=<fórmula: ='TCO Solucao 5'!L128> | L12=<fórmula: ='TCO Solucao 5'!M128>
+- B13=6 | C13=<fórmula: ='TCO Solucao N'!F13> | F13=<fórmula: ='TCO Solucao 5'!G129> | G13=<fórmula: ='TCO Solucao 5'!H129> | H13=<fórmula: ='TCO Solucao 5'!I129> | I13=<fórmula: ='TCO Solucao 5'!J129> | J13=<fórmula: ='TCO Solucao 5'!K129> | K13=<fórmula: ='TCO Solucao 5'!L129> | L13=<fórmula: ='TCO Solucao 5'!M129>
