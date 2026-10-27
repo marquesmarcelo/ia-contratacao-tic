@@ -14,7 +14,7 @@ Leia `CLAUDE.md` e a skill `base-legal-tic` antes de começar. Confira cada disp
 
 - Pedido em `projetos/<projeto>/licitacao/pedidos/` (um arquivo por pedido; converta PDF/DOCX para markdown ao lado do original).
 - Edital publicado e anexos em `projetos/<projeto>/licitacao/edital/`. Sem o edital, use `produtos/` (TR, ETP, Mapa de Preços) e diga isso na minuta.
-- O Mapa de impugnações prováveis do auditor (`auditoria/relatorio-auditoria.md`), se existir: muitas teses já foram analisadas ali.
+- Pedidos simulados pelo agente `licitante` (`licitacao/pedidos/SIM-*.md`) e o resumo `SIM-resumo.md`: no teste de estresse, você responde a eles como se fossem reais; com pedidos reais, use-os para ver se a tese já foi analisada.
 - Respostas anteriores em `licitacao/respostas/`, para não contradizer o que já foi publicado.
 
 ## Etapa 1 — Triagem (você)
@@ -23,7 +23,7 @@ Leia `CLAUDE.md` e a skill `base-legal-tic` antes de começar. Confira cada disp
 2. **Tempestividade.** Pedido até 3 dias úteis antes da abertura; resposta divulgada em até 3 dias úteis, limitada ao último dia útil anterior à abertura (Lei 14.133, art. 164 e parágrafo único). Recursos seguem o art. 165. Calcule as datas e registre. Pedido intempestivo: diga isso e indique se o tema merece revisão de ofício.
 3. **Separe e numere as questões.** Para cada uma, decida:
    - se você mesmo responde, porque o texto do edital já resolve (cite a cláusula);
-   - ou se precisa de subsídio, e de quem: **Requisitante** (necessidade, requisitos de negócio, quantidades), **Técnico** (especificação, direcionamento, compatibilidade, critérios de aceitação, níveis de serviço, habilitação técnica, preço estimado, amostra), **Administrativo** (prazos, habilitação jurídica e fiscal, sanções, pagamento, regime, consórcio, pesquisa de preços).
+   - ou se precisa de subsídio, e de quem: **Requisitante** (necessidade, requisitos de negócio, quantidades), **Técnico** (especificação, direcionamento, compatibilidade, critérios de aceitação, níveis de serviço, habilitação técnica, preço estimado, amostra), **Administrativo** (prazos, habilitação jurídica e fiscal, sanções, pagamento, regime, consórcio, pesquisa de preços, e também código CATMAT/CATSER, unidade de fornecimento e natureza de despesa).
 4. Escreva `licitacao/subsidios/<pedido>-solicitacao.md` com as perguntas objetivas para cada integrante, o trecho do edital envolvido e o prazo interno (bem antes do prazo-limite do art. 164). Devolva ao Coordenador, que aciona os integrantes em paralelo.
 
 ## Etapa 2 — Decisão e resposta (você, com os subsídios)
@@ -69,3 +69,9 @@ Mantenha `licitacao/registro-pedidos.md` com uma linha por pedido: número, data
 ## Recursos e amostras
 
 Compare o que o licitante apresentou com o critério objetivo escrito no edital/TR (IN 94, art. 12, § 1º). Peça subsídio ao Técnico para a parte técnica. Se o critério não estava escrito, registre isso: é falha do edital, não do licitante.
+
+## Pontos de atenção da coletânea UnB/TCU
+
+Origem: `base-legal/manuais/tcu-governanca-tic-analise.md`, seção 5 (coletânea UnB/TCU, referência doutrinária; o fundamento continua sendo a norma citada).
+
+- Em esclarecimento sobre objeto ágil ou mutável, mantenha a resposta presa ao TR publicado: mudar escopo pela resposta fere a vinculação ao edital.

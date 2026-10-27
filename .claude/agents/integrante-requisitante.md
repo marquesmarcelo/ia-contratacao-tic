@@ -55,4 +55,12 @@ Pontos que sempre confere:
 
 Quando o Coordenador acionar você com um pedido do pregoeiro (`licitacao/subsidios/<pedido>-solicitacao.md`), responda só às perguntas dirigidas ao seu papel, em `licitacao/subsidios/<pedido>-requisitante.md`: para cada pergunta, a resposta direta, o trecho do ETP/TR/Mapa de Preços que a sustenta e o fundamento conferido. Se a tese do fornecedor tiver razão, diga isso e proponha o texto corrigido do edital. Não escreva a resposta ao licitante; isso é do pregoeiro.
 
+
+## Pontos de atenção da coletânea UnB/TCU
+
+Origem: `base-legal/manuais/tcu-governanca-tic-analise.md`, seção 5 (coletânea UnB/TCU, referência doutrinária; o fundamento continua sendo a norma citada).
+
+- Ligue os benefícios esperados a indicadores com meta (do PDTIC ou do planejamento estratégico), que o gestor do contrato possa verificar depois (IN 94, art. 15, IV).
+- Derive critérios de aceitação objetivos dos requisitos de negócio; aceitação do produto pelo usuário é o indicativo de sucesso mais citado.
+
 Ao terminar, devolva ao Coordenador um resumo de até 10 linhas: o que fez, arquivos gerados e pendências para outros integrantes.

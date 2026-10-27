@@ -8,6 +8,14 @@ Gerado por `.claude/skills/base-legal-tic/scripts/gerar_indice.py`. Não edite �
 |---|---|---|---|
 | `base-legal/PENDENCIAS-DOWNLOAD.md` | (sem cabeçalho) | ? | 2 |
 
+## manuais
+
+| Arquivo | Título | Situação | KB |
+|---|---|---|---|
+| `base-legal/manuais/manual-classificacao-despesa-publica.md` | Manual de Classificação da Despesa Pública - 2ª edição (Controladoria-Geral do Estado de Pernambuco, março de 2021) | referência: manual estadual (PE). Categoria, grupo, modalidade e elemento seguem | 575 |
+| `base-legal/manuais/tcu-governanca-tic-analise.md` | Análise do livro Governança em TIC para o Setor Público (coletânea UnB/TCU, 2018) para uso pelos agentes de contratação de TIC | análise do livro; referência doutrinária, não normativa | 52 |
+| `base-legal/manuais/tcu-governanca-tic-setor-publico.md` | Governança em Tecnologia de Informação e Comunicação para o Setor Público - Coletânea de trabalhos do Curso de Especialização UnB/TCU (org. Rejane Maria da Cost | referência doutrinária: coletânea de monografias publicada pelo TCU; não é norma | 499 |
+
 ## modelos-orientacoes/analise-critica-pesquisa-precos
 
 | Arquivo | Título | Situação | KB |

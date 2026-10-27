@@ -14,15 +14,21 @@ Projeto para construir e auditar os artefatos da fase de Planejamento da Contrat
 
 ## Quem é quem
 
-| Agente | Onde roda | Papel |
+| Macrofase | Agente | Papel |
 |---|---|---|
-| **Coordenador da Contratação** | sessão principal, skill `coordenador-contratacao` | recebe os insumos, distribui atividades, consolida, gera os arquivos finais, chama o auditor |
-| `integrante-requisitante` | subagente | Integrante Requisitante (IN 94, art. 2º, IV, "c") |
-| `integrante-tecnico` | subagente | Integrante Técnico (art. 2º, IV, "a") |
-| `integrante-administrativo` | subagente | Integrante Administrativo (art. 2º, IV, "b") |
-| `auditor-contratacao` | subagente, no fim do planejamento | fiscaliza o pacote com a lente de um auditor do TCU e a de um fornecedor que quer impugnar; não edita artefatos |
-| `pregoeiro` | subagente, fase de Seleção do Fornecedor | faz a triagem de esclarecimentos, impugnações e recursos, pede subsídios aos integrantes e redige a minuta de decisão e resposta (Decreto 11.246, art. 14, III, "a"; IN 94, art. 28); quem assina é o pregoeiro designado |
-| `gestor-contrato` | subagente, fase de Gestão do Contrato | prepara OS, termos de recebimento, glosas, sanções, histórico, MGR anual, prorrogação e encerramento (IN 94, arts. 29 a 36); quem assina são gestor e fiscais |
+| Todas | **Coordenador da Contratação** (sessão principal, skill `coordenador-contratacao`) | recebe os insumos, distribui atividades por macrofase, consolida, gera os arquivos finais, aciona o auditor |
+| 1. Fase Preparatória | `integrante-requisitante` | Integrante Requisitante (IN 94, art. 2º, IV, "c") |
+| 1. Fase Preparatória | `integrante-tecnico` | Integrante Técnico (art. 2º, IV, "a") |
+| 1. Fase Preparatória | `integrante-administrativo` | Integrante Administrativo (art. 2º, IV, "b"); também classifica cada item (CATMAT/CATSER e natureza de despesa) e escreve a adequação orçamentária do TR |
+| 3. Propostas e Lances | `licitante` | simula uma empresa interessada: lê edital, TR e ETP e redige esclarecimentos e impugnações procurando erros, divergências e direcionamento |
+| 3. Propostas e Lances | `pregoeiro` | triagem dos pedidos, subsídios dos integrantes, minuta de decisão e resposta (Decreto 11.246, art. 14, III, "a"; IN 94, art. 28); assina o pregoeiro designado |
+| Gestão do Contrato | `fiscal-tecnico` | Fiscal Técnico (art. 2º, V, "b"; art. 33, II) |
+| Gestão do Contrato | `fiscal-requisitante` | Fiscal Requisitante (art. 2º, V, "d"; art. 33, III) |
+| Gestão do Contrato | `fiscal-administrativo` | Fiscal Administrativo (art. 2º, V, "c"; art. 33, IV); confere empenho e nota fiscal contra a classificação e a revisa em aditivos e prorrogações |
+| Gestão do Contrato | `gestor-contrato` | analisa e consolida as avaliações dos três fiscais e produz os documentos do gestor (art. 33, I) |
+| Transversal | `auditor-contratacao` | auditor de controle externo: avalia o processo inteiro em três pontos de controle; não edita artefatos |
+
+Fora do escopo: divulgação do edital, julgamento, habilitação, recursos, homologação e adjudicação (Lei 14.133, art. 17, II e IV a VII).
 
 O Coordenador é a sessão principal porque, no Claude Code, só ela pode acionar subagentes. Para iniciar: "coordenador, nova contratação <nome>" ou `/coordenador-contratacao`.
 

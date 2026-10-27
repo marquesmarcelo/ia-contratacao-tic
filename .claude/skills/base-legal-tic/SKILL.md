@@ -41,6 +41,8 @@ titulo, tipo, url_origem, baixado_em, situacao
 | Preferência a bens e serviços de informática | Decreto 7.174/2010 |
 | Sustentabilidade | IN SLTI 1/2010; Lei 14.133, art. 18, § 1º, XII |
 | Modelos por tipo de objeto (nuvem, estações, software, impressão, infraestrutura, comunicação de dados, UST, métricas) | `base-legal/modelos-orientacoes/<card>/` |
+| Classificação da despesa (natureza, elemento, subelemento) | skill `classificacao-despesa`; manual estadual em `base-legal/manuais/manual-classificacao-despesa-publica.md` |
+| Boas práticas e falhas recorrentes em contratações de TIC (doutrina) | `base-legal/manuais/tcu-governanca-tic-analise.md` (análise da coletânea UnB/TCU) |
 | Templates oficiais de artefatos | `base-legal/modelos-orientacoes/templates-artefatos-sgd/extraido/` (originais em `modelos-oficiais/`) |
 
 Quando IN 94 e uma IN SEGES tratarem do mesmo ponto, a IN 94 prevalece para TIC; a norma do SISG se aplica de forma subsidiária e só onde não houver tratamento específico do Órgão Central do SISP (IN 94, art. 42 e parágrafo único).

@@ -58,4 +58,19 @@ Pontos que sempre confere:
 
 Quando o Coordenador acionar você com um pedido do pregoeiro (`licitacao/subsidios/<pedido>-solicitacao.md`), responda só às perguntas dirigidas ao seu papel, em `licitacao/subsidios/<pedido>-tecnico.md`: para cada pergunta, a resposta direta, o trecho do ETP/TR/Mapa de Preços que a sustenta e o fundamento conferido. Se a tese do fornecedor tiver razão, diga isso e proponha o texto corrigido do edital. Não escreva a resposta ao licitante; isso é do pregoeiro.
 
+
+## Pontos de atenção da coletânea UnB/TCU
+
+Origem: `base-legal/manuais/tcu-governanca-tic-analise.md`, seção 5 (coletânea UnB/TCU, referência doutrinária; o fundamento continua sendo a norma citada).
+
+- Garanta no ETP e no TR os controles essenciais: especificação derivada dos requisitos, responsabilidades da contratada, DFD e requisitos de negócio, legais, de manutenção, de segurança e ambientais, também em contratação de baixo valor que siga a IN 94.
+- Registre critérios, pesos e notas da análise qualitativa das alternativas (matriz ponderada ou AHP), para a escolha ser rastreável (IN 94, art. 11, II e V).
+- Apresente alternativas reais de provimento (outros órgãos, mercado, software público e livre, serviço x bem, modelos de prestação), não uma opção com variações.
+- Na comparação entre infraestrutura própria e nuvem, o TCO da opção própria inclui energia, refrigeração, espaço, depreciação, suporte e pessoal.
+- Em TR de desenvolvimento, liste entregáveis além do código-fonte: configuração, scripts de implantação, documentação técnica e de usuário (IN 94, arts. 18, I, "b", e 35, II).
+- Em TR com método ágil, fixe papéis, documentação mínima por incremento e critério de aceite por entrega, com pagamento por resultado (IN 94, arts. 18 e 19; Anexo I, item 3.2).
+- Em nuvem, use como checklist do MGR e do TR: interface de gestão, dependência, jurisdição dos dados, continuidade do provedor e fraude de medição (IN 94, Anexo I, itens 4.2.1 e 4.2.2).
+- Em infraestrutura ou nuvem, exija RTO/RPO, teste periódico de recuperação com evidência e divisão explícita de responsabilidades.
+- Ao propor software livre, avalie maturidade e comunidade ativa e inclua suporte no TCO; ausência de licença não basta como justificativa.
+
 Ao terminar, devolva ao Coordenador um resumo de até 10 linhas: o que fez, arquivos gerados e pendências para outros integrantes.

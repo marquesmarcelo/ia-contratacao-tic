@@ -15,6 +15,7 @@ projetos/<nome-curto>/
     02-etp.md
     03a-tco-geral.md  03b-tco-software.md  03c-tco-estacoes.md
     06-mapa-precos.md
+    07-classificacao.md          CATMAT/CATSER e natureza de despesa (Integrante Administrativo)
     04-tr.md
     05-mgr.md
   produtos/                     arquivos finais
@@ -26,15 +27,17 @@ projetos/<nome-curto>/
     06-Mapa-de-Precos.xlsx
   pareceres/                    revisão cruzada dos integrantes
   auditoria/
-    relatorio-auditoria.md
+    relatorio-auditoria-PC1.md  PC2.md  PC3.md
     matriz-compatibilidade.md
   licitacao/                    fase de Seleção do Fornecedor
     edital/                     edital publicado e anexos
-    pedidos/                    esclarecimentos e impugnações recebidos
+    pedidos/                    pedidos reais e simulados (SIM-NNN.md, agente Licitante)
     subsidios/                  perguntas do pregoeiro e respostas dos integrantes
     respostas/                  minutas de decisão e resposta do pregoeiro
     registro-pedidos.md
-  contrato/                     fase de Gestão do Contrato (gestor-contrato)
+  contrato/                     fase de Gestão do Contrato
+    fiscalizacao/<periodo>/     fiscal-tecnico.md, fiscal-requisitante.md, fiscal-administrativo.md, gestor-consolidacao.md
+    evidencias/                 relatórios da contratada, chamados, logs
     contrato.md  designacoes.md  historico-gestao.md
     ordens-servico/  recebimentos/  medicoes/  ocorrencias/  sancoes/  prorrogacao/  riscos/
   registro-historico.md         IN 94, art. 9º, § 5º

@@ -26,19 +26,28 @@ O objetivo é auxiliar as Equipes de Planejamento da Contratação na elaboraç�
 | `04-TR-Compras-TIC.docx` ou `04-TR-Servicos-TIC.docx` | Termo de Referência (modelos AGU) |
 | `05-MGR.docx` | Mapa de Gerenciamento de Riscos |
 | `06-Mapa-de-Precos.xlsx` | Mapa de Preços: coleta por parâmetro do art. 5º da IN 65/2021, análise crítica, média/mediana/menor valor, preço estimado e justificativas (modelo próprio, a detalhar) |
-| `auditoria/relatorio-auditoria.md` | Relatório do auditor, com a matriz de compatibilidade |
+| `07-Classificacao.md` | CATMAT/CATSER e natureza de despesa de cada item, com o texto da adequação orçamentária do TR |
+| `licitacao/` | pedidos simulados pelo Licitante, subsídios e minutas de resposta do Pregoeiro |
+| `contrato/` | avaliações dos fiscais, consolidação do Gestor, OS, termos de recebimento, medições e glosas |
+| `auditoria/relatorio-auditoria-PC<n>.md` | relatórios do auditor nos três pontos de controle, com a matriz de compatibilidade |
 
-## Os agentes
+## As macrofases e os agentes
 
-| Agente | Tipo | Faz |
+A licitação segue as fases do art. 17 da Lei 14.133. Os agentes atuam em três momentos, que são os que mais pesam na qualidade da contratação: construir o planejamento, responder a quem questiona o edital e fiscalizar o contrato. As fases de divulgação, julgamento, habilitação, recursos e homologação ficam com o agente de contratação e não têm agentes próprios.
+
+| Macrofase | Agente | Faz |
 |---|---|---|
-| Coordenador da Contratação | sessão principal (skill `coordenador-contratacao`) | abre o projeto, cobra os insumos, faz a triagem, distribui as tarefas, consolida, gera os .docx/.xlsx e chama o auditor |
-| Integrante Requisitante | subagente `integrante-requisitante` | DFD, necessidade, requisitos de negócio, justificativa, resultados, cronograma e orçamento (com o Técnico) |
-| Integrante Técnico | subagente `integrante-tecnico` | alinhamento ao PDTIC/PCA, análise de soluções, TCO, requisitos tecnológicos, estimativa de preço, critérios de julgamento, matriz de compatibilidade |
-| Integrante Administrativo | subagente `integrante-administrativo` | instituição da equipe, conformidade com a Lei 14.133, apoio à pesquisa de preços, modalidade, regime, sanções, riscos de processo, registro histórico |
-| Auditor | subagente `auditor-contratacao` | fiscaliza o pacote final com duas lentes: auditor do TCU (legalidade, economicidade, sobrepreço, direcionamento) e fornecedor concorrente (motivos de impugnação); não edita artefatos |
-| Pregoeiro | subagente `pregoeiro` | na fase de Seleção do Fornecedor, faz a triagem de esclarecimentos, impugnações e recursos, pede subsídios aos integrantes da equipe e redige a minuta de decisão e de resposta; o pregoeiro designado assina |
-| Gestor do Contrato | subagente `gestor-contrato` | na fase de Gestão do Contrato, prepara OS, termos de recebimento, glosas, sanções, histórico de gestão, MGR anual, prorrogação e encerramento; gestor e fiscais assinam |
+| Todas | **Coordenador da Contratação** (sessão principal, skill `coordenador-contratacao`) | abre o projeto, cobra os insumos, faz a triagem, distribui as tarefas, consolida, gera os .docx/.xlsx e aciona o auditor |
+| 1. Fase Preparatória | Integrante Requisitante (`integrante-requisitante`) | DFD, necessidade, requisitos de negócio, justificativa, resultados, cronograma e orçamento (com o Técnico) |
+| 1. Fase Preparatória | Integrante Técnico (`integrante-tecnico`) | alinhamento ao PDTIC/PCA, análise de soluções, TCO, requisitos tecnológicos, preço estimado, critérios de julgamento, matriz de compatibilidade |
+| 1. Fase Preparatória | Integrante Administrativo (`integrante-administrativo`) | instituição da equipe, conformidade com a Lei 14.133, coleta do Mapa de Preços, classificação CATMAT/CATSER e natureza de despesa de cada item, adequação orçamentária do TR, modalidade, regime, sanções, registro histórico |
+| 3. Propostas e Lances | Licitante (`licitante`) | simula uma empresa interessada: lê edital, TR e ETP procurando erros, divergências, exigências excessivas e direcionamento, e redige esclarecimentos e impugnações |
+| 3. Propostas e Lances | Pregoeiro (`pregoeiro`) | triagem dos pedidos, perguntas de subsídio aos integrantes, decisão e minuta de resposta; o pregoeiro designado assina |
+| Gestão do Contrato | Fiscal Técnico (`fiscal-tecnico`) | listas de verificação, indicadores, níveis de serviço, glosas, Termo de Recebimento Provisório |
+| Gestão do Contrato | Fiscal Requisitante (`fiscal-requisitante`) | se a entrega resolve o negócio; necessidade, economicidade e oportunidade |
+| Gestão do Contrato | Fiscal Administrativo (`fiscal-administrativo`) | prazos, empenho e pagamento conferidos contra a classificação da despesa, garantias, regularidade fiscal e trabalhista, aditivos |
+| Gestão do Contrato | Gestor do Contrato (`gestor-contrato`) | analisa e consolida as três avaliações, resolve divergências, emite os documentos do gestor |
+| Transversal | Auditor (`auditor-contratacao`) | auditor de controle externo: avalia o processo inteiro em três pontos de controle; não edita artefatos |
 
 O Coordenador é a sessão principal porque, no Claude Code, só ela aciona subagentes.
 
@@ -46,43 +55,47 @@ O Coordenador é a sessão principal porque, no Claude Code, só ela aciona suba
 
 ```mermaid
 flowchart TD
-    U([Usuário]) -->|diretrizes, projeto,<br/>especificações técnicas| I[insumos/]
-    I --> G{{Coordenador da Contratação}}
-    G --> T1[Triagem<br/>Anexo II IN 94 · compra ou serviço<br/>TCO aplicáveis · modelo SGD · hipótese]
+    U([Usuário]) -->|diretrizes, projeto,<br/>especificações técnicas| G{{Coordenador da Contratação}}
 
-    T1 --> E1[1. DFD<br/>Requisitante + Técnico]
-    E1 --> E2[2. Instituição da equipe<br/>Administrativo]
-    E2 --> P1
-
-    subgraph P1 [Em paralelo]
-        direction LR
-        E3[3. ETP<br/>Requisitante + Técnico]
-        E4[4. Mapa de Preços + TCO Geral / Software / Estações<br/>Administrativo coleta, Técnico estima]
+    subgraph F1 [1. Fase Preparatória]
+        direction TB
+        E1[DFD<br/>Requisitante + Técnico] --> E2[Instituição da equipe<br/>Administrativo]
+        E2 --> E3[ETP + Mapa de Preços + TCO<br/>Requisitante, Técnico, Administrativo]
+        E3 --> C1[Classificação CATMAT/CATSER<br/>e natureza de despesa<br/>Integrante Administrativo]
+        C1 --> E5[MGR e TR<br/>três integrantes]
+        E5 --> E6[Revisão cruzada e<br/>geração dos .docx/.xlsx]
     end
 
-    P1 --> P2
-    subgraph P2 [Em paralelo]
-        direction LR
-        E5[5. MGR<br/>os três integrantes]
-        E6[6. TR Compras ou Serviços<br/>os três, por seção]
+    G --> E1
+    E6 --> PC1[Auditor · PC1<br/>planejamento]
+    PC1 -->|NÃO APTO / solicitações| G
+
+    subgraph F3 [3. Propostas e Lances]
+        direction TB
+        LIC[Licitante<br/>questiona o edital] --> PR1[Pregoeiro<br/>triagem e tempestividade]
+        PR1 -->|pede subsídios| SUB[Integrantes Requisitante,<br/>Técnico e Administrativo]
+        SUB --> PR2[Pregoeiro<br/>decisão e resposta]
     end
 
-    P2 --> E7[7. Revisão cruzada<br/>cada integrante avalia os outros]
-    E7 -->|achado impeditivo| P1
-    E7 --> E8[8. Coordenador gera .docx e .xlsx<br/>sobre os templates oficiais]
-    E8 --> A[9. Auditor<br/>lente TCU + lente fornecedor]
-    A -->|Solicitações ao Coordenador| S[Usuário anexa datasheets,<br/>inventário, padronização]
-    S --> G
-    A -->|NÃO APTO / ressalvas| G
-    A -->|APTO| F([Edital publicado<br/>Seleção do Fornecedor])
-    F --> L[Pregoeiro<br/>triagem e tempestividade]
-    L -->|pede subsídios| SUB[Integrantes<br/>Requisitante · Técnico · Administrativo]
-    SUB --> L2[Pregoeiro<br/>decisão e resposta]
-    L2 --> K([Contrato assinado])
-    K --> GC[Gestor do Contrato<br/>OS, recebimentos, glosas, MGR, prorrogação, encerramento]
+    PC1 -->|APTO| LIC
+    PR2 -->|tese procedente| E5
+    PR2 --> PC2[Auditor · PC2<br/>respostas]
+
+    subgraph FG [Gestão do Contrato]
+        direction TB
+        FT[Fiscal Técnico] --> GC[Gestor do Contrato<br/>consolida e decide]
+        FR[Fiscal Requisitante] --> GC
+        FA[Fiscal Administrativo] --> GC
+    end
+
+    PC2 --> K([Contrato assinado])
+    K --> FT
+    K --> FR
+    K --> FA
+    GC --> PC3[Auditor · PC3<br/>fiscalização]
 ```
 
-### Quem escreve o quê
+### Quem escreve o quê na Fase Preparatória
 
 ```mermaid
 flowchart LR
@@ -105,11 +118,27 @@ flowchart LR
         a3[TR: responsabilidades, sanções, regime, modalidade]
         a4[MGR: riscos de processo]
         a5[Registro histórico]
+        a6[CATMAT/CATSER e natureza de despesa por item]
+        a7[TR: adequação orçamentária]
     end
     R --> RAS[(rascunhos/)]
     T --> RAS
     AD --> RAS
     RAS --> GER{{Coordenador}} --> PROD[(produtos/)]
+```
+
+### Fiscalização do contrato
+
+```mermaid
+flowchart LR
+    OS[OS, entrega ou<br/>período de medição] --> FT[Fiscal Técnico<br/>listas de verificação, indicadores,<br/>glosas, recebimento provisório]
+    OS --> FR[Fiscal Requisitante<br/>atende o negócio?<br/>necessidade e economicidade]
+    OS --> FA[Fiscal Administrativo<br/>prazos, pagamento, garantias,<br/>regularidade, empenho x classificação]
+    FT --> GC{{Gestor do Contrato}}
+    FR --> GC
+    FA --> GC
+    GC -->|avaliação sem evidência| FT
+    GC --> D[Recebimento definitivo<br/>autorização de faturamento<br/>glosas e sanções encaminhadas<br/>histórico de gestão]
 ```
 
 ### Teste de direcionamento do auditor
@@ -169,13 +198,16 @@ O Coordenador roda as etapas da figura, mostra a cada etapa só as pendências `
 |---|---|
 | "coordenador, continue o notebooks-2027" | retoma da última etapa registrada |
 | "refaça o ETP com 150 unidades" | o Coordenador devolve ao Requisitante e ao Técnico e regenera o que depende do ETP |
-| "gere os produtos" | etapa 8: .docx e .xlsx em `produtos/` |
-| "chame o auditor" | etapa 9: relatório em `auditoria/` |
+| "gere os produtos" | gera .docx e .xlsx em `produtos/` |
+| "classifique os itens" | o Integrante Administrativo indica CATMAT/CATSER e natureza de despesa e escreve a adequação orçamentária do TR |
+| "chame o auditor" | ponto de controle 1: relatório em `auditoria/` |
 | "anexei os datasheets, reaudite o direcionamento" | o auditor refaz só o teste de direcionamento |
-| "chegou uma impugnação ao edital do notebooks-2027" (anexe o pedido e o edital) | pregoeiro faz a triagem, os integrantes dão subsídio, o pregoeiro redige a decisão e a resposta |
-| "contrato assinado, prepare a reunião inicial" (anexe contrato e designações) | gestor-contrato prepara pauta, ata e checklist de termos |
-| "apure os níveis de serviço de setembro" | gestor-contrato calcula indicadores e glosas pelo TR |
-| "prepare a prorrogação" | gestor-contrato monta a documentação do art. 36 da IN 94, com novo Mapa de Preços |
+| "rode o licitante no edital do notebooks-2027" | o Licitante gera pedidos simulados; o Pregoeiro responde com subsídio dos integrantes; teses procedentes voltam para o TR antes da publicação |
+| "chegou uma impugnação ao edital" (anexe o pedido e o edital) | o Pregoeiro faz a triagem, os integrantes dão subsídio, o Pregoeiro redige a decisão e a resposta |
+| "contrato assinado, prepare a reunião inicial" (anexe contrato e designações) | o Gestor prepara pauta, ata e checklist de termos |
+| "avalie a OS 3" ou "apure setembro" | os três fiscais avaliam em paralelo; o Gestor consolida, resolve divergências e emite o recebimento definitivo e as glosas |
+| "prepare a prorrogação" | o Gestor monta a documentação do art. 36 da IN 94, com a pesquisa de preços dos fiscais |
+| "audite a fiscalização" | ponto de controle 3 do auditor |
 
 ### 5. Só avaliar artefatos prontos
 
@@ -229,6 +261,13 @@ Textos integrais em `base-legal/normas/` (lista completa em `base-legal/INDICE.m
 | Portaria SGD/MGI 370/2023 | Modelo de outsourcing de impressão | vigente |
 | Portaria SGD/MGI 3.656/2026 | Roteiro de Métricas de Software do SISP | vigente |
 
+### Manuais de referência
+
+| Documento | Uso |
+|---|---|
+| Governança em TIC para o Setor Público, coletânea de trabalhos do curso de especialização UnB/TCU (`base-legal/manuais/`) | referência doutrinária. A análise `tcu-governanca-tic-analise.md` lista os 29 trabalhos, os pontos desatualizados frente à Lei 14.133 e à IN 94 e as 25 recomendações incorporadas nos agentes. Não é norma nem entendimento oficial do TCU |
+| Manual de Classificação da Despesa Pública, 2ª ed., Controladoria-Geral do Estado de Pernambuco (2021) | base do guia de classificação usado pelo Integrante Administrativo e pelo Fiscal Administrativo (skill `classificacao-despesa`). Categoria, grupo, modalidade e elemento são nacionais; subelementos são do Estado e precisam de confirmação com o orçamento do órgão |
+
 ### Normas retiradas da base
 
 Normas revogadas foram retiradas em 23/10/2026 para que os agentes não as citem por engano:
@@ -247,8 +286,9 @@ Faltando: os anexos e planilhas listados em `base-legal/PENDENCIAS-DOWNLOAD.md`.
 - Toda citação legal indica norma, dispositivo e arquivo da base, conferida no texto com `buscar_artigo.py`. Norma fora da base não é citada de memória.
 - Dado que não veio dos insumos ou de você fica `[PREENCHER]`. Preço, quantidade, nome e número de processo não são inventados.
 - Quando o objeto é compatível com um modelo de contratação da SGD (nuvem e software, estações de trabalho, desenvolvimento de software, impressão, operação de infraestrutura, empresas públicas, comunicação de dados, UST, métricas), o modelo é aplicado no ETP e no TR. Tabela de gatilhos: `.claude/skills/coordenador-contratacao/mapas/modelos-sgd.md`.
-- Cada integrante escreve só a sua parte (IN 94, art. 10, § 3º).
+- Cada agente escreve só a sua parte (IN 94, art. 10, § 3º; na gestão, art. 29, §§ 3º e 4º).
 - O auditor trabalha com o que está nos autos e não lê os pareceres internos antes de concluir.
+- O Licitante só lê documentos públicos do processo (edital, TR, ETP e anexos publicados).
 - Os agentes preparam os documentos; a assinatura, a aprovação e o parecer jurídico (Lei 14.133, art. 53) continuam com as pessoas e unidades competentes.
 
 ## Estrutura
@@ -256,12 +296,13 @@ Faltando: os anexos e planilhas listados em `base-legal/PENDENCIAS-DOWNLOAD.md`.
 ```
 CLAUDE.md                     regras e configuração do órgão
 README.md                     este arquivo
-.claude/agents/               integrantes e auditor
+.claude/agents/               integrantes, licitante, pregoeiro, fiscais, gestor, auditor (10 subagentes)
 .claude/skills/
-  coordenador-contratacao/        fluxo, insumos, mapas, checklist, despejar_xlsx.py
+  coordenador-contratacao/    macrofases, insumos, mapas, checklist, scripts (despejar_xlsx.py, gerar_mapa_precos.py)
+  classificacao-despesa/      guia de natureza de despesa para TIC
   base-legal-tic/             consulta às normas, buscar_artigo.py, gerar_indice.py
   incluir-norma/              download de normas novas
 modelos-oficiais/             8 templates oficiais (.docx/.xlsx) + Mapa de Preços (modelo próprio)
-base-legal/                   normas e modelos em markdown, INDICE.md, PENDENCIAS-DOWNLOAD.md
-projetos/<projeto>/           insumos, rascunhos, produtos, pareceres, auditoria
+base-legal/                   normas, modelos, manuais, INDICE.md, PENDENCIAS-DOWNLOAD.md
+projetos/<projeto>/           insumos, rascunhos, produtos, pareceres, auditoria, licitacao, contrato
 ```

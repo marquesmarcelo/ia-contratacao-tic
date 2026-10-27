@@ -46,3 +46,5 @@ Marque `C` conforme, `R` com ressalva, `N` não conforme, `NA` não se aplica. C
 | 26 | Requisitos de segurança e privacidade com sanção para cada um | IN 94, Anexo I, itens 7.1 e 7.4 | |
 | 27 | Parcelamento, consórcio e subcontratação avaliados e justificados | IN 94, art. 12, § 2º | |
 | 28 | Assinaturas e aprovação | IN 94, art. 12, § 6º | |
+| 29 | CATMAT/CATSER compatível com a descrição e a unidade de cada item | IN 94, art. 12, II | |
+| 30 | Natureza de despesa por item e créditos orçamentários indicados | Lei 14.133, arts. 6º, XXIII, "j", e 150 | |
