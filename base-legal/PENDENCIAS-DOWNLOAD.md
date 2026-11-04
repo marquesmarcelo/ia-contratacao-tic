@@ -22,3 +22,12 @@ Prefixo das URLs com "...": https://www.gov.br/governodigital/pt-br/contratacoes
 
 ## Fora do escopo
 - Vídeos tutoriais da planilha de dimensionamento de nuvem (.zip de vídeo).
+
+
+## Modelos AGU em .docx (para preencher o Edital e a minuta de contrato sobre o arquivo original)
+
+- Modelo de Edital - Pregão e Concorrência - TIC (ago/2025): https://www.gov.br/agu/pt-br/composicao/cgu/cgu/modelos/licitacoesecontratos/14133/bens-e-servicos-de-tic/modelo-de-edital-pregao-e-concorrencia-tic-lei-no-14-133-ago-25.docx
+- Modelo de Termo de Contrato - TIC Compras (ago/2025): https://www.gov.br/agu/pt-br/composicao/cgu/cgu/modelos/licitacoesecontratos/14133/bens-e-servicos-de-tic/modelo-de-termo-de-contrato-tic-compras-lei-no-14-133-ago-25.docx
+- Modelo de Termo de Contrato - TIC Serviços (ago/2025): https://www.gov.br/agu/pt-br/composicao/cgu/cgu/modelos/licitacoesecontratos/14133/bens-e-servicos-de-tic/modelo-de-termo-de-contrato-tic-servicos-lei-no-14-133-ago-25.docx
+
+O texto já está na base; falta o arquivo .docx para manter a formatação. Salvar em `modelos-oficiais/`.

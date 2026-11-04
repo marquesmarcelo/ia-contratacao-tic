@@ -23,7 +23,8 @@ titulo, tipo, url_origem, baixado_em, situacao
    Para anexos (ex.: Anexo I da IN 94), use `grep -n "ANEXO" <arquivo>` e `Read` com offset.
 3. **Confira a situação** no cabeçalho. `revogada` só vale como histórico. Textos do Planalto mostram dispositivos revogados entre `~~ ~~`: não cite esses trechos como vigentes.
 4. **Cite assim**: `Lei 14.133/2021, art. 18, § 1º, IV (base-legal/normas/leis/lei-14133-2021.md)`.
-5. **Se não achar**, diga que a norma não está na base e peça o link ao usuário (a skill `incluir-norma` baixa). Não cite de memória.
+5. **Jurisprudência do TCU**: cite acórdão só se estiver no manual do TCU da base (ou em outro texto da base), com o número como o manual escreve e a linha. Diga quando o acórdão foi julgado sob a Lei 8.666/1993.
+6. **Se não achar**, diga que a norma não está na base e peça o link ao usuário (a skill `incluir-norma` baixa). Não cite de memória.
 
 ## Mapa rápido por assunto
 
@@ -42,6 +43,7 @@ titulo, tipo, url_origem, baixado_em, situacao
 | Sustentabilidade | IN SLTI 1/2010; Lei 14.133, art. 18, § 1º, XII |
 | Modelos por tipo de objeto (nuvem, estações, software, impressão, infraestrutura, comunicação de dados, UST, métricas) | `base-legal/modelos-orientacoes/<card>/` |
 | Classificação da despesa (natureza, elemento, subelemento) | skill `classificacao-despesa`; manual estadual em `base-legal/manuais/manual-classificacao-despesa-publica.md` |
+| Orientação e jurisprudência oficial do TCU sobre licitações e contratos (Lei 14.133) | `base-legal/manuais/tcu-licitacoes-contratos-5ed-2025.md` (índice com linhas em `tcu-licitacoes-contratos-indice.md`; análises em `tcu-lc-analise-*.md`) |
 | Boas práticas e falhas recorrentes em contratações de TIC (doutrina) | `base-legal/manuais/tcu-governanca-tic-analise.md` (análise da coletânea UnB/TCU) |
 | Templates oficiais de artefatos | `base-legal/modelos-orientacoes/templates-artefatos-sgd/extraido/` (originais em `modelos-oficiais/`) |
 

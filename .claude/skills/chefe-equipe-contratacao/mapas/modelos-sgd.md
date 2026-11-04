@@ -20,8 +20,8 @@
 
 ## Como aplicar
 
-1. Na triagem, o Coordenador marca o(s) modelo(s) aplicável(is) e registra no `registro-historico.md`. Objeto que se encaixa em mais de um modelo segue cada um na parcela correspondente.
+1. Na triagem, o Chefe da Equipe da Contratação marca o(s) modelo(s) aplicável(is) e registra no `registro-historico.md`. Objeto que se encaixa em mais de um modelo segue cada um na parcela correspondente.
 2. O Técnico lê a portaria e os anexos do modelo **antes** de escrever ETP, TCO e TR, e cita no ETP o modelo adotado.
 3. O que o modelo define (catálogo de serviços, métricas, níveis mínimos de serviço, fórmulas de glosa, preços referenciais, mapa salarial) entra no TR sem alteração; o que for alterado tem justificativa no ETP.
-4. Se o documento do modelo estiver na coluna "Faltando na base", o Coordenador avisa o usuário antes de escrever a parte que depende dele e pede o arquivo (lista com links em `base-legal/PENDENCIAS-DOWNLOAD.md`).
-5. O auditor confere a aderência ao modelo e trata desvio sem justificativa como achado relevante, ou impeditivo quando o modelo for de uso obrigatório para o órgão.
+4. Se o documento do modelo estiver na coluna "Faltando na base", o Chefe da Equipe da Contratação avisa o usuário antes de escrever a parte que depende dele e pede o arquivo (lista com links em `base-legal/PENDENCIAS-DOWNLOAD.md`).
+5. O Consultor Jurídico confere a aderência ao modelo e trata desvio sem justificativa como achado relevante, ou impeditivo quando o modelo for de uso obrigatório para o órgão.

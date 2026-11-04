@@ -29,11 +29,11 @@ Propriedade intelectual e código-fonte para a Administração (art. 17, I, "h",
 Rotinas, prazos, locais; volume estimado; comunicação por Ordem de Serviço ou de Fornecimento de Bens; pagamento por resultado; Termo de Compromisso e Termo de Ciência (art. 18, V).
 
 ## 8. Modelo de gestão do contrato — art. 19
-8.1 Critérios de aceitação, métricas, indicadores e níveis de serviço `[T]`
+8.1 Critérios de aceitação, métricas, indicadores e níveis de serviço `[R+T]` (Anexo G)
 8.2 Testes, inspeção, listas de verificação `[T]`
-8.3 Glosas e retenções `[T+A]`
+8.3 Glosas e retenções: faixas por indicador, teto e exemplo de cálculo `[T+A]` (Anexo G)
 8.4 Sanções (Lei 14.133, arts. 155 a 163) `[A]`
-8.5 Procedimentos de pagamento `[A]`
+8.5 Procedimentos de pagamento: fórmula, fluxo e prazos, Relatório de Fiscalização como condição `[A]` (Anexos D e G)
 
 ## 9. Estimativa de preços — art. 20 `[T]` (apoio `[A]`)
 Orçamento detalhado por preço unitário; IN SEGES/ME 65/2021; PMC-TIC quando houver (art. 20, § 3º).

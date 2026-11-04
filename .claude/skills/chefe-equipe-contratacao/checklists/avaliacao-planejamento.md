@@ -1,4 +1,4 @@
-# Checklist de avaliação da fase de planejamento (verificação cruzada do coordenador)
+# Checklist de avaliação da fase de planejamento (verificação cruzada da equipe)
 
 Marque `C` conforme, `R` com ressalva, `N` não conforme, `NA` não se aplica. Confira cada fundamento no texto antes de marcar.
 
@@ -48,3 +48,12 @@ Marque `C` conforme, `R` com ressalva, `N` não conforme, `NA` não se aplica. C
 | 28 | Assinaturas e aprovação | IN 94, art. 12, § 6º | |
 | 29 | CATMAT/CATSER compatível com a descrição e a unidade de cada item | IN 94, art. 12, II | |
 | 30 | Natureza de despesa por item e créditos orçamentários indicados | Lei 14.133, arts. 6º, XXIII, "j", e 150 | |
+| 31 | ETP com texto de importância da contratação e consequências de não contratar | IN 94, art. 15; regra do projeto | |
+| 32 | Regra "igual ou superior, sem compensação" no TR | Lei 14.133, art. 59, II; regra do projeto | |
+| 33 | Modelo de proposta (Anexo A) e matriz de comprovação com arquivo e página (Anexo B) | regra do projeto | |
+| 34 | Roteiro de testes objetivo quando houver amostra ou prova de conceito (Anexo C) | Lei 14.133, art. 41, II; IN 94, art. 12, § 1º | |
+| 35 | Relatório de Fiscalização previsto, mensal ou por entrega (Anexo D) | IN 94, arts. 19 e 33 | |
+| 36 | Plano de amostragem em entrega de grande quantidade (Anexo E) | ABNT NBR 5426; regra do projeto | |
+| 37 | Registro de preços: vigência da ata, prorrogação e reajuste (ICTI) | Lei 14.133, arts. 25, § 7º, e 84; Decreto 11.462/2023, arts. 22 e 25 | |
+| 38 | Posto de trabalho: justificativa e comprovação trabalhista mensal (Anexo F) | IN 94, art. 5º, I e IX; Lei 14.133, art. 121 | |
+| 39 | Cláusulas de preposto e garantia contratual | IN 94, art. 17, II, "a"; Lei 14.133, arts. 96 a 102 | |

@@ -1,6 +1,6 @@
 # Diretrizes da contratação
 
-> Preencha o que souber. O que ficar em branco vira pergunta do Coordenador.
+> Preencha o que souber. O que ficar em branco vira pergunta do Chefe da Equipe da Contratação.
 
 ## Órgão e unidades
 - Órgão/entidade:

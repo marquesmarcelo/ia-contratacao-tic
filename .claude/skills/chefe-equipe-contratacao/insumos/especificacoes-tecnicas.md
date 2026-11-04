@@ -29,7 +29,7 @@ Dados pessoais tratados, classificação da informação, requisitos de log, cri
 Locais, prazos, testes de aceitação.
 
 ## Modelos compatíveis conhecidos
-Anexe em `insumos/compatibilidade/` os datasheets ou catálogos (um arquivo por modelo) e liste aqui. O auditor exige pelo menos 3 modelos de fabricantes distintos por requisito restritivo.
+Anexe em `insumos/compatibilidade/` os datasheets ou catálogos (um arquivo por modelo) e liste aqui. O Consultor Jurídico exige pelo menos 3 modelos de fabricantes distintos por requisito restritivo.
 | Fabricante | Modelo | Arquivo |
 |---|---|---|
 

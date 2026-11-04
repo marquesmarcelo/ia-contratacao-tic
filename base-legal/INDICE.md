@@ -15,6 +15,11 @@ Gerado por `.claude/skills/base-legal-tic/scripts/gerar_indice.py`. Não edite �
 | `base-legal/manuais/manual-classificacao-despesa-publica.md` | Manual de Classificação da Despesa Pública - 2ª edição (Controladoria-Geral do Estado de Pernambuco, março de 2021) | referência: manual estadual (PE). Categoria, grupo, modalidade e elemento seguem | 575 |
 | `base-legal/manuais/tcu-governanca-tic-analise.md` | Análise do livro Governança em TIC para o Setor Público (coletânea UnB/TCU, 2018) para uso pelos agentes de contratação de TIC | análise do livro; referência doutrinária, não normativa | 52 |
 | `base-legal/manuais/tcu-governanca-tic-setor-publico.md` | Governança em Tecnologia de Informação e Comunicação para o Setor Público - Coletânea de trabalhos do Curso de Especialização UnB/TCU (org. Rejane Maria da Cost | referência doutrinária: coletânea de monografias publicada pelo TCU; não é norma | 499 |
+| `base-legal/manuais/tcu-lc-analise-cap4-planejamento.md` | TCU, Licitações & Contratos: Orientações e Jurisprudência (5ª ed., 2025): análise do capítulo 4, Planejamento da Contratação | análise do manual oficial do TCU; orientação e jurisprudência, não norma | 76 |
+| `base-legal/manuais/tcu-lc-analise-cap5-selecao.md` | Análise do manual TCU Licitações & Contratos (5ª ed., 2025): capítulo 5 (Seleção do Fornecedor) e itens 3.3 a 3.6 | análise do manual oficial do TCU; orientação e jurisprudência, não norma | 56 |
+| `base-legal/manuais/tcu-lc-analise-cap6-gestao-cap2-governanca.md` | Análise do manual Licitações & Contratos do TCU (5ª ed., 2025): capítulo 6 (Gestão do Contrato) e capítulo 2 (Governança das Contratações) | análise do manual oficial do TCU; orientação e jurisprudência, não norma | 75 |
+| `base-legal/manuais/tcu-licitacoes-contratos-5ed-2025.md` | Licitações & Contratos: Orientações e Jurisprudência do TCU - 5ª edição (Tribunal de Contas da União, Secretaria-Geral da Presidência, 2025, 1.017 p.) | vigente - manual oficial do TCU atualizado para a Lei 14.133/2021; orientação e  | 3881 |
+| `base-legal/manuais/tcu-licitacoes-contratos-indice.md` | Índice do manual Licitações & Contratos do TCU (5ª ed., 2025) com linhas do arquivo markdown | índice gerado por script; use as linhas para ler a seção com Read offset | 13 |
 
 ## modelos-orientacoes/analise-critica-pesquisa-precos
 
